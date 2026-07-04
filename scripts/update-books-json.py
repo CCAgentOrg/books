@@ -30,14 +30,14 @@ def main():
         formats = []
         url_base = f'https://ccagentorg.github.io/books'
         for ext, label in [('pdf', 'PDF'), ('epub', 'EPUB'), ('mobi', 'MOBI'), ('html', 'Read Online')]:
-            fpath = os.path.join(output_dir, 'books', f'{slug}.{ext}')
+            fpath = os.path.join(output_dir, 'books', slug, f'{slug}.{ext}')
             if os.path.isfile(fpath):
-                formats.append({'label': label, 'url': f'{url_base}/books/{slug}.{ext}'})
+                formats.append({'label': label, 'url': f'{url_base}/books/{slug}/{slug}.{ext}'})
 
         # Also check markdown
-        md_path = os.path.join(output_dir, 'books', f'{slug}.md')
+        md_path = os.path.join(output_dir, 'books', slug, f'{slug}.md')
         if os.path.isfile(md_path):
-            formats.append({'label': 'Markdown', 'url': f'{url_base}/books/{slug}.md'})
+            formats.append({'label': 'Markdown', 'url': f'{url_base}/books/{slug}/{slug}.md'})
 
         books.append({
             'slug': slug,

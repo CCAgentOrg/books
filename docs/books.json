@@ -1,11 +1,28 @@
 [
-    {
-        "slug": "aadhaar-esign",
-        "title": "Aadhaar eSign: The Definitive Reference",
-        "subtitle": "From Inception to 2026 \u2014 Law, Technology, Markets, and Policy",
-        "description": "",
-        "status": "First Draft",
-        "date": "July 2026",
-        "formats": []
-    }
+  {
+    "slug": "aadhaar-esign",
+    "title": "Aadhaar eSign: The Definitive Reference",
+    "subtitle": "From Inception to 2026 - Law, Technology, Markets, and Policy",
+    "description": "A comprehensive reference work covering India's Aadhaar eSign ecosystem",
+    "status": "draft",
+    "date": "",
+    "formats": [
+      {
+        "label": "PDF",
+        "url": "https://ccagentorg.github.io/books/books/aadhaar-esign/aadhaar-esign.pdf"
+      },
+      {
+        "label": "EPUB",
+        "url": "https://ccagentorg.github.io/books/books/aadhaar-esign/aadhaar-esign.epub"
+      },
+      {
+        "label": "MOBI",
+        "url": "https://ccagentorg.github.io/books/books/aadhaar-esign/aadhaar-esign.mobi"
+      },
+      {
+        "label": "Markdown",
+        "url": "https://ccagentorg.github.io/books/books/aadhaar-esign/aadhaar-esign.md"
+      }
+    ]
+  }
 ]

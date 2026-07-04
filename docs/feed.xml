@@ -8,10 +8,10 @@
     <atom:link href="https://ccagentorg.github.io/books/feed.xml" rel="self" type="application/rss+xml"/>
     <item>
       <title>Aadhaar eSign: The Definitive Reference</title>
-      <description></description>
+      <description>A comprehensive reference work covering India's Aadhaar eSign ecosystem</description>
       <link>https://ccagentorg.github.io/books/</link>
       <guid isPermaLink="false">aadhaar-esign-3f4a1dff</guid>
-      <pubDate>July 2026</pubDate>
+      <pubDate>2026-07-04</pubDate>
     </item>
   </channel>
 </rss>

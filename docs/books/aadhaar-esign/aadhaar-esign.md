@@ -1,47 +1,11 @@
 # Aadhaar eSign: The Definitive Reference
-## From Inception to 2026 — Law, Technology, Markets, and Policy
+
+## From Inception to 2026 - Law, Technology, Markets, and Policy
 
 **Research compiled July 2026**
 
 ---
 
-## Contents
-
-**PART I — FOUNDATIONS**
-
-- **Chapter 1:** Genesis: The Legal and Policy Foundation (2000–2014)
-- **Chapter 2:** The 2015 Moment: Gazette Notification and Operational Launch
-- **Chapter 3:** Technical Architecture: How eSign Actually Works
-- **Chapter 4:** The Ecosystem: Certifying Authorities and Service Providers
-
-**PART II — LAW & THE COURTS**
-
-- **Chapter 5:** Legal Framework and Evidentiary Status
-- **Chapter 6:** The Supreme Court and Aadhaar
-- **Chapter 7:** Other Key Court Cases
-
-**PART III — ADOPTION, DATA & USE CASES**
-
-- **Chapter 8:** Transaction Data and Growth Trajectory
-- **Chapter 9:** Use Cases Across Sectors
-
-**PART IV — RISKS, REGULATION & THE WORLD**
-
-- **Chapter 10:** Security, Privacy, and Data Protection
-- **Chapter 11:** International Comparisons and Cross-Border Recognition
-- **Chapter 12:** Regulatory Landscape and Governance
-
-**PART V — AHEAD**
-
-- **Chapter 13:** The Future: Trends and Trajectory (2026+)
-- **Appendices:** Timeline, Provider Directory, Key Statistics, Glossary
-- **References**
-
----
-
-## PART I — FOUNDATIONS
-
----
 
 ## Chapter 1: Genesis — The Legal and Policy Foundation (2000–2014)
 
@@ -1601,3 +1565,45 @@ The future of eSign is about to get much bigger. A new law called the Digital In
 ---
 
 *This document was compiled as primary research material and does not constitute legal advice. Statutory provisions are cited as of July 2026. Court rulings cited are as reported in official law reports. Market data sourced from publicly available disclosures, industry reports, and government dashboards.*
+
+# About This Book
+
+## What This Book Is
+
+This book is the definitive reference on India's Aadhaar eSign ecosystem. It covers the full stack: the law, the technology, the market, the players, the risks, and the future. It is written for practitioners, policy analysts, legal professionals, and anyone who wants to understand how India's digital signature system actually works.
+
+## What This Book Is Not
+
+This is not a vendor manual. It is not a government white paper. It is not marketing material for the digital signature industry. It maintains a critical, independent perspective throughout, naming what works and what does not.
+
+## The CashlessConsumer Lens
+
+CashlessConsumer is a fintech and DPI research publication that examines digital financial infrastructure from the consumer's perspective. Every analysis in this book asks: *Does this increase or reduce the user's agency? Is the power balance fair? Who benefits and who bears the risk?*
+
+## How to Read This Book
+
+- **New to eSign?** Start with Chapter 1. The ELI5 summaries at each chapter are written for you.
+- **Technical reader?** Focus on Chapter 3 (architecture), Chapter 10 (security), and Chapter 13 (future).
+- **Legal professional?** Part II (Chapters 5-7) covers the legal framework and court cases.
+- **Policy analyst?** Chapters 8, 9, and 12 cover adoption data, use cases, and regulation.
+- **Short on time?** Read the ELI5 summaries throughout, plus the Assessment section at the end of each chapter.
+
+## Edition
+
+First edition, compiled July 2026. This is a living document — corrections, updates, and new chapters will be published as the ecosystem evolves.
+
+## License
+
+CC BY-NC-SA 4.0. You are free to share and adapt this work for non-commercial purposes, with attribution.
+
+# About the Author
+
+**CashlessConsumer** is a fintech and digital public infrastructure researcher. Through the CashlessConsumer newsletter and DPI Watch publication, they cover India's digital payments landscape, Aadhaar, UPI, ONDC, account aggregators, and the regulatory framework around digital identity.
+
+The author runs automated content operations on Zo Computer, self-hosts AI tools for research and production, and maintains a strong interest in open data, public transit, Tamil language, and free (freedom) code.
+
+Published works appear at:
+- [CashlessConsumer Newsletter](https://newsletter.cashlessconsumer.in)
+- [DPI Watch](https://newsletter.cashlessconsumer.in)
+- [GitHub](https://github.com/CashlessConsumer)
+
