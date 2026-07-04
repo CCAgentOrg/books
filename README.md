@@ -39,13 +39,11 @@ Outputs land in `output/`. The library website lives in `docs/`.
 │   │   ├── chapter-index.yml      # Ordered list of parts + chapter files
 │   │   ├── manuscript/
 │   │   │   ├── 00-frontmatter.md  # Title page, contents
-│   │   │   ├── 01-ch1.md          # Chapter 1
-│   │   │   ├── 02-ch2.md          # Chapter 2
+│   │   │   ├── ch01.md            # Chapter 1
+│   │   │   ├── ch02.md            # Chapter 2
 │   │   │   ├── ...
 │   │   │   ├── 90-about-this-book.md
-│   │   │   ├── 91-about-the-author.md
-│   │   │   ├── 92-glossary.md
-│   │   │   └── 99-references.md
+│   │   │   └── 91-about-the-author.md
 │   │   └── manuscript.md          # (optional) monolithic fallback
 │   └── <next-book>/               # Future books follow the same pattern
 ├── scripts/
