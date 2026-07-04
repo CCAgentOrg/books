@@ -1,0 +1,15 @@
+# Build outputs
+/output/
+*.pdf
+!docs/books/*.pdf
+
+# OS
+.DS_Store
+Thumbs.db
+
+# LaTeX
+*.aux
+*.log
+*.out
+*.fls
+*.toc
