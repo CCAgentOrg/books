@@ -1,4 +1,4 @@
-## References
+# References
 
 [^1]: Information Technology Act, 2000 (No. 21 of 2000), effective 17 October 2000.
 
