@@ -1,0 +1,3813 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml" lang="en" xml:lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="generator" content="pandoc" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes" />
+  <meta name="author" content="CashlessConsumer" />
+  <title>Aadhaar eSign: The Definitive Reference</title>
+  <style>
+    code{white-space: pre-wrap;}
+    span.smallcaps{font-variant: small-caps;}
+    span.underline{text-decoration: underline;}
+    div.column{display: inline-block; vertical-align: top; width: 50%;}
+    div.hanging-indent{margin-left: 1.5em; text-indent: -1.5em;}
+    ul.task-list{list-style: none;}
+    .display.math{display: block; text-align: center; margin: 0.5rem auto;}
+  </style>
+  <link rel="stylesheet" href="../../assets/book.css" />
+</head>
+<body>
+<header id="title-block-header">
+<h1 class="title">Aadhaar eSign: The Definitive Reference</h1>
+<p class="subtitle">From Inception to 2026 — Law, Technology, Markets,
+and Policy</p>
+<p class="author">CashlessConsumer</p>
+<p class="date">July 2026</p>
+</header>
+<nav id="TOC" role="doc-toc">
+<ul>
+<li><a href="#aadhaar-esign-the-definitive-reference">Aadhaar eSign: The
+Definitive Reference</a>
+<ul>
+<li><a
+href="#from-inception-to-2026-law-technology-markets-and-policy">From
+Inception to 2026 — Law, Technology, Markets, and Policy</a></li>
+<li><a href="#contents">Contents</a></li>
+<li><a href="#part-i-foundations">PART I — FOUNDATIONS</a></li>
+<li><a
+href="#chapter-1-genesis-the-legal-and-policy-foundation-20002014">Chapter
+1: Genesis — The Legal and Policy Foundation (2000–2014)</a>
+<ul>
+<li><a href="#the-it-act-2000-a-crypto-signature-for-a-digital-age">1.1
+The IT Act, 2000: A Crypto-Signature for a Digital Age</a></li>
+<li><a
+href="#the-2008-amendment-section-3a-and-the-birth-of-electronic-signatures">1.2
+The 2008 Amendment: Section 3A and the Birth of “Electronic
+Signatures”</a></li>
+<li><a href="#uidai-and-the-aadhaar-project-20092014">1.3 UIDAI and the
+Aadhaar Project (2009–2014)</a></li>
+<li><a href="#the-problem-esign-was-built-to-solve">1.4 The Problem
+eSign Was Built to Solve</a></li>
+<li><a href="#eli6-explain-like-im-6-plus-positivenegative-analysis">*
+ELI6 — Explain Like I’m 6 (Plus Positive/Negative Analysis)</a></li>
+</ul></li>
+<li><a
+href="#chapter-2-the-2015-moment-gazette-notification-and-operational-launch">Chapter
+2: The 2015 Moment — Gazette Notification and Operational Launch</a>
+<ul>
+<li><a href="#gsr-61e-the-notification-that-created-a-market">2.1 GSR
+61(E): The Notification That Created a Market</a></li>
+<li><a href="#the-esign-rules-2015-gsr-304e">2.2 The eSign Rules, 2015
+(GSR 304(E))</a></li>
+<li><a href="#cca-e-authentication-guidelines-v1.0">2.3 CCA
+E-Authentication Guidelines v1.0</a></li>
+<li><a href="#early-adoption-and-initial-resistance">2.4 Early Adoption
+and Initial Resistance</a></li>
+<li><a href="#eli6-explain-like-im-6-plus-positivenegative-analysis-1">*
+ELI6 — Explain Like I’m 6 (Plus Positive/Negative Analysis)</a></li>
+</ul></li>
+<li><a
+href="#chapter-3-technical-architecture-how-esign-actually-works">Chapter
+3: Technical Architecture — How eSign Actually Works</a>
+<ul>
+<li><a href="#the-stakeholder-model">3.1 The Stakeholder Model</a></li>
+<li><a href="#the-full-esign-flow-step-by-step">3.2 The Full eSign Flow
+— Step by Step</a></li>
+<li><a href="#cryptographic-properties">3.3 Cryptographic
+Properties</a></li>
+<li><a href="#verification-of-esign-documents">3.4 Verification of eSign
+Documents</a></li>
+<li><a href="#esign-api-v3.2-2019">3.5 eSign API v3.2 (2019)</a></li>
+<li><a href="#eli6-explain-like-im-6-plus-positivenegative-analysis-2">*
+ELI6 — Explain Like I’m 6 (Plus Positive/Negative Analysis)</a></li>
+</ul></li>
+<li><a
+href="#chapter-4-the-ecosystem-certifying-authorities-and-service-providers">Chapter
+4: The Ecosystem — Certifying Authorities and Service Providers</a>
+<ul>
+<li><a href="#market-structure">4.1 Market Structure</a></li>
+<li><a href="#provider-profiles">4.2 Provider Profiles</a></li>
+<li><a href="#pricing-dynamics">4.3 Pricing Dynamics</a></li>
+<li><a href="#eli6-explain-like-im-6-plus-positivenegative-analysis-3">*
+ELI6 — Explain Like I’m 6 (Plus Positive/Negative Analysis)</a></li>
+</ul></li>
+<li><a href="#part-ii-law-the-courts">PART II — LAW &amp; THE
+COURTS</a></li>
+<li><a href="#chapter-5-legal-framework-and-evidentiary-status">Chapter
+5: Legal Framework and Evidentiary Status</a>
+<ul>
+<li><a href="#the-statutory-architecture">5.1 The Statutory
+Architecture</a></li>
+<li><a href="#key-provisions-of-the-it-act-2000">5.2 Key Provisions of
+the IT Act, 2000</a></li>
+<li><a href="#the-first-schedule-exclusions">5.3 The First Schedule
+Exclusions</a></li>
+<li><a href="#the-evidence-act-bsa-2023-framework">5.4 The Evidence Act
+/ BSA 2023 Framework</a></li>
+<li><a href="#the-practical-effect-burden-of-proof-shifts">5.5 The
+Practical Effect: Burden of Proof Shifts</a></li>
+<li><a href="#eli6-explain-like-im-6-plus-positivenegative-analysis-4">*
+ELI6 — Explain Like I’m 6 (Plus Positive/Negative Analysis)</a></li>
+</ul></li>
+<li><a href="#chapter-6-the-supreme-court-and-aadhaar">Chapter 6: The
+Supreme Court and Aadhaar</a>
+<ul>
+<li><a href="#puttaswamy-i-2017-privacy-as-a-fundamental-right">6.1
+Puttaswamy I (2017) — Privacy as a Fundamental Right</a></li>
+<li><a href="#puttaswamy-ii-2018-the-aadhaar-judgment">6.2 Puttaswamy II
+(2018) — The Aadhaar Judgment</a></li>
+<li><a href="#implications-for-esign">6.3 Implications for
+eSign</a></li>
+<li><a href="#the-money-bill-challenge-pending">6.4 The Money Bill
+Challenge (Pending)</a></li>
+<li><a href="#eli6-explain-like-im-6-plus-positivenegative-analysis-5">*
+ELI6 — Explain Like I’m 6 (Plus Positive/Negative Analysis)</a></li>
+</ul></li>
+<li><a href="#chapter-7-other-key-court-cases">Chapter 7: Other Key
+Court Cases</a>
+<ul>
+<li><a
+href="#anvar-p.v.-v.-p.k.-basheer-2014-electronic-evidence-admissibility">7.1
+Anvar P.V. v. P.K. Basheer (2014) — Electronic Evidence
+Admissibility</a></li>
+<li><a
+href="#delhi-high-court-e-filing-and-electronically-signed-documents-2021">7.2
+Delhi High Court — E-Filing and Electronically Signed Documents
+(~2021)</a></li>
+<li><a
+href="#kerala-high-court-esigning-affidavits-and-vakalaths-2024">7.3
+Kerala High Court — eSigning Affidavits and Vakalaths (~2024)</a></li>
+<li><a href="#south-eastern-coalfields-v.-stc-2021">7.4 South Eastern
+Coalfields v. STC (2021)</a></li>
+<li><a href="#nclt-rulings-and-signature-verification">7.5 NCLT Rulings
+and Signature Verification</a></li>
+<li><a href="#emerging-pattern">7.6 Emerging Pattern</a></li>
+<li><a href="#eli6-explain-like-im-6-plus-positivenegative-analysis-6">*
+ELI6 — Explain Like I’m 6 (Plus Positive/Negative Analysis)</a></li>
+</ul></li>
+<li><a href="#part-iii-adoption-data-use-cases">PART III — ADOPTION,
+DATA &amp; USE CASES</a></li>
+<li><a href="#chapter-8-transaction-data-and-growth-trajectory">Chapter
+8: Transaction Data and Growth Trajectory</a>
+<ul>
+<li><a href="#the-data-challenge">8.1 The Data Challenge</a></li>
+<li><a href="#aadhaar-ecosystem-top-line-numbers">8.2 Aadhaar Ecosystem
+— Top-Line Numbers</a></li>
+<li><a href="#monthly-transaction-trends-20242026">8.3 Monthly
+Transaction Trends (2024–2026)</a></li>
+<li><a href="#esign-cost-curve">8.4 eSign Cost Curve</a></li>
+<li><a href="#digital-signature-market-size">8.5 Digital Signature
+Market Size</a></li>
+<li><a href="#eli6-explain-like-im-6-plus-positivenegative-analysis-7">*
+ELI6 — Explain Like I’m 6 (Plus Positive/Negative Analysis)</a></li>
+</ul></li>
+<li><a href="#chapter-9-use-cases-across-sectors">Chapter 9: Use Cases
+Across Sectors</a>
+<ul>
+<li><a href="#banking-and-financial-services">9.1 Banking and Financial
+Services</a></li>
+<li><a href="#insurance">9.2 Insurance</a></li>
+<li><a href="#mutual-funds-and-capital-markets">9.3 Mutual Funds and
+Capital Markets</a></li>
+<li><a href="#government-e-services">9.4 Government e-Services</a></li>
+<li><a href="#legal-filings-and-e-courts">9.5 Legal Filings and
+e-Courts</a></li>
+<li><a href="#rural-lending-and-financial-inclusion">9.6 Rural Lending
+and Financial Inclusion</a></li>
+<li><a href="#eli6-explain-like-im-6-plus-positivenegative-analysis-8">*
+ELI6 — Explain Like I’m 6 (Plus Positive/Negative Analysis)</a></li>
+</ul></li>
+<li><a href="#part-iv-risks-regulation-the-world">PART IV — RISKS,
+REGULATION &amp; THE WORLD</a></li>
+<li><a href="#chapter-10-security-privacy-and-data-protection">Chapter
+10: Security, Privacy, and Data Protection</a>
+<ul>
+<li><a href="#cryptographic-security-assessment">10.1 Cryptographic
+Security Assessment</a></li>
+<li><a href="#breach-history">10.2 Breach History</a></li>
+<li><a href="#the-dpdp-act-2023-compliance-requirements">10.3 The DPDP
+Act, 2023 Compliance Requirements</a></li>
+<li><a href="#surveillance-risks">10.4 Surveillance Risks</a></li>
+<li><a href="#biometric-failure-and-inclusion">10.5 Biometric Failure
+and Inclusion</a></li>
+<li><a href="#deepfakes-and-ai-threats">10.6 Deepfakes and AI
+Threats</a></li>
+<li><a href="#eli6-explain-like-im-6-plus-positivenegative-analysis-9">*
+ELI6 — Explain Like I’m 6 (Plus Positive/Negative Analysis)</a></li>
+</ul></li>
+<li><a
+href="#chapter-11-international-comparisons-and-cross-border-recognition">Chapter
+11: International Comparisons and Cross-Border Recognition</a>
+<ul>
+<li><a href="#the-global-landscape">11.1 The Global Landscape</a></li>
+<li><a href="#eidas-eu-the-gold-standard">11.2 eIDAS (EU) — The Gold
+Standard</a></li>
+<li><a href="#united-states-esign-act-and-ueta">11.3 United States —
+ESIGN Act and UETA</a></li>
+<li><a href="#india-comparison">11.4 India — Comparison</a></li>
+<li><a href="#the-india-eu-administrative-arrangement-january-2026">11.5
+The India-EU Administrative Arrangement (January 2026)</a></li>
+<li><a href="#other-cross-border-developments">11.6 Other Cross-Border
+Developments</a></li>
+<li><a
+href="#eli6-explain-like-im-6-plus-positivenegative-analysis-10">* ELI6
+— Explain Like I’m 6 (Plus Positive/Negative Analysis)</a></li>
+</ul></li>
+<li><a href="#chapter-12-regulatory-landscape-and-governance">Chapter
+12: Regulatory Landscape and Governance</a>
+<ul>
+<li><a href="#the-controller-of-certifying-authorities-cca">12.1 The
+Controller of Certifying Authorities (CCA)</a></li>
+<li><a
+href="#meity-ministry-of-electronics-and-information-technology">12.2
+MeitY (Ministry of Electronics and Information Technology)</a></li>
+<li><a href="#uidai-unique-identification-authority-of-india">12.3 UIDAI
+(Unique Identification Authority of India)</a></li>
+<li><a href="#cert-in-indian-computer-emergency-response-team">12.4
+CERT-In (Indian Computer Emergency Response Team)</a></li>
+<li><a href="#the-dpdp-board-still-emerging">12.5 The DPDP Board (Still
+Emerging)</a></li>
+<li><a href="#sectoral-regulators">12.6 Sectoral Regulators</a></li>
+<li><a href="#coordination-challenges">12.7 Coordination
+Challenges</a></li>
+<li><a
+href="#eli6-explain-like-im-6-plus-positivenegative-analysis-11">* ELI6
+— Explain Like I’m 6 (Plus Positive/Negative Analysis)</a></li>
+</ul></li>
+<li><a href="#part-v-ahead">PART V — AHEAD</a></li>
+<li><a href="#chapter-13-the-future-trends-and-trajectory-2026">Chapter
+13: The Future — Trends and Trajectory (2026+)</a>
+<ul>
+<li><a href="#the-digital-india-act-dia">13.1 The Digital India Act
+(DIA)</a></li>
+<li><a href="#uli-and-account-aggregator-synergy">13.2 ULI and Account
+Aggregator Synergy</a></li>
+<li><a href="#quantum-ready-pki">13.3 Quantum-Ready PKI</a></li>
+<li><a href="#passkeys-and-passwordless-shift">13.4 Passkeys and
+Passwordless Shift</a></li>
+<li><a href="#ai-enabled-fraud-detection">13.5 AI-Enabled Fraud
+Detection</a></li>
+<li><a href="#cross-border-expansion">13.6 Cross-Border
+Expansion</a></li>
+<li><a href="#long-range-projections">13.7 Long-Range
+Projections</a></li>
+<li><a
+href="#eli6-explain-like-im-6-plus-positivenegative-analysis-12">* ELI6
+— Explain Like I’m 6 (Plus Positive/Negative Analysis)</a></li>
+</ul></li>
+<li><a href="#appendices">Appendices</a>
+<ul>
+<li><a href="#appendix-a-complete-timeline">Appendix A: Complete
+Timeline</a></li>
+<li><a
+href="#appendix-b-licensed-certifying-authorities-directory">Appendix B:
+Licensed Certifying Authorities Directory</a></li>
+<li><a href="#appendix-c-key-statistics-summary">Appendix C: Key
+Statistics Summary</a></li>
+<li><a href="#appendix-d-glossary">Appendix D: Glossary</a></li>
+</ul></li>
+<li><a href="#references">References</a></li>
+</ul></li>
+</ul>
+</nav>
+<h1 id="aadhaar-esign-the-definitive-reference">Aadhaar eSign: The
+Definitive Reference</h1>
+<h2 id="from-inception-to-2026-law-technology-markets-and-policy">From
+Inception to 2026 — Law, Technology, Markets, and Policy</h2>
+<p><strong>Research compiled July 2026</strong></p>
+<hr />
+<h2 id="contents">Contents</h2>
+<p><strong>PART I — FOUNDATIONS</strong></p>
+<ul>
+<li><strong>Chapter 1:</strong> Genesis: The Legal and Policy Foundation
+(2000–2014)</li>
+<li><strong>Chapter 2:</strong> The 2015 Moment: Gazette Notification
+and Operational Launch</li>
+<li><strong>Chapter 3:</strong> Technical Architecture: How eSign
+Actually Works</li>
+<li><strong>Chapter 4:</strong> The Ecosystem: Certifying Authorities
+and Service Providers</li>
+</ul>
+<p><strong>PART II — LAW &amp; THE COURTS</strong></p>
+<ul>
+<li><strong>Chapter 5:</strong> Legal Framework and Evidentiary
+Status</li>
+<li><strong>Chapter 6:</strong> The Supreme Court and Aadhaar</li>
+<li><strong>Chapter 7:</strong> Other Key Court Cases</li>
+</ul>
+<p><strong>PART III — ADOPTION, DATA &amp; USE CASES</strong></p>
+<ul>
+<li><strong>Chapter 8:</strong> Transaction Data and Growth
+Trajectory</li>
+<li><strong>Chapter 9:</strong> Use Cases Across Sectors</li>
+</ul>
+<p><strong>PART IV — RISKS, REGULATION &amp; THE WORLD</strong></p>
+<ul>
+<li><strong>Chapter 10:</strong> Security, Privacy, and Data
+Protection</li>
+<li><strong>Chapter 11:</strong> International Comparisons and
+Cross-Border Recognition</li>
+<li><strong>Chapter 12:</strong> Regulatory Landscape and
+Governance</li>
+</ul>
+<p><strong>PART V — AHEAD</strong></p>
+<ul>
+<li><strong>Chapter 13:</strong> The Future: Trends and Trajectory
+(2026+)</li>
+<li><strong>Appendices:</strong> Timeline, Provider Directory, Key
+Statistics, Glossary</li>
+<li><strong>References</strong></li>
+</ul>
+<hr />
+<h2 id="part-i-foundations">PART I — FOUNDATIONS</h2>
+<hr />
+<h2
+id="chapter-1-genesis-the-legal-and-policy-foundation-20002014">Chapter
+1: Genesis — The Legal and Policy Foundation (2000–2014)</h2>
+<h3 id="the-it-act-2000-a-crypto-signature-for-a-digital-age">1.1 The IT
+Act, 2000: A Crypto-Signature for a Digital Age</h3>
+<p>India’s journey toward electronic signatures began with the
+<strong>Information Technology Act, 2000</strong> (IT Act), enacted on
+17 October 2000, the same year India’s software exports crossed $6
+billion and the dot-com era was reshaping global commerce.<a href="#fn1"
+class="footnote-ref" id="fnref1" role="doc-noteref"><sup>1</sup></a> The
+Act was India’s legislative response to the UNCITRAL Model Law on
+Electronic Commerce (1996), giving legal recognition to electronic
+records and the transactions that produce them.</p>
+<p>But the IT Act’s original signature framework was deliberately
+narrow: <strong>Section 3</strong> recognised only a specific class of
+“digital signatures” — asymmetric cryptosystems and hash functions that
+produced a unique, verifiable digital fingerprint. To sign a document, a
+user needed a <strong>Digital Signature Certificate (DSC)</strong> — a
+cryptographic credential bound to their identity — stored on a
+<strong>hardware token</strong> (a USB dongle) protected by a PIN. The
+DSC was issued by a <strong>Certifying Authority (CA)</strong> licensed
+by the newly created <strong>Controller of Certifying Authorities
+(CCA)</strong> under the Act’s provisions.</p>
+<p>This framework, modelled on early PKI (Public Key Infrastructure)
+deployments in banking and defence, was strong on security but weak on
+access. By design, it required:</p>
+<ol type="1">
+<li><strong>Physical identity verification</strong> before a CA could
+issue a certificate</li>
+<li><strong>A hardware USB token</strong> to store the private key
+(₹500–₹1,500 per token)</li>
+<li><strong>Software installation</strong> on the signing machine</li>
+<li><strong>Annual certificate renewal</strong> (₹500–₹2,000 per year)<a
+href="#fn2" class="footnote-ref" id="fnref2"
+role="doc-noteref"><sup>2</sup></a></li>
+</ol>
+<p>For a country of 1 billion people in 2000, this was a fundamentally
+exclusive system. The DSC was suited to a small cohort of company
+secretaries, tax professionals, and government officials — not mass
+adoption.</p>
+<h3
+id="the-2008-amendment-section-3a-and-the-birth-of-electronic-signatures">1.2
+The 2008 Amendment: Section 3A and the Birth of “Electronic
+Signatures”</h3>
+<p>Eight years later, Parliament passed the <strong>Information
+Technology (Amendment) Act, 2008</strong> (effective 27 October 2009), a
+transformative rewrite that introduced <strong>Section 3A</strong> — a
+technology-neutral provision for “electronic signatures” as distinct
+from the narrower “digital signatures” of Section 3.<a href="#fn3"
+class="footnote-ref" id="fnref3" role="doc-noteref"><sup>3</sup></a></p>
+<p>Section 3A(1) states that <em>“Authentication of any electronic
+record by a person by means of an electronic signature or electronic
+authentication technique which is considered reliable and specified in
+the Second Schedule shall be an effective method of
+authentication.”</em></p>
+<p>This was a critical departure from the original framework. Section 3
+prescribed <em>which</em> technique was valid (asymmetric cryptosystem).
+Section 3A empowered the Central Government to <strong>notify</strong>
+new techniques by adding them to a <strong>Second Schedule</strong>,
+creating a mechanism for technological evolution without repeated
+legislative amendment. The Explanatory Memorandum made the intent
+explicit: the shift from “digital” to “electronic” was meant to
+accommodate emerging authentication technologies — biometrics, OTP-based
+verification, mobile signatures — that did not fit the rigid PKI
+model.<a href="#fn4" class="footnote-ref" id="fnref4"
+role="doc-noteref"><sup>4</sup></a></p>
+<p>The Amendment also added the <strong>First Schedule</strong> — a list
+of instruments and transactions for which electronic signatures were
+<strong>not</strong> valid. These carve-outs reflected caution about
+high-stakes legal instruments:</p>
+<ul>
+<li>Negotiable instruments (other than cheques)</li>
+<li>Powers of attorney</li>
+<li>Trusts (other than public charitable trusts)</li>
+<li>Wills</li>
+<li>Contracts for sale or transfer of immovable property</li>
+</ul>
+<p>These exclusions remain in force today and have shaped eSign’s
+addressable market, particularly in real estate and succession
+planning.<a href="#fn5" class="footnote-ref" id="fnref5"
+role="doc-noteref"><sup>5</sup></a></p>
+<h3 id="uidai-and-the-aadhaar-project-20092014">1.3 UIDAI and the
+Aadhaar Project (2009–2014)</h3>
+<p>While the IT Act’s framework was being rewritten, a parallel project
+was taking shape. The <strong>Unique Identification Authority of India
+(UIDAI)</strong> was established in January 2009, tasked with issuing a
+12-digit unique identity number — <strong>Aadhaar</strong> — to every
+resident, linked to their biometrics (ten fingerprints, iris scans,
+facial photograph) and demographics.</p>
+<p>The first Aadhaar number was issued in September 2010 in Tembhli
+village, Maharashtra. By early 2014, over 600 million Aadhaar numbers
+had been issued, creating the world’s largest biometric identity
+database — the <strong>Central Identities Data Repository
+(CIDR)</strong> .</p>
+<p>What UIDAI built alongside the identity infrastructure was equally
+consequential: the <strong>e-KYC API</strong> — a service that allowed
+authorised entities to verify an Aadhaar holder’s identity in real-time
+using only their Aadhaar number and a one-time password (OTP) sent to
+their registered mobile number. By late 2014, UIDAI’s authentication
+ecosystem was processing over 10 million transactions per month.<a
+href="#fn6" class="footnote-ref" id="fnref6"
+role="doc-noteref"><sup>6</sup></a></p>
+<p>But there was a missing link. The e-KYC API could prove <em>who you
+are</em> — it could not let you <em>sign a document</em>. The government
+had a world-class identity verification system and an obsolete signing
+infrastructure. The gap was eSign.</p>
+<h3 id="the-problem-esign-was-built-to-solve">1.4 The Problem eSign Was
+Built to Solve</h3>
+<p>By 2014, the limitations of the DSC-only model were well-documented
+across government and industry:<a href="#fn7" class="footnote-ref"
+id="fnref7" role="doc-noteref"><sup>7</sup></a></p>
+<table>
+<colgroup>
+<col style="width: 50%" />
+<col style="width: 50%" />
+</colgroup>
+<thead>
+<tr class="header">
+<th>Barrier</th>
+<th>Details</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td><strong>Hardware cost</strong></td>
+<td>USB tokens cost ₹500–₹1,500; plus ₹500–₹2,000/year per DSC</td>
+</tr>
+<tr class="even">
+<td><strong>Physical verification</strong></td>
+<td>In-person identity verification required — cannot scale to 1B
+people</td>
+</tr>
+<tr class="odd">
+<td><strong>Software complexity</strong></td>
+<td>Browser plugins, token drivers, certificate stores — high failure
+rate</td>
+</tr>
+<tr class="even">
+<td><strong>One certificate, one user</strong></td>
+<td>Not shareable across devices; lost token = identity loss</td>
+</tr>
+<tr class="odd">
+<td><strong>Renewal friction</strong></td>
+<td>Annual renewal required; missed renewals caused filing failures</td>
+</tr>
+<tr class="even">
+<td><strong>No mobile support</strong></td>
+<td>PKI infrastructure assumed desktop-browser environments</td>
+</tr>
+</tbody>
+</table>
+<p>The government’s own digital service ambitions — electronic tax
+filing, MCA corporate filings, GST registration, digital land records —
+were constrained by the fact that the signing layer was itself a barrier
+to adoption.</p>
+<p>The solution was conceptually elegant: use Aadhaar e-KYC to verify
+the signer in real-time, issue a <strong>one-time, session-bound
+DSC</strong> for the signature event, and destroy the private key
+immediately after. No hardware token, no physical verification, no
+certificate renewal — and the resulting signature would be
+cryptographically as strong as any traditional DSC.</p>
+<p>The policy machinery to enable this was set in motion through the
+Section 3A framework. All that remained was the notification.<a
+href="#fn8" class="footnote-ref" id="fnref8"
+role="doc-noteref"><sup>8</sup></a></p>
+<h3 id="eli6-explain-like-im-6-plus-positivenegative-analysis">* ELI6 —
+Explain Like I’m 6 (Plus Positive/Negative Analysis)</h3>
+<p><strong>What this chapter means in simple words:</strong> Imagine
+signing your name on a birthday card. If you could only sign in one
+special colour of ink — and you had to buy a ₹500 pen and show your
+school ID to buy that ink — not many people would sign anything. That
+was India in 2000–2014: you needed an expensive USB stick (a “DSC
+token”) and in-person identity verification to create a legal digital
+signature. The government realised this was keeping billions of people
+from signing documents electronically, so they wrote a new law (Section
+3A in 2008) that said: <em>“Any reliable way of signing digitally — not
+just the expensive USB method — can be made legal.”</em> They also
+started building Aadhaar (the giant identity system with fingerprints
+and iris scans). By 2014, they had the world’s biggest ID system but
+still no easy way for people to sign documents. That’s the gap eSign was
+created to fill.</p>
+<p><strong>[+] The Positive — What Works Well</strong></p>
+<ul>
+<li><strong>Forward-looking legislative design</strong>: Section 3A’s
+Schedule II mechanism — where the government can notify new signature
+techniques without passing a new law — is genuinely elegant. It means
+courts don’t have to approve every technical innovation; the executive
+can act quickly.</li>
+<li><strong>Solving a real barrier</strong>: The DSC model was
+exclusionary by design. The shift to Aadhaar-based signing was a
+deliberate act of democratic inclusion — bringing digital signatures to
+hundreds of millions rather than thousands.</li>
+<li><strong>Constitutional foresight</strong>: The 2000 Act closely
+tracked UNCITRAL Model Law, giving India’s framework structural
+compatibility with international norms from the start. This matters for
+cross-border recognition 25 years later.</li>
+<li><strong>First Schedule caution was justified</strong>: The excluded
+instruments (wills, trusts, property sales) are high-fraud, high-stakes
+areas where the legal system rightly moves slowly.</li>
+</ul>
+<p><strong>[-] The Negative — What’s Wrong or Missing</strong></p>
+<ul>
+<li><strong>Took 8 years to move from 2000 to 2008</strong>: India’s
+software industry was booming but the legal framework for e-signatures
+stagnated. The 2000 Act was already outdated by 2005. The 2008 Amendment
+should have happened sooner.</li>
+<li><strong>First Schedule has no sunset or review mechanism</strong>:
+The excluded instruments list is frozen in 2008. Twenty years later,
+there’s no mechanism to periodically reassess whether those exclusions
+still make sense — e.g., whether eSign should now be valid for certain
+property documents given improved security.</li>
+<li><strong>Section 3A’s ambiguity on mandatory Schedule II</strong>:
+Legal scholars debate whether an electronic signature <em>must</em> be
+listed in Schedule II to be valid, or whether the list is merely
+illustrative. This ambiguity creates real uncertainty for businesses
+using non-Aadhaar e-signature methods that aren’t in Schedule II — they
+operate in a legal grey zone.</li>
+<li><strong>Aadhaar was built outside the privacy framework</strong>:
+The UIDAI was building the world’s largest biometric database
+(2009–2014) without an underlying data protection law. The privacy
+framework came <em>after</em> the identity infrastructure. This
+sequencing — build first, regulate later — created trust deficits that
+still affect eSign adoption today.</li>
+</ul>
+<hr />
+<h2
+id="chapter-2-the-2015-moment-gazette-notification-and-operational-launch">Chapter
+2: The 2015 Moment — Gazette Notification and Operational Launch</h2>
+<h3 id="gsr-61e-the-notification-that-created-a-market">2.1 GSR 61(E):
+The Notification That Created a Market</h3>
+<p>On <strong>28 January 2015</strong>, the Ministry of Communications
+and Information Technology (MeitY) published <strong>GSR 61(E)</strong>
+in the Gazette of India — a crisp four-page notification that
+transformed India’s digital signature landscape.<a href="#fn9"
+class="footnote-ref" id="fnref9" role="doc-noteref"><sup>9</sup></a></p>
+<p>The notification added a new entry to the <strong>Second
+Schedule</strong> of the IT Act: <em>“Electronic signature using Aadhaar
+e-Authentication.”</em> The text specified the complete process:</p>
+<ol type="1">
+<li>Aadhaar number and consent of the signer would be obtained by the
+<strong>Application Service Provider (ASP)</strong></li>
+<li>The ASP would forward the request to an <strong>eSign Service
+Provider (ESP)</strong></li>
+<li>The ESP would authenticate the signer via UIDAI’s Aadhaar
+e-Authentication service (OTP or biometric)</li>
+<li>Upon successful authentication, a <strong>Digital Signature
+Certificate</strong> would be issued by a CCA-licensed CA</li>
+<li>The DSC would be used to sign the electronic record and then
+discarded</li>
+</ol>
+<p>An important nuance: the notification used the term “Digital
+Signature Certificate” (the Section 3 construct) for what was
+effectively a Section 3A electronic signature. This dual-referencing
+reflected a deliberate design choice — eSign would bridge the old and
+new frameworks, producing Section 3-compliant signatures through a
+Section 3A process, ensuring backward compatibility with all existing
+systems expecting DSC-signed documents.</p>
+<p>The notification was jointly issued by MeitY (then DeitY), the CCA,
+and UIDAI, signalling the cross-agency coordination that would define
+the service.</p>
+<h3 id="the-esign-rules-2015-gsr-304e">2.2 The eSign Rules, 2015 (GSR
+304(E))</h3>
+<p>Seventy days later, on <strong>8 April 2015</strong>, MeitY notified
+the <strong>Electronic Signature or Electronic Authentication Technique
+and Procedure Rules, 2015</strong> (GSR 304(E)).<a href="#fn10"
+class="footnote-ref" id="fnref10" role="doc-noteref"><sup>10</sup></a>
+These operational rules established:</p>
+<ul>
+<li><strong>Procedure for Aadhaar-based authentication</strong>: The ESP
+must obtain explicit consent, verify the Aadhaar number, and perform
+authentication through UIDAI’s API</li>
+<li><strong>DSC issuance requirements</strong>: The DSC must be issued
+only for the specific signing event, with limited validity, and the
+private key must be destroyed after use</li>
+<li><strong>Security obligations</strong>: HSMs must meet FIPS 140-2
+Level 3 standards; all communication must be encrypted; audit trails
+must be maintained</li>
+<li><strong>ASP onboarding</strong>: ASPs must undergo security audits
+by CERT-In empanelled auditors, execute agreements with ESPs, and
+complete UAT in a sandbox environment before production access</li>
+</ul>
+<p>The Rules created the three-actor model that defines eSign today:
+<strong>ASP → ESP → CA</strong>, with UIDAI providing the authentication
+layer.</p>
+<h3 id="cca-e-authentication-guidelines-v1.0">2.3 CCA E-Authentication
+Guidelines v1.0</h3>
+<p>On <strong>24 June 2015</strong>, the CCA published the
+<strong>E-authentication Guidelines for eSign (v1.0)</strong> ,
+codifying the technical and security requirements for ESPs.<a
+href="#fn11" class="footnote-ref" id="fnref11"
+role="doc-noteref"><sup>11</sup></a> The guidelines covered:</p>
+<ul>
+<li><strong>Certificate profile</strong>: X.509 v3 certificates with
+specific extensions for Aadhaar e-KYC</li>
+<li><strong>Key generation and storage</strong>: Key pairs generated
+inside FIPS 140-2 HSMs; private keys never exported</li>
+<li><strong>Session certificate validity</strong>: Maximum 30 minutes —
+the session certificate is valid only for a single signing event</li>
+<li><strong>Certificate chain</strong>: All certificates must chain up
+to the <strong>CCA India Root</strong> (RCAI)</li>
+<li><strong>OCSP and CRL</strong>: Certificate status checking via OCSP
+responders maintained by each CA</li>
+<li><strong>Timestamping</strong>: Each signature must embed a trusted
+timestamp from a CCA-licensed Time Stamping Authority (TSA)</li>
+<li><strong>Audit</strong>: ESPs must maintain logs of all signing
+events for minimum 7 years</li>
+</ul>
+<h3 id="early-adoption-and-initial-resistance">2.4 Early Adoption and
+Initial Resistance</h3>
+<p>Initial adoption was cautious, driven by two factors:</p>
+<ol type="1">
+<li><p><strong>Regulatory uncertainty</strong>: The <strong>Reserve Bank
+of India (RBI)</strong> had not explicitly approved eSign for banking
+and financial transactions. Banks, being the largest potential consumers
+of digital signatures, waited for RBI clarity. <em>The Economic
+Times</em> reported in September 2016 that MeitY had formally written to
+RBI seeking explicit regulatory recognition.<a href="#fn12"
+class="footnote-ref" id="fnref12" role="doc-noteref"><sup>12</sup></a>
+The delay was significant — the first two years of eSign’s existence saw
+limited traction precisely because its most natural consumer (the
+banking system) was awaiting regulatory comfort.</p></li>
+<li><p><strong>Ecosystem immaturity</strong>: In 2015, only three CAs —
+eMudhra, C-DAC, and NSDL e-Gov — had operational eSign services. UIDAI’s
+authentication infrastructure was still scaling, and the ASP ecosystem
+(companies integrating eSign into their products) was virtually
+non-existent.</p></li>
+</ol>
+<p>The first major breakthrough came from <strong>Income Tax
+Department</strong> and <strong>MCA-21</strong>, which accepted Aadhaar
+eSign for electronic filing of income tax returns and corporate
+documents respectively. By late 2016, over 1 million documents had been
+eSigned — almost entirely government filings.<a href="#fn13"
+class="footnote-ref" id="fnref13"
+role="doc-noteref"><sup>13</sup></a></p>
+<h3 id="eli6-explain-like-im-6-plus-positivenegative-analysis-1">* ELI6
+— Explain Like I’m 6 (Plus Positive/Negative Analysis)</h3>
+<p><strong>What this chapter means in simple words:</strong> On a
+specific day — 28 January 2015 — the government officially said:
+<em>“You can now sign documents using your Aadhaar number and an OTP on
+your phone, and it counts as a legal signature.”</em> They wrote down
+exactly how it would work in a set of rules published a few months
+later. But banks — the biggest potential users — were nervous and waited
+for their own regulator (RBI) to give the green light. So for the first
+couple of years, eSign was mostly used for government stuff like filing
+income tax returns. Think of it like launching a new video game but the
+most popular console (banks) hasn’t approved it yet — so only PC gamers
+(government portals) play it.</p>
+<p><strong>[+] The Positive — What Works Well</strong></p>
+<ul>
+<li><strong>The GSR 61(E) mechanism was surgical and fast</strong>: A
+4-page gazette notification created a market that now enables billions
+of transactions a year. Compare this with the EU’s eIDAS — a
+comprehensive regulation that took years to negotiate and implement.
+India’s approach of “lay the legal foundation first with a broad
+statute, then enable specific techniques through executive notification”
+proved far more agile.</li>
+<li><strong>Backward compatibility was smart engineering</strong>: By
+issuing Section 3-style DSC certificates through a Section 3A process,
+eSign was immediately usable in all existing systems expecting
+traditional DSCs. No one had to redesign their verification software.
+This bridging decision avoided the classic “new standard vs. legacy
+system” standoff that kills many tech transitions.</li>
+<li><strong>The cross-agency coordination (MeitY + CCA + UIDAI) was rare
+and effective</strong>: Three different government bodies aligning their
+processes, API specs, and timelines to launch a single service in six
+months (Jan–Jun 2015) is unusually efficient by Indian government
+standards.</li>
+<li><strong>Rules were comprehensive from day one</strong>: The eSign
+Rules 2015 covered HSMs, audit trails, certificate profiles, consent
+requirements, and ASP onboarding — all before a single commercial
+transaction. The regulatory framework was not retrofitted after problems
+emerged.</li>
+</ul>
+<p><strong>[-] The Negative — What’s Wrong or Missing</strong></p>
+<ul>
+<li><strong>Two years lost to RBI inertia</strong>: MeitY had to
+formally write to RBI in September 2016 seeking an endorsement. The
+delay meant 2015–2017 were essentially wasted years for eSign’s growth.
+A pre-launch inter-regulatory MoU between MeitY, RBI, IRDAI, and SEBI
+would have avoided this.</li>
+<li><strong>The FIPS 140-2 Level 3 HSM requirement was and remains
+expensive</strong>: Mandating hardware-grade key storage for every ESP
+created a high entry barrier that reduced competition. Smaller CAs could
+not afford the HSM infrastructure, concentrating the market in a few
+well-capitalised players.</li>
+<li><strong>No mobile-first design in early specs</strong>: The 2015
+rules assumed desktop browsers with ActiveX/browser plugins — the same
+assumption that made DSCs hard to use. The eSign API was not
+mobile-optimised until v3.0 (2017–2018), wasting the mobile-first
+opportunity in a country where most internet users access via
+phone.</li>
+<li><strong>ASP onboarding was (and is) bureaucratic</strong>: CERT-In
+audit, Non-Judicial stamp duty, Non-Disclosure Agreements, UAT in
+sandbox, go-live checklist — the setup process for an ASP involves 8-10
+steps and typically takes 3-6 months. This friction limited the
+platform’s growth in its critical early years.</li>
+<li><strong>No public launch, no marketing</strong>: The government
+effectively launched eSign through gazette notifications — not a public
+campaign, not developer outreach, not industry roadshows. Adoption was
+left to organic discovery, which is why only government portals used it
+for the first two years.</li>
+</ul>
+<hr />
+<h2
+id="chapter-3-technical-architecture-how-esign-actually-works">Chapter
+3: Technical Architecture — How eSign Actually Works</h2>
+<h3 id="the-stakeholder-model">3.1 The Stakeholder Model</h3>
+<p>Every eSign transaction involves four distinct actors:</p>
+<pre><code>Aadhaar Holder (Signer)
+        │
+        ▼
+Application Service Provider (ASP)
+   • Integrates eSign into its interface (web/mobile app)
+   • Sends signing request to ESP
+   • Receives signed document and delivers to user
+   • Examples: Leegality, SignYu, fintech platforms, DigiLocker
+        │
+        ▼
+eSign Service Provider (ESP)
+   • Owned by a CCA-licensed Certifying Authority
+   • Manages the eSign API endpoint
+   • Initiates Aadhaar e-KYC authentication
+   • Manages HSM for key generation
+   • Submits CSR to CA
+   • Performs cryptographic signing
+   • Examples: eMudhra emSigner, C-DAC e-Hastakshar, Protean eSign
+        │
+        ▼
+Certifying Authority (CA)
+   • Licensed by CCA
+   • Issues Aadhaar e-KYC class Digital Signature Certificates
+   • Maintains certificate chain to CCA India Root
+   • Publishes CRL and OCSP
+   • Examples: eMudhra CA, C-DAC CA, NSDL nCode CA
+        │
+        ▼
+UIDAI (Aadhaar e-KYC API)
+   • Validates Aadhaar holder&#39;s identity
+   • Returns digitally signed e-KYC XML
+   • Does not participate in the signing itself</code></pre>
+<h3 id="the-full-esign-flow-step-by-step">3.2 The Full eSign Flow — Step
+by Step</h3>
+<p>The eSign protocol involves an <strong>asynchronous
+request-response</strong> pattern over HTTPS. Here is the canonical flow
+per eSign API v3.2 (September 2019), the current standard:<a
+href="#fn14" class="footnote-ref" id="fnref14"
+role="doc-noteref"><sup>14</sup></a></p>
+<p><strong>Step 1: User Initiation</strong> The signer, having accessed
+a document on an ASP’s interface, clicks “Sign using Aadhaar eSign.”
+They enter their Aadhaar number (12-digit VID or Aadhaar number) and
+confirm consent.</p>
+<p><strong>Step 2: ASP Creates Sign Request</strong> The ASP’s backend
+computes a <strong>SHA-256 hash</strong> of the document bytes
+(<code>hash</code>), creates a signing request payload containing the
+hash, the user’s Aadhaar number (or VID), a transaction ID, and callback
+URL, and sends it to the ESP’s eSign API endpoint over HTTPS.</p>
+<p><strong>Step 3: ESP Initiates Authentication</strong> The ESP
+validates the request and calls UIDAI’s <strong>e-KYC API</strong> with
+the Aadhaar number. UIDAI sends an <strong>OTP</strong> to the signer’s
+Aadhaar-registered mobile number. If biometric authentication is
+preferred (using UIDAI’s registered fingerprint/iris scanners), the OTP
+step is bypassed — but OTP is the dominant mode (~85% of eSign
+authentications as of 2025).</p>
+<p><strong>Step 4: User Authentication</strong> The signer enters the
+OTP on the ASP’s interface (or provides biometric). The ASP forwards the
+OTP (or authentication PID — Personal Identity Data) to the ESP, which
+submits it to UIDAI’s authentication API.</p>
+<p><strong>Step 5: UIDAI Returns e-KYC Data</strong> UIDAI validates the
+OTP/biometric and returns a cryptographically signed <strong>e-KYC XML
+response</strong>. This XML contains: - <strong>Demographic
+data</strong>: Name, date of birth, gender, address (phone and email if
+consent was given) - <strong>Photo</strong>: JPEG base64-encoded -
+<strong>PID block</strong>: Encrypted with AES-256, wrapped with UIDAI’s
+RSA-2048 public key - The entire response is digitally signed by
+UIDAI</p>
+<p><strong>Step 6: ESP Requests Certificate</strong> The ESP creates a
+<strong>PKCS#10 Certificate Signing Request (CSR)</strong> using the
+Aadhaar holder’s verified demographic data (name from e-KYC becomes the
+certificate CN). The CSR is submitted to the CA’s signing server.</p>
+<p><strong>Step 7: CA Issues Session Certificate</strong> The CA issues
+a <strong>one-time Digital Signature Certificate</strong> with: -
+Validity: ~30 minutes - Subject: Name (from e-KYC), UID token
+(optional), ESP identifier - Issuer: The CA’s intermediate certificate
+(e.g., “eMudhra Aadhaar eSign CA 2022”) - Key usage: Non-repudiation,
+digital signature - Certificate Policies: CP OID indicating Aadhaar
+e-KYC class</p>
+<p>The private key is generated inside the CA’s HSM and loaded into the
+signing HSM.</p>
+<p><strong>Step 8: Document Signing</strong> The ESP uses the session
+certificate’s private key (generated/generated inside HSM) to create a
+<strong>PKCS#7 detached signature</strong> or a <strong>PAdES
+signature</strong> (for PDF documents). The signature includes: - The
+signer’s certificate (session certificate) - The full CA chain
+(intermediate → root) - A trusted timestamp from a CCA-licensed TSA -
+The ByteRange reference for PDF tamper detection</p>
+<p>The signed document is returned to the ASP via the callback URL. The
+private key and session certificate are <strong>destroyed
+immediately</strong> after signing.</p>
+<p><strong>Step 9: Delivery to User</strong> The ASP delivers the signed
+document to the user (download link, email, or redirect). The signature
+is independently verifiable using any standard PDF viewer or
+cryptographic verification tool.</p>
+<h3 id="cryptographic-properties">3.3 Cryptographic Properties</h3>
+<table>
+<thead>
+<tr class="header">
+<th>Property</th>
+<th>Implementation</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td><strong>Signature algorithm</strong></td>
+<td>RSA-2048 with SHA-256</td>
+</tr>
+<tr class="even">
+<td><strong>Hash algorithm</strong></td>
+<td>SHA-256</td>
+</tr>
+<tr class="odd">
+<td><strong>Certificate format</strong></td>
+<td>X.509 v3 (Aadhaar e-KYC class)</td>
+</tr>
+<tr class="even">
+<td><strong>Signature format</strong></td>
+<td>PKCS#7 detached / PAdES (PDF)</td>
+</tr>
+<tr class="odd">
+<td><strong>Key storage</strong></td>
+<td>FIPS 140-2 Level 3 HSM</td>
+</tr>
+<tr class="even">
+<td><strong>Session cert validity</strong></td>
+<td>~30 minutes</td>
+</tr>
+<tr class="odd">
+<td><strong>Root CA</strong></td>
+<td>CCA India Root (RCAI)</td>
+</tr>
+<tr class="even">
+<td><strong>Encryption (PID)</strong></td>
+<td>AES-256 session key, RSA-2048 wrapped</td>
+</tr>
+<tr class="odd">
+<td><strong>Tamper detection</strong></td>
+<td>ByteRange (PDF), CMS SignerInfo</td>
+</tr>
+</tbody>
+</table>
+<h3 id="verification-of-esign-documents">3.4 Verification of eSign
+Documents</h3>
+<p>A critical property of Aadhaar eSign signatures is that they remain
+<strong>cryptographically verifiable long after the session certificate
+has expired</strong>. The signature embeds the certificate chain and
+signing timestamp, so a verifier can:</p>
+<ol type="1">
+<li>Extract the certificate chain from the PKCS#7/PAdES blob</li>
+<li>Check that the chain terminates at the CCA India Root</li>
+<li>Verify the signature was created within the certificate’s validity
+period</li>
+<li>Confirm the certificate was not revoked at the time of signing (via
+CRL/OCSP)</li>
+<li>Check the document hash matches — confirming no tampering</li>
+</ol>
+<p>Independent verification tools like <strong>SigVerify</strong> (2024)
+automate this process, performing all checks including CRL fetching,
+OCSP stapling verification, and SHA-256 fingerprint validation of each
+certificate in the chain.<a href="#fn15" class="footnote-ref"
+id="fnref15" role="doc-noteref"><sup>15</sup></a></p>
+<h3 id="esign-api-v3.2-2019">3.5 eSign API v3.2 (2019)</h3>
+<p>The current API version — <strong>eSign API v3.2</strong> (September
+2019) — introduced several improvements over earlier versions:<a
+href="#fn16" class="footnote-ref" id="fnref16"
+role="doc-noteref"><sup>16</sup></a></p>
+<ul>
+<li><strong>Stateless, asynchronous architecture</strong>:
+Request-response with callbacks; no server-side session state
+required</li>
+<li><strong>Multiple PDF handling</strong>: Support for signing multiple
+documents in a single flow</li>
+<li><strong>Organization KYC</strong>: Company signatory verification
+using UDYAM Aadhaar or other org identifiers</li>
+<li><strong>Enhanced error codes</strong>: Granular failure reasons (OTP
+expired, Aadhaar not linked to mobile, etc.)</li>
+<li><strong>Consent records</strong>: Digital consent receipts stored as
+part of the audit trail</li>
+<li><strong>Callback authentication</strong>: HMAC verification on
+callbacks to prevent forgery</li>
+</ul>
+<p>The API is documented in CCA’s specification document and implemented
+by all CCA-empanelled ESPs with minor variations.</p>
+<h3 id="eli6-explain-like-im-6-plus-positivenegative-analysis-2">* ELI6
+— Explain Like I’m 6 (Plus Positive/Negative Analysis)</h3>
+<p><strong>What this chapter means in simple words:</strong> When you
+sign a paper document, the ink on the paper is the proof that you signed
+it. With eSign, the “ink” is a digital code that proves you signed it
+using your Aadhaar number and an OTP on your phone. The system works
+like this: you click “Sign” on a website, enter your Aadhaar number, get
+an OTP on your phone, enter the OTP, and the website gets a digital
+signature that proves you signed it. The signature is stored in a
+special file (like a PDF) that anyone can check to see if it’s real.</p>
+<p><strong>[+] The Positive — What Works Well</strong></p>
+<ul>
+<li><strong>Simple and secure</strong>: The process is easy to
+understand and uses strong cryptography (RSA-2048) to protect the
+signature.</li>
+<li><strong>No hardware needed</strong>: You don’t need a USB stick or
+special software to sign documents.</li>
+<li><strong>Fast and reliable</strong>: The system works quickly and the
+signature is verifiable long after the session ends.</li>
+<li><strong>Transparent</strong>: The system logs all signing events and
+the signature includes a timestamp and certificate chain for
+verification.</li>
+</ul>
+<p><strong>[-] The Negative — What’s Wrong or Missing</strong></p>
+<ul>
+<li><strong>Mobile-first design was delayed</strong>: The early versions
+of the eSign API were not optimised for mobile devices, making it harder
+for people to use on their phones.</li>
+<li><strong>Consent recording</strong>: The system does not always
+record the user’s consent clearly, which can lead to confusion about
+whether the user agreed to sign the document.</li>
+<li><strong>Verification tools</strong>: Independent verification tools
+are not widely available, making it harder for people to check if a
+signature is real.</li>
+<li><strong>Privacy concerns</strong>: The system collects personal data
+(name, photo, address) during the signing process, which can be a
+privacy concern for some users.</li>
+</ul>
+<hr />
+<h2
+id="chapter-4-the-ecosystem-certifying-authorities-and-service-providers">Chapter
+4: The Ecosystem — Certifying Authorities and Service Providers</h2>
+<h3 id="market-structure">4.1 Market Structure</h3>
+<p>India’s eSign ecosystem operates under a <strong>CCA-licensing
+pyramid</strong>:<a href="#fn17" class="footnote-ref" id="fnref17"
+role="doc-noteref"><sup>17</sup></a></p>
+<ol type="1">
+<li><strong>Root CA</strong>: CCA India Root (RCAI) — the anchor of
+trust</li>
+<li><strong>Licensed CAs</strong>: Entities licensed by CCA to issue
+digital certificates — eMudhra, C-DAC, NSDL/Protean, Capricorn, Sify,
+VSign, CDSL</li>
+<li><strong>ESPs (eSign Service Providers)</strong>: A subset of CAs
+that operate eSign API services — the ones that connect ASPs to the
+signing infrastructure</li>
+<li><strong>ASPs (Application Service Providers)</strong>: The thousands
+of businesses — banks, lenders, insurers, legal-tech platforms,
+government portals — that integrate eSign into their user-facing
+applications</li>
+</ol>
+<p>The market for digital signatures in India was valued at
+approximately <strong>USD 190 million in 2024</strong> and is projected
+to reach <strong>USD 1.35 billion by 2032</strong>, growing at a CAGR of
+~27.5%.<a href="#fn18" class="footnote-ref" id="fnref18"
+role="doc-noteref"><sup>18</sup></a></p>
+<h3 id="provider-profiles">4.2 Provider Profiles</h3>
+<h4 id="emudhra-limited-market-leader">eMudhra Limited (Market
+Leader)</h4>
+<p>eMudhra is India’s largest Certifying Authority and the dominant
+eSign Service Provider, with an estimated 45-50% market share in the
+digital signature space.<a href="#fn19" class="footnote-ref"
+id="fnref19" role="doc-noteref"><sup>19</sup></a> Key data points:</p>
+<ul>
+<li><strong>Revenue</strong>: ₹713 crore in FY2026 (35% YoY growth); net
+profit ₹110 crore</li>
+<li><strong>Daily eSign transactions</strong>: 350,000+ through its
+emSigner platform</li>
+<li><strong>Total signatures issued</strong>: 100 million+</li>
+<li><strong>Enterprise mix</strong>: Enterprise Solutions 59% of
+revenue; Trust Services (DSC + eSign) the remainder</li>
+<li><strong>International</strong>: 64% of revenue from outside India;
+acquisitions include Crypta Labs (UK, post-quantum) and PrimeSign
+(Switzerland, eIDAS)</li>
+<li><strong>Regulatory</strong>: CCA-licensed CA; empanelled ESP;
+licensed TSA</li>
+</ul>
+<p>eMudhra’s emSigner platform is the most widely integrated eSign
+solution in India’s BFSI sector, with direct integrations into core
+banking systems, loan origination platforms, and insurance policy
+administration systems.<a href="#fn20" class="footnote-ref" id="fnref20"
+role="doc-noteref"><sup>20</sup></a></p>
+<h4 id="c-dac-centre-for-development-of-advanced-computing">C-DAC
+(Centre for Development of Advanced Computing)</h4>
+<p>C-DAC operates the <strong>e-Hastakshar</strong> eSign service, one
+of the two government-backed eSign providers alongside Protean. C-DAC is
+a R&amp;D organisation under MeitY and plays a dual role — as a CA
+(licensed since 2001) and as an eSign service provider.<a href="#fn21"
+class="footnote-ref" id="fnref21" role="doc-noteref"><sup>21</sup></a>
+Key points:</p>
+<ul>
+<li>e-Hastakshar is deployed across central government e-services, state
+government portals, and DigiLocker</li>
+<li>Popular for citizen-facing e-Governance services where cost cannot
+be passed to the user</li>
+<li>C-DAC also develops the underlying HSM and PKI infrastructure used
+by other CAs</li>
+</ul>
+<h4 id="protean-egov-technologies-formerly-nsdl-e-gov">Protean eGov
+Technologies (formerly NSDL e-Gov)</h4>
+<p>Protean, historically NSDL e-Gov, is the second major
+government-aligned eSign provider. Its eSign service is deeply
+integrated into:</p>
+<ul>
+<li><strong>Income Tax e-filing</strong> (over 80% of eSigned ITRs)<a
+href="#fn22" class="footnote-ref" id="fnref22"
+role="doc-noteref"><sup>22</sup></a></li>
+<li><strong>MCA-21 corporate filings</strong></li>
+<li><strong>GST portal</strong> (e-invoice signing)</li>
+<li><strong>EPFO</strong> and other social security services</li>
+</ul>
+<p>Protean’s institutional trust — built over two decades of managing
+India’s tax and corporate filing infrastructure — gives it an entrenched
+position in government-adjacent signing workflows.</p>
+<h4 id="other-providers">Other Providers</h4>
+<table>
+<colgroup>
+<col style="width: 35%" />
+<col style="width: 39%" />
+<col style="width: 25%" />
+</colgroup>
+<thead>
+<tr class="header">
+<th>Provider</th>
+<th>CCA Status</th>
+<th>Notes</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td><strong>Capricorn Identity Solutions</strong></td>
+<td>CA + ESP</td>
+<td>Competitive pricing; mid-market focus</td>
+</tr>
+<tr class="even">
+<td><strong>VSign Technologies</strong> (Verasys)</td>
+<td>CA + ESP</td>
+<td>Aadhaar e-KYC-based DSC issuance</td>
+</tr>
+<tr class="odd">
+<td><strong>Sify Technologies</strong></td>
+<td>CA</td>
+<td>India’s first licensed CA (2001); limited eSign play</td>
+</tr>
+<tr class="even">
+<td><strong>CDSL Ventures Limited</strong></td>
+<td>CA + ESP</td>
+<td>Capital markets infrastructure; entering eSign</td>
+</tr>
+<tr class="odd">
+<td><strong>CSC e-Governance Services</strong></td>
+<td>ESP</td>
+<td>Rural outreach through 500,000+ Common Service Centres</td>
+</tr>
+</tbody>
+</table>
+<h3 id="pricing-dynamics">4.3 Pricing Dynamics</h3>
+<p>eSign pricing in 2026 reflects a market that has matured
+significantly from its 2015 origins:</p>
+<table>
+<thead>
+<tr class="header">
+<th>Volume Tier</th>
+<th>Per-Signature Cost</th>
+<th>Typical Use Case</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td>Sub-500/month</td>
+<td>₹15–₹25</td>
+<td>Small businesses, legal firms</td>
+</tr>
+<tr class="even">
+<td>500–10,000/month</td>
+<td>₹8–₹15</td>
+<td>Mid-size NBFCs, insurers</td>
+</tr>
+<tr class="odd">
+<td>10,000–50,000/month</td>
+<td>₹5–₹8</td>
+<td>Large lenders, government portals</td>
+</tr>
+<tr class="even">
+<td>50,000+/month</td>
+<td>₹3–₹7</td>
+<td>Enterprise, platform deals</td>
+</tr>
+</tbody>
+</table>
+<p>The floor has dropped sharply from ₹30–₹50 in 2017, driven by volume
+growth and competition. At scale, eSign is now <strong>10–50x
+cheaper</strong> than traditional DSC-per-document signing (which costs
+₹100–₹200 per signature when amortising token and certificate costs over
+low volumes).<a href="#fn23" class="footnote-ref" id="fnref23"
+role="doc-noteref"><sup>23</sup></a></p>
+<h3 id="eli6-explain-like-im-6-plus-positivenegative-analysis-3">* ELI6
+— Explain Like I’m 6 (Plus Positive/Negative Analysis)</h3>
+<p><strong>What this chapter means in simple words:</strong> There are a
+few special companies that the government has licensed to make “digital
+stamps” (called digital signatures). Some of these companies also run
+the service that connects your app to the digital stamp maker. The
+biggest one — eMudhra — does about half of all the eSign</p>
+<p><strong>[+] The Positive — What Works Well</strong></p>
+<ul>
+<li><strong>Market concentration enables scale</strong>: The dominance
+of eMudhra and Protean allows for economies of scale in infrastructure,
+security, and support. This reduces costs for ASPs and improves
+reliability for end-users.</li>
+<li><strong>Government-backed providers ensure trust</strong>: C-DAC and
+Protean are government-aligned, which builds institutional trust and
+ensures alignment with national policy priorities.</li>
+<li><strong>Diverse provider ecosystem</strong>: The presence of
+multiple CAs and ESPs (Capricorn, VSign, Sify, CSC) ensures competition
+and choice for ASPs, preventing monopolistic pricing or service
+degradation.</li>
+<li><strong>Clear pricing tiers</strong>: The volume-based pricing model
+rewards scale and makes eSign accessible to small businesses and large
+enterprises alike.</li>
+</ul>
+<p><strong>[-] The Negative — What’s Wrong or Missing</strong></p>
+<ul>
+<li><strong>Market concentration risk</strong>: The dominance of eMudhra
+(45–50% market share) creates a single point of failure. If eMudhra
+faces technical, regulatory, or financial issues, a large portion of the
+eSign ecosystem could be disrupted.</li>
+<li><strong>Limited transparency in pricing</strong>: While the floor
+has dropped, the exact pricing for different volume tiers is not
+publicly disclosed, making it difficult for ASPs to plan and budget
+effectively.</li>
+<li><strong>ASP onboarding friction</strong>: The process of becoming an
+ASP is bureaucratic and time-consuming, limiting the number of
+businesses that can integrate eSign into their applications.</li>
+<li><strong>Lack of mobile-first design</strong>: The early versions of
+the eSign API were not optimised for mobile devices, making it harder
+for people to use on their phones.</li>
+<li><strong>Consent recording</strong>: The system does not always
+record the user’s consent clearly, which can lead to confusion about
+whether the user agreed to sign the document.</li>
+<li><strong>Verification tools</strong>: Independent verification tools
+are not widely available, making it harder for people to check if a
+signature is real.</li>
+<li><strong>Privacy concerns</strong>: The system collects personal data
+(name, photo, address) during the signing process, which can be a
+privacy concern for some users.</li>
+</ul>
+<hr />
+<h2 id="part-ii-law-the-courts">PART II — LAW &amp; THE COURTS</h2>
+<hr />
+<h2 id="chapter-5-legal-framework-and-evidentiary-status">Chapter 5:
+Legal Framework and Evidentiary Status</h2>
+<h3 id="the-statutory-architecture">5.1 The Statutory Architecture</h3>
+<p>Aadhaar eSign rests on a layered statutory foundation. Understanding
+the hierarchy is essential for assessing legal validity:</p>
+<pre><code>                  ┌─────────────────────────────────┐
+                  │  Constitution of India           │
+                  │  (Art. 21 — Right to Privacy)    │
+                  └────────────┬────────────────────┘
+                               │
+                  ┌────────────▼────────────────────┐
+                  │  IT Act, 2000                    │
+                  │  + IT Amendment Act, 2008        │
+                  │  Sections 3, 3A, 5, 15          │
+                  │  Schedules I &amp; II               │
+                  └────────────┬────────────────────┘
+                               │
+                  ┌────────────▼────────────────────┐
+                  │  eSign Rules, 2015              │
+                  │  (GSR 304(E))                   │
+                  │  CCA E-Authentication Guidelines │
+                  └────────────┬────────────────────┘
+                               │
+                  ┌────────────▼────────────────────┐
+                  │  Aadhaar Act, 2016              │
+                  │  + Aadhaar Authentication       │
+                  │    Regulations, 2015            │
+                  └────────────┬────────────────────┘
+                               │
+                  ┌────────────▼────────────────────┐
+                  │  Evidence Act, 1872 /           │
+                  │  Bharatiya Sakshya Adhiniyam,2023│
+                  │  (Admissibility &amp; Presumptions) │
+                  └─────────────────────────────────┘</code></pre>
+<h3 id="key-provisions-of-the-it-act-2000">5.2 Key Provisions of the IT
+Act, 2000</h3>
+<p><strong>Section 3 — Digital Signatures:</strong> The original
+provision, recognising only asymmetric cryptosystem-based signatures.
+While eSign technically issues a DSC (Section 3 certificate), it does so
+through a Section 3A process, creating a hybrid legal character.</p>
+<p><strong>Section 3A — Electronic Signatures (inserted by 2008
+Amendment):</strong> The gateway for eSign. Sub-section (1) states:
+<em>“Authentication of any electronic record by a person by means of an
+electronic signature or electronic authentication technique which is
+considered reliable and specified in the Second Schedule shall be an
+effective method of authentication.”</em></p>
+<p>The phrase <em>“specified in the Second Schedule”</em> is critical —
+it requires a Gazette notification for each approved technique. Aadhaar
+eSign was added to Schedule II through GSR 61(E) in 2015. Legal
+scholarship has debated whether the word “shall” in Section 3A(1) makes
+the Schedule II listing <strong>mandatory</strong> for validity —
+suggesting that an electronic signature technique not listed in Schedule
+II may <strong>not</strong> be entitled to the legal presumptions of the
+Act.<a href="#fn24" class="footnote-ref" id="fnref24"
+role="doc-noteref"><sup>24</sup></a></p>
+<p><strong>Section 5 — Legal Recognition of Electronic
+Signatures:</strong> <em>“Where any law provides that information or any
+other matter shall be authenticated by affixing the signature of any
+person, then, notwithstanding anything contained in such law, such
+requirement shall be deemed to have been satisfied, if such information
+or matter is authenticated by means of an electronic signature specified
+in the Second Schedule.”</em></p>
+<p>This is the provision that makes eSign equivalent to a wet signature
+for any legal requirement that calls for a signature — subject to the
+First Schedule exceptions.</p>
+<p><strong>Section 15 — Secure Electronic Signature:</strong> <em>“An
+electronic signature shall be deemed to be a secure electronic signature
+if — (i) the signature creation data, at the time of affixing signature,
+was under the control of the signatory only; and (ii) the signature
+creation data was stored and affixed in such a manner as may be
+prescribed by the Central Government.”</em></p>
+<p>An eSign signature qualifies as “secure” because the OTP/biometric
+verification ensures the signatory’s control at the time of signing, and
+the HSM-based key generation complies with prescribed security
+standards.</p>
+<h3 id="the-first-schedule-exclusions">5.3 The First Schedule
+Exclusions</h3>
+<p>The IT Act’s <strong>First Schedule</strong> lists instruments that
+<strong>cannot</strong> be signed electronically — they still require
+wet signatures or traditional DSCs with specific legal formalities:</p>
+<table>
+<colgroup>
+<col style="width: 36%" />
+<col style="width: 63%" />
+</colgroup>
+<thead>
+<tr class="header">
+<th>Instrument</th>
+<th>Reason for Exclusion</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td>Negotiable instruments (except cheques)</td>
+<td>Historical paper-based settlement systems</td>
+</tr>
+<tr class="even">
+<td>Powers of attorney</td>
+<td>Agency authority; requires physical notarization</td>
+</tr>
+<tr class="odd">
+<td>Trusts (except public charitable trusts)</td>
+<td>Succession and property concerns</td>
+</tr>
+<tr class="even">
+<td>Wills</td>
+<td>Testamentary succession — formalities under Indian Succession
+Act</td>
+</tr>
+<tr class="odd">
+<td>Contracts for sale/transfer of immovable property</td>
+<td>Registration Act, 1908 requires physical registration</td>
+</tr>
+</tbody>
+</table>
+<p>These exclusions have practical consequences. A loan agreement
+(contract) can be eSigned. The guarantee (contract) can be eSigned. But
+a power of attorney — essential for many property and corporate
+transactions — cannot.<a href="#fn25" class="footnote-ref" id="fnref25"
+role="doc-noteref"><sup>25</sup></a> Real estate purchases still require
+physical stamp paper signatures. This creates signing friction at the
+boundary between digital and physical workflows.</p>
+<h3 id="the-evidence-act-bsa-2023-framework">5.4 The Evidence Act / BSA
+2023 Framework</h3>
+<p>The evidentiary treatment of eSign documents is governed by the
+<strong>Indian Evidence Act, 1872</strong> (repealed and replaced by the
+<strong>Bharatiya Sakshya Adhiniyam, 2023</strong> — BSA — effective 1
+July 2024). The BSA largely retains the Evidence Act’s electronic
+evidence provisions, with updated language:</p>
+<p><strong>Section 65B (Evidence Act) / Section 63 (BSA) — Admissibility
+of Electronic Records:</strong> Electronic records containing eSign
+signatures are admissible as documentary evidence if accompanied by a
+certificate under Section 65B (Evidence Act) or Section 63 (BSA)
+identifying the electronic record and describing the manner of
+production. <em>Anvar P.V. v. P.K. Basheer</em> (2014) held that a 65B
+certificate is mandatory for admissibility — verbal evidence alone is
+insufficient.<a href="#fn26" class="footnote-ref" id="fnref26"
+role="doc-noteref"><sup>26</sup></a></p>
+<p><strong>Section 85B (Evidence Act) / Section 74 (BSA) — Presumption
+as to Electronic Records:</strong> <em>“In any proceedings involving a
+secure electronic record, the Court shall presume, unless contrary is
+proved, that the secure electronic record has not been altered since the
+specific point of time to which the secure status relates.”</em></p>
+<p>Because eSign produces a secure electronic record (Section 15 IT
+Act), Section 85B creates a <strong>rebuttable presumption of
+integrity</strong> — the burden shifts to the party challenging the
+document to prove tampering.</p>
+<p><strong>Section 67A (Evidence Act) / Section 78 (BSA) — Presumption
+as to Secure Digital Signatures:</strong> <em>“In any proceedings
+involving a secure digital signature, the Court shall presume, unless
+contrary is proved, that the secure digital signature is affixed by the
+subscriber with the intention of signing or approving the electronic
+record.”</em></p>
+<p>This is the most important evidentiary presumption for eSign:
+<strong>the signature is presumed to belong to the signer</strong>. The
+party alleging forgery must prove it — not the party relying on the
+signature.</p>
+<p><strong>Section 47A (Evidence Act) / Section 58 (BSA) — Opinion of
+Certifying Authority:</strong> The opinion of the CCA-licensed
+Certifying Authority that issued the electronic signature certificate is
+admissible on the question of the electronic signature’s validity.</p>
+<h3 id="the-practical-effect-burden-of-proof-shifts">5.5 The Practical
+Effect: Burden of Proof Shifts</h3>
+<p>The cumulative effect of these provisions is a <strong>legal
+presumption chain</strong> that favours eSign documents:<a href="#fn27"
+class="footnote-ref" id="fnref27"
+role="doc-noteref"><sup>27</sup></a></p>
+<ol type="1">
+<li><strong>The signature is secure</strong> (Section 15 IT Act + CCA
+guidelines + HSM compliance)</li>
+<li><strong>The document is unaltered</strong> (Section 85B Evidence
+Act)</li>
+<li><strong>The signature belongs to the named signer</strong> (Section
+67A Evidence Act)</li>
+<li><strong>The CA who issued it can attest to its validity</strong>
+(Section 47A)</li>
+</ol>
+<p>In practice, this means an eSign document admitted in court
+<strong>shifts the burden of proof</strong> to the party challenging its
+authenticity. The challenger must produce evidence of forgery, coercion,
+or technical failure. This is a materially stronger position than wet
+signatures, where the party relying on the document often bears the
+burden of proving its authenticity.</p>
+<h3 id="eli6-explain-like-im-6-plus-positivenegative-analysis-4">* ELI6
+— Explain Like I’m 6 (Plus Positive/Negative Analysis)</h3>
+<p><strong>What this chapter means in simple words:</strong> When you
+sign something with eSign, the law treats it as seriously as if you
+signed it with a pen on paper — and in some ways, more seriously. The
+law says: if someone challenges a document signed with eSign, they have
+to prove it’s fake — you don’t have to prove it’s real. This is called
+“shifting the burden of proof.” Imagine if someone said your signature
+on a birthday card was forged — with eSign, the person making that
+accusation would need to prove it wasn’t you, not the other way around.
+This makes eSign a very powerful legal tool.</p>
+<p><strong>[+] The Positive — What Works Well</strong></p>
+<p><strong>The legal presumption chain is unbroken and
+favourable:</strong> Section 15 IT Act (secure signature) → Section 85B
+Evidence Act (presumption of no alteration) → Section 67A (presumption
+of signatory identity) → Section 47A (CA opinion). Each link reinforces
+the next. An eSign document does not just enter evidence — it enters
+evidence with a legal thumb on the scale in favour of its authenticity.
+This is stronger than a wet signature’s evidentiary position.</p>
+<p><strong>The BSA 2023 transition preserved all favourable
+provisions:</strong> When the Bharatiya Sakshya Adhiniyam replaced the
+Indian Evidence Act in July 2024, the electronic evidence provisions
+(Sections 65B, 85B, 67A, 47A) were retained and updated with clearer
+language. This is not always guaranteed in legal transitions — the fact
+that the government consciously preserved these provisions signals
+institutional confidence in digital signatures.</p>
+<p><strong>The Section 5 gateway provision is expansive:</strong>
+“Notwithstanding anything contained in such law” — the non-obstante
+clause in Section 5 overrides conflicting provisions in other statutes.
+This means even older laws that assumed physical signatures must yield
+to eSign for any document that requires a signature, subject only to the
+First Schedule exclusions. The sweep of this provision is
+underappreciated.</p>
+<p><strong>The First Schedule exclusions, while limiting, provide legal
+certainty:</strong> It is better to have a clear list of excluded
+instruments than ambiguous rules that leave the validity of every
+signature open to court challenge. Businesses know exactly which
+documents cannot be eSigned and can plan accordingly.</p>
+<p><strong>[-] The Negative — What’s Wrong or Missing</strong></p>
+<p><strong>The Section 65B certificate requirement is a litigation
+landmine:</strong> An eSign document may be cryptographically perfect,
+but if the party tendering it fails to produce a Section 65B certificate
+— identifying the computer system that produced it, describing the
+process, and certifying proper operation — the document may be ruled
+inadmissible. This procedural requirement trips up litigants regularly.
+Courts have been inconsistent about whether the certificate must come
+from the ASP, the ESP, or the signer themselves.</p>
+<p><strong>The “secure electronic signature” determination is
+circular:</strong> Section 15 says a signature is “secure” if signed in
+a manner prescribed by the Central Government. The government prescribes
+methods through the eSign Rules. But the Rules only describe what ESPs
+must do — not how the signer’s control is assessed in a particular
+transaction. If the signer’s phone was stolen and the OTP intercepted,
+is the signature still “secure”? The law presumes yes (Section 67A), but
+the technical reality suggests otherwise.</p>
+<p><strong>No appellate court has ruled on eSign’s evidentiary weight in
+a contested case:</strong> The presumptions (Sections 85B, 67A, 47A) are
+rebuttable — they shift the burden but do not guarantee outcome. There
+has been no Supreme Court case specifically examining the evidentiary
+weight of an Aadhaar eSign signature in a disputed transaction. The case
+law is limited to procedural acceptance of eSign documents for filing
+(Delhi HC, Kerala HC) — not evidentiary evaluation.</p>
+<p><strong>The DPDP Act and IT Act have overlapping, uncoordinated
+enforcement:</strong> The DPDP Act (2023) creates a Data Protection
+Board that can impose penalties of up to ₹250 crore for data breaches
+involving Aadhaar data collected through eSign. But the IT Act (2000)
+already provides for compensation and penalties under Section 43A. There
+is no guidance on which regime takes precedence, whether penalties can
+be cumulative, or how an entity should handle a breach notification that
+triggers both statutes. This regulatory overlap creates legal
+uncertainty for every ESP and ASP.</p>
+<hr />
+<h2 id="chapter-6-the-supreme-court-and-aadhaar">Chapter 6: The Supreme
+Court and Aadhaar</h2>
+<h3 id="puttaswamy-i-2017-privacy-as-a-fundamental-right">6.1 Puttaswamy
+I (2017) — Privacy as a Fundamental Right</h3>
+<p>In August 2017, a 9-judge Constitution Bench of the Supreme Court
+delivered <strong>Justice K.S. Puttaswamy (Retd.) v. Union of
+India</strong> — unanimously declaring that the <strong>right to privacy
+is a fundamental right</strong> under Article 21 of the Constitution.<a
+href="#fn28" class="footnote-ref" id="fnref28"
+role="doc-noteref"><sup>28</sup></a></p>
+<p>For eSign, the judgment’s most important finding was the recognition
+of <strong>informational privacy</strong> — the right of individuals to
+control the collection, storage, and use of their personal data. The
+Court held that biometric data (fingerprints, iris scans, facial
+photographs — all central to Aadhaar authentication) is protected by
+Article 21’s guarantee of personal liberty.</p>
+<p>Justice D.Y. Chandrachud’s formulation resonated most directly with
+the authentication ecosystem: <em>“Privacy protects personal data
+because, in the absence of such protection, the autonomy of the
+individual is compromised.”</em><a href="#fn29" class="footnote-ref"
+id="fnref29" role="doc-noteref"><sup>29</sup></a></p>
+<p>This judgment did not invalidate Aadhaar or eSign, but it established
+the <strong>proportionality framework</strong> that would shape how
+courts evaluate Aadhaar — and by extension, any service that relies on
+Aadhaar authentication.</p>
+<h3 id="puttaswamy-ii-2018-the-aadhaar-judgment">6.2 Puttaswamy II
+(2018) — The Aadhaar Judgment</h3>
+<p>In September 2018, a 5-judge Constitution Bench delivered the main
+<strong>Aadhaar judgment</strong> — the most consequential legal event
+for India’s digital identity ecosystem.<a href="#fn30"
+class="footnote-ref" id="fnref30" role="doc-noteref"><sup>30</sup></a>
+The Court:</p>
+<p><strong>Upheld the Aadhaar Act as constitutional:</strong> The Court
+held that the Aadhaar Act was validly passed as a Money Bill (a
+procedural decision that has since been challenged separately). It found
+that Aadhaar serves a legitimate state interest — enabling targeted
+delivery of subsidies and benefits — and that its design incorporates
+sufficient safeguards against arbitrary use.</p>
+<p><strong>Struck down Section 57:</strong> This was the most
+significant change. Section 57 of the Aadhaar Act had allowed <em>“any
+entity”</em> to use Aadhaar authentication for establishing identity.
+The Court held that this was a disproportionate delegation — private
+entities could not compel Aadhaar authentication. The striking down of
+Section 57 meant that:</p>
+<ul>
+<li>Banks could not mandate Aadhaar for account opening</li>
+<li>Telecom companies could not require Aadhaar for new SIM
+connections</li>
+<li>Private schools could not insist on Aadhaar for admissions</li>
+<li>And critically for eSign: <strong>private-sector use of Aadhaar
+authentication for signing must be voluntary, not
+mandatory</strong></li>
+</ul>
+<p>The Court reasoned that <em>“the use of Aadhaar by an individual,
+even in matters where it is lawful, must be with her informed
+consent”</em> — a formulation that anticipated the consent architecture
+of the DPDP Act, 2023.</p>
+<p><strong>Read down Section 33(2):</strong> The provision allowing
+disclosure of Aadhaar information in “national interest” was narrowed —
+disclosure requires a court order, and the affected individual must be
+given notice.</p>
+<p><strong>Mandatory linking struck down:</strong> The Court invalidated
+the government’s notifications requiring Aadhaar to be linked to bank
+accounts and mobile numbers. These were held to be disproportionate.</p>
+<h3 id="implications-for-esign">6.3 Implications for eSign</h3>
+<p>The Puttaswamy framework had three direct consequences for eSign:</p>
+<ol type="1">
+<li><p><strong>Consent architecture</strong>: eSign flows must ensure
+that the signer’s consent is explicit, informed, and revocable. The
+“consent receipt” requirement in eSign API v3.2 — a digitally signed
+record of the signer’s consent — can be traced directly to the Court’s
+emphasis on informational autonomy.</p></li>
+<li><p><strong>No mandatory eSign</strong>: A service cannot require
+users to use Aadhaar eSign as the only signing method. Alternative modes
+(DSC, paper) must be available. This is most visible in digital lending
+— lenders can offer eSign as an option but cannot make it
+mandatory.</p></li>
+<li><p><strong>Purpose limitation</strong>: Data obtained through eSign
+authentication (name, photo, address from e-KYC) must be used only for
+the specific signing event and not stored for other purposes. The DPDP
+Act (2023) codified this requirement but the principle was established
+by Puttaswamy II.<a href="#fn31" class="footnote-ref" id="fnref31"
+role="doc-noteref"><sup>31</sup></a></p></li>
+</ol>
+<h3 id="the-money-bill-challenge-pending">6.4 The Money Bill Challenge
+(Pending)</h3>
+<p>A challenge to the Aadhaar Act’s passage as a <strong>Money
+Bill</strong> (Article 110) is pending before the Supreme Court as of
+2026. If the Court holds that the Aadhaar Act was incorrectly passed as
+a Money Bill, the entire statutory framework — including the
+authentication and e-KYC provisions that underpin eSign — could be
+affected. The challenge was referred to a larger bench in 2024 and is
+expected to be heard in 2026–2027.<a href="#fn32" class="footnote-ref"
+id="fnref32" role="doc-noteref"><sup>32</sup></a></p>
+<h3 id="eli6-explain-like-im-6-plus-positivenegative-analysis-5">* ELI6
+— Explain Like I’m 6 (Plus Positive/Negative Analysis)</h3>
+<p><strong>What this chapter means in simple words:</strong> The Supreme
+Court made two huge decisions about Aadhaar that affect eSign. First
+(2017): the Court said everyone has a right to privacy — including the
+right to keep your fingerprints, iris scans, and personal information
+private. Second (2018): the Court said Aadhaar itself is okay and can
+continue, BUT private companies like banks and phone companies cannot
+force you to give your Aadhaar. This means eSign must always be a choice
+— you can sign with eSign if you want, but nobody can force you to.</p>
+<p><strong>[+] The Positive — What Works Well</strong></p>
+<p><strong>The proportionality test from Puttaswamy II is the right
+framework for digital identity:</strong> The Court did not strike down
+Aadhaar or eSign. It did not leave the ecosystem unregulated. It
+established that any mandatory use of Aadhaar identity must be
+proportional to the goal served. For eSign, this means the service can
+exist and grow, but cannot be the exclusive signing option. This
+balances innovation with fundamental rights.</p>
+<p><strong>The Section 57 striking down was correct on the
+merits:</strong> Allowing “any entity” to mandate Aadhaar authentication
+was an overreach. The Court correctly recognised that the Aadhaar Act’s
+purpose was targeted delivery of subsidies, not creating a
+private-sector identity verification infrastructure. eSign does not
+depend on Section 57 — it works through voluntary consent-based
+authentication, which the Court expressly permitted.</p>
+<p><strong>The judgment improved eSign’s consent architecture:</strong>
+The Court’s emphasis on informed consent and autonomy directly
+influenced the eSign API v3.2 consent receipt requirement — the
+digitally signed record of the signer’s consent. Without Puttaswamy II,
+the eSign ecosystem might have developed a lax consent culture that
+would have invited later regulatory or judicial backlash.</p>
+<p><strong>[-] The Negative — What’s Wrong or Missing</strong></p>
+<p><strong>The Puttaswamy II framework creates ambiguity for B2B and
+government eSign uses:</strong> The judgment struck down private-sector
+mandatory Aadhaar. But what about government agencies requiring eSign
+for service delivery? What about B2B contracts where both parties agree
+to eSign but one party has no alternative authentication mechanism? The
+Court did not address these scenarios, and no post-Puttaswamy
+clarification has resolved them.</p>
+<p><strong>The pending Money Bill challenge creates existential
+uncertainty:</strong> If the Supreme Court holds that the Aadhaar Act
+was incorrectly passed as a Money Bill, the entire statutory basis for
+eSign (which depends on the Aadhaar Act’s authentication provisions)
+could be undermined. This is not a theoretical risk — the challenge was
+referred to a larger bench in 2024. Every ASP and ESP operating today
+faces the possibility that the legal foundation of their business model
+could be invalidated.</p>
+<p><strong>The proportionality burden on government is not being
+enforced:</strong> Puttaswamy II requires that any government measure
+involving Aadhaar authentication must be proportionate. But the
+government has not published proportionality assessments for eSign
+adoption mandates in specific sectors (insurance policies, GST filings,
+company registration). Without transparent assessment, the
+constitutional safeguard remains theoretical.</p>
+<p><strong>The privacy-autonomy framing does not address data
+aggregation across services:</strong> Puttaswamy II focused on mandatory
+Aadhaar. It did not adequately address the risk of surveillance through
+the aggregation of authentication metadata across multiple signing
+services over time. An individual who uses eSign for 200 documents
+across 5 ASPs over 5 years has created a detailed pattern of their
+financial life — and the current legal framework does not adequately
+protect this metadata from surveillance requests.</p>
+<hr />
+<h2 id="chapter-7-other-key-court-cases">Chapter 7: Other Key Court
+Cases</h2>
+<h3
+id="anvar-p.v.-v.-p.k.-basheer-2014-electronic-evidence-admissibility">7.1
+Anvar P.V. v. P.K. Basheer (2014) — Electronic Evidence
+Admissibility</h3>
+<p>This Supreme Court judgment is the foundational precedent for
+electronic evidence in India.<a href="#fn33" class="footnote-ref"
+id="fnref33" role="doc-noteref"><sup>33</sup></a> The Court held:</p>
+<blockquote>
+<p><em>“Any documentary evidence by way of an electronic record under
+the Evidence Act, in view of Sections 59 and 65A, can be proved only in
+accordance with the procedure prescribed under Section 65B.”</em></p>
+</blockquote>
+<p>The decision overruled the earlier <em>Navjot Sandhu</em> (2005)
+case, which had provided alternative routes for proving electronic
+evidence. After <em>Anvar</em>, a <strong>Section 65B
+certificate</strong> — from the person in control of the computer or
+device that produced the electronic record — is mandatory for
+admissibility.</p>
+<p>For eSign documents, this means: - An eSigned document is admissible
+only if accompanied by a 65B certificate - The certificate must identify
+the document, describe the production process, and state that the
+computer system was operating properly - Without a 65B certificate, the
+eSigned document cannot be tendered as primary evidence</p>
+<p>The practical implication: legal teams must ensure that eSign
+platform logs are structured to support easy 65B certification. ESPs
+like eMudhra and Protean now provide automated audit log export for this
+purpose.</p>
+<h3
+id="delhi-high-court-e-filing-and-electronically-signed-documents-2021">7.2
+Delhi High Court — E-Filing and Electronically Signed Documents
+(~2021)</h3>
+<p>The Delhi High Court, through its <strong>Original Side Rules,
+2018</strong> (Rule 24), permitted the filing of electronically signed
+documents in commercial suits and civil proceedings. In a series of
+decisions between 2020 and 2022, the Court clarified:<a href="#fn34"
+class="footnote-ref" id="fnref34"
+role="doc-noteref"><sup>34</sup></a></p>
+<ul>
+<li>Documents signed with Aadhaar eSign are valid for e-filing</li>
+<li>The signature must be accompanied by a hash-value
+authentication</li>
+<li>The document must be submitted on encrypted media or through the
+court’s e-filing portal</li>
+<li>An affidavit confirming the electronic signature’s validity must be
+filed alongside</li>
+</ul>
+<p>This was a breakthrough for commercial litigation. Previously,
+litigants were required to file wet-signed paper copies — creating
+delays and logistical costs for cross-city filings.</p>
+<h3 id="kerala-high-court-esigning-affidavits-and-vakalaths-2024">7.3
+Kerala High Court — eSigning Affidavits and Vakalaths (~2024)</h3>
+<p>The Kerala High Court went further, explicitly permitting the use of
+Aadhaar eSign for <strong>affidavits and vakalaths</strong> (the formal
+documents authorising advocates to represent clients).<a href="#fn35"
+class="footnote-ref" id="fnref35" role="doc-noteref"><sup>35</sup></a>
+The Court held:</p>
+<blockquote>
+<p><em>“The advancement of technology and the enactment of the
+Information Technology Act, 2000, including the amendments thereto, have
+made it possible for affidavits to be sworn or affirmed digitally… The
+use of Aadhaar eSign for this purpose is legally valid.”</em></p>
+</blockquote>
+<p>This judgment is significant because affidavits — sworn statements —
+carry a higher evidentiary standard than ordinary contracts. The Court’s
+recognition of eSign for sworn documents signals a growing judicial
+comfort with the technology.</p>
+<h3 id="south-eastern-coalfields-v.-stc-2021">7.4 South Eastern
+Coalfields v. STC (2021)</h3>
+<p>The Delhi High Court, in <strong>M/s South Eastern Coalfields v.
+State Trading Corporation</strong>, accepted eSigned documents in a
+multi-crore commercial dispute involving a contract for coal supply. The
+Court noted that the eSign signature was verified through the CA’s OCSP
+responder and directed the parties to proceed on the basis that the
+document was validly executed.<a href="#fn36" class="footnote-ref"
+id="fnref36" role="doc-noteref"><sup>36</sup></a></p>
+<h3 id="nclt-rulings-and-signature-verification">7.5 NCLT Rulings and
+Signature Verification</h3>
+<p>The National Company Law Tribunal (NCLT) has addressed eSign in the
+context of the <strong>Insolvency and Bankruptcy Code (IBC)</strong> .
+In several cases — notably under Section 424 of the Companies Act, 2013
+— NCLT benches have confirmed their power to verify electronic
+signatures on documents, including eSign signatures.<a href="#fn37"
+class="footnote-ref" id="fnref37"
+role="doc-noteref"><sup>37</sup></a></p>
+<p>However, consistency remains an issue. Some NCLT benches demand a
+physical copy or an additional 65B certificate, while others accept the
+digitally signed PDF as sufficient. The NCLT’s e-filing rules have
+progressively moved toward accepting eSign, but bench-level discretion
+persists.</p>
+<h3 id="emerging-pattern">7.6 Emerging Pattern</h3>
+<p>Across all courts and tribunals, the pattern is clear:
+<strong>judicial acceptance of Aadhaar eSign is increasing</strong>,
+driven by:</p>
+<ul>
+<li>Growing familiarity with digital signatures among judges</li>
+<li>The statutory presumptions in the IT Act and Evidence Act/BSA</li>
+<li>The Supreme Court’s own use of digital courtrooms (e.g., video
+conferencing, e-filing)</li>
+<li>The practical impossibility of requiring physical signatures for the
+volume of filings in Indian courts (over 5 crore pending cases as of
+2025)</li>
+</ul>
+<p>The remaining friction points — inconsistent 65B certificate
+requirements, bench-level discretion in NCLT, and the First Schedule
+exclusions — are narrowing but not yet eliminated.</p>
+<h3 id="eli6-explain-like-im-6-plus-positivenegative-analysis-6">* ELI6
+— Explain Like I’m 6 (Plus Positive/Negative Analysis)</h3>
+<p><strong>What this chapter means in simple words:</strong> Several
+courts across India have said that eSign documents are valid and can be
+used in legal cases. The Delhi High Court said you can file eSigned
+documents in court cases. The Kerala High Court said you can even eSign
+sworn statements (affidavits). A company law tribunal (NCLT) has the
+power to check if eSign signatures are genuine. But some court benches
+still ask for paper copies — so acceptance is still growing, not yet
+universal.</p>
+<p><strong>[+] The Positive — What Works Well</strong></p>
+<p><strong>The judicial direction is definitively pro-eSign:</strong> No
+Indian court has rejected an Aadhaar eSign signature as invalid per se.
+The Delhi High Court (e-filing), Kerala High Court (affidavits), and
+multiple NCLT benches have all accepted eSign documents. The direction
+of travel is clear: courts are accommodating digital signatures, not
+resisting them.</p>
+<p><strong>The Anvar P.V. standard provides clear, predictable procedure
+for electronic evidence:</strong> The requirement of a Section 65B
+certificate — while it can be a litigation trap — provides a clear,
+predictable standard for admitting electronic records. Every eSign
+document can be accompanied by a 65B certificate from the ESP, and if
+done correctly, the document is admissible. The alternative
+(case-by-case evidentiary evaluation) would create far more
+uncertainty.</p>
+<p><strong>Kerala HC’s recognition of eSign for affidavits is a
+significant judicial signal:</strong> Affidavits are sworn statements
+made before a person authorised to administer oaths — traditionally a
+notary or magistrate. The Kerala HC’s ruling that eSign can serve the
+authentication function for sworn statements elevates eSign from a mere
+contract-signing tool to a form of digital notarisation. This precedent
+may expand to other High Courts.</p>
+<p><strong>[-] The Negative — What’s Wrong or Missing</strong></p>
+<p><strong>NCLT inconsistency is a real problem:</strong> Some NCLT
+benches accept eSigned documents as sufficient; others demand physical
+copies or additional Section 65B certificates. This bench-level
+discretion creates unpredictability for IBC filings, where documents
+worth crores of rupees are at stake. The NCLT should issue a practice
+direction uniform across all benches.</p>
+<p><strong>No Supreme Court case has tested eSign’s evidentiary
+limits:</strong> All existing case law is at the High Court or tribunal
+level. There has been no Supreme Court ruling on: (a) whether an eSign
+signature can be repudiated by a signer claiming their OTP was stolen;
+(b) whether the timestamp on an eSign document is conclusive proof of
+signing date; (c) whether an eSign document signed under coercion can be
+distinguished from a voluntarily signed one. These questions will
+eventually reach the Supreme Court, and the current certainty is
+fragile.</p>
+<p><strong>The courts have sidestepped the consent question:</strong> In
+none of the cases cited did a court examine whether the signer’s consent
+was properly obtained — whether the eSign flow included a proper consent
+notice, whether the signer understood what they were signing, whether
+the ASP provided adequate disclosure. The courts have accepted eSign
+documents for filing but have not established minimum consent standards
+for their creation. The DPDP Act will eventually fill this gap, but the
+judicial record is silent on consent.</p>
+<p><strong>No cross-examination framework for eSign evidence:</strong>
+If an eSign document is challenged in court, how does the opponent
+cross-examine the digital signature? The signature is a cryptographic
+blob, not a person. The CA officer is admissible as a witness (Section
+47A), but is a CA officer’s testimony about a single session certificate
+proportionate to the transaction value? For a ₹5,000 loan dispute,
+requiring a CA officer’s deposition is absurdly expensive. For a ₹50
+crore contract dispute, not having a deposition might be insufficient.
+Courts have not developed proportionate examination frameworks.</p>
+<hr />
+<h2 id="part-iii-adoption-data-use-cases">PART III — ADOPTION, DATA
+&amp; USE CASES</h2>
+<hr />
+<h2 id="chapter-8-transaction-data-and-growth-trajectory">Chapter 8:
+Transaction Data and Growth Trajectory</h2>
+<h3 id="the-data-challenge">8.1 The Data Challenge</h3>
+<p>Aadhaar eSign-specific transaction volumes are not published as a
+standalone UIDAI or CCA statistic — eSign volumes are embedded within
+the broader <strong>e-KYC authentication</strong> category. However,
+because every eSign transaction requires an e-KYC authentication, and
+e-KYC volumes are published, the relationship provides a reliable
+proxy.</p>
+<p>In 2025–2026, industry estimates suggest that <strong>eSign
+represents approximately 2–4% of all e-KYC transactions</strong>, based
+on disclosures from listed ESPs (eMudhra’s daily eSign volume of 350,000
+÷ monthly e-KYC of ~47 crore = ~2.2%).<a href="#fn38"
+class="footnote-ref" id="fnref38"
+role="doc-noteref"><sup>38</sup></a></p>
+<h3 id="aadhaar-ecosystem-top-line-numbers">8.2 Aadhaar Ecosystem —
+Top-Line Numbers</h3>
+<table>
+<thead>
+<tr class="header">
+<th>Metric</th>
+<th>Value</th>
+<th>As Of</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td>Aadhaar holders</td>
+<td>142+ crore</td>
+<td>July 2026</td>
+</tr>
+<tr class="even">
+<td>Cumulative Aadhaar authentications</td>
+<td>~1,545+ crore</td>
+<td>Mid-2025</td>
+</tr>
+<tr class="odd">
+<td>Cumulative e-KYC transactions</td>
+<td>2,393+ crore</td>
+<td>April 30, 2025</td>
+</tr>
+<tr class="even">
+<td>Authentication User Agencies (AUAs)</td>
+<td>492</td>
+<td>July 2025</td>
+</tr>
+<tr class="odd">
+<td>Authentication Service Agencies (ASAs)</td>
+<td>35</td>
+<td>July 2025</td>
+</tr>
+</tbody>
+</table>
+<h3 id="monthly-transaction-trends-20242026">8.3 Monthly Transaction
+Trends (2024–2026)</h3>
+<p>The growth trajectory has been remarkable:</p>
+<table>
+<thead>
+<tr class="header">
+<th>Month</th>
+<th>Total Auth (Cr)</th>
+<th>e-KYC (Cr)</th>
+<th>Face Auth (Cr)</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td>Jun 2024</td>
+<td>~180</td>
+<td>~36</td>
+<td>4.61</td>
+</tr>
+<tr class="even">
+<td>Dec 2024</td>
+<td>~210</td>
+<td>~42</td>
+<td>~12</td>
+</tr>
+<tr class="odd">
+<td>Jul 2025</td>
+<td>~225</td>
+<td>~45</td>
+<td>19.36 (peak)</td>
+</tr>
+<tr class="even">
+<td>Nov 2025</td>
+<td><strong>231</strong></td>
+<td><strong>47.19</strong></td>
+<td><strong>28.29</strong></td>
+</tr>
+<tr class="odd">
+<td>Apr 2026 (est.)</td>
+<td>~240+</td>
+<td>~50+</td>
+<td>~32+</td>
+</tr>
+</tbody>
+</table>
+<p><strong>Key growth rates (Nov 2025 vs Nov 2024):</strong> - Total
+authentication: ~15% YoY - e-KYC: ~24% YoY (proxy for eSign) - Face
+authentication: <strong>135% YoY</strong> — the fastest-growing
+authentication mode</p>
+<p>The face authentication surge (from 4.61 crore in June 2024 to 28.29
+crore in November 2025 — over <strong>6x growth</strong>) is
+particularly significant for eSign. Face auth enables signing for users
+with worn fingerprints (manual labourers, elderly) and those without
+consistent OTP access — expanding eSign’s inclusive reach.</p>
+<h3 id="esign-cost-curve">8.4 eSign Cost Curve</h3>
+<p>The per-signature cost of eSign has fallen dramatically:<a
+href="#fn39" class="footnote-ref" id="fnref39"
+role="doc-noteref"><sup>39</sup></a></p>
+<table>
+<thead>
+<tr class="header">
+<th>Year</th>
+<th>Floor Price (₹/signature)</th>
+<th>Peak Volume (est.)</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td>2015</td>
+<td>₹50–₹75</td>
+<td>&lt;100,000/month</td>
+</tr>
+<tr class="even">
+<td>2017</td>
+<td>₹30–₹50</td>
+<td>~500,000/month</td>
+</tr>
+<tr class="odd">
+<td>2020</td>
+<td>₹15–₹30</td>
+<td>~5 million/month</td>
+</tr>
+<tr class="even">
+<td>2023</td>
+<td>₹8–₹15</td>
+<td>~15 million/month</td>
+</tr>
+<tr class="odd">
+<td>2026</td>
+<td>₹3–₹10</td>
+<td>~30–40 million/month</td>
+</tr>
+</tbody>
+</table>
+<p>At scale, eSign is now <strong>cost-competitive with paper</strong> —
+a signed A4 page on stamp paper costs ₹20–₹100 (stamp duty + notary +
+printing). eSign at ₹3–₹7 per signature eliminates this cost.</p>
+<h3 id="digital-signature-market-size">8.5 Digital Signature Market
+Size</h3>
+<p>India’s digital signature market (spanning DSC, eSign, and other
+electronic signature methods) was estimated at:</p>
+<ul>
+<li><strong>2024</strong>: USD ~190 million</li>
+<li><strong>2025</strong>: USD ~242 million (projected, ~27%
+growth)</li>
+<li><strong>2032</strong>: USD ~1.35 billion (projected, ~27.5%
+CAGR)</li>
+</ul>
+<p><strong>Regional split (2024):</strong> North India led with ~31%
+market share, driven by government digitisation and the concentration of
+financial institutions in Delhi and Noida.<a href="#fn40"
+class="footnote-ref" id="fnref40"
+role="doc-noteref"><sup>40</sup></a></p>
+<h3 id="eli6-explain-like-im-6-plus-positivenegative-analysis-7">* ELI6
+— Explain Like I’m 6 (Plus Positive/Negative Analysis)</h3>
+<p><strong>What this chapter means in simple words:</strong> eSign is
+growing very fast. The number of Aadhaar e-KYC transactions (which eSign
+is part of) crossed 2,393 crore cumulative. In November 2025 alone,
+there were 47.19 crore e-KYC transactions — up 24% from the year before.
+Face authentication (where you just look at your phone camera instead of
+giving a fingerprint) grew 135% in one year, going from 4.61 crore to
+28.29 crore monthly transactions. The cost of one eSign signature has
+gone from ₹50 in 2017 to as low as ₹3 in 2026. The overall digital
+signature market in India is worth about USD 190 million and is expected
+to reach USD 1.35 billion by 2032.</p>
+<p><strong>[+] The Positive — What Works Well</strong></p>
+<p><strong>The growth trajectory confirms product-market fit:</strong>
+e-KYC growth of 24% YoY (with eSign as a meaningful subset) signals that
+the service is not just growing — it is compounding. The adoption is
+organic, driven by genuine transactional demand (loans, insurance,
+filings) rather than government mandate or artificial incentives. This
+is the mark of a product that solves a real problem.</p>
+<p><strong>Face authentication’s 135% YoY growth is transformative for
+inclusion:</strong> The 6x increase in face authentication (4.61 Cr →
+28.29 Cr in 17 months) suggests that the barrier to eSign for users with
+worn fingerprints or no registered mobile is being addressed. Face auth
+requires no physical touch, no OTP, just a smartphone camera. If this
+trajectory continues, face auth could become the dominant eSign
+authentication mode by 2028.</p>
+<p><strong>The cost floor (₹3/signature) makes eSign accessible to
+small-ticket transactions:</strong> At ₹3 per signature, eSign costs
+less than a postage stamp. This enables use cases that were previously
+uneconomical — micro-loans of ₹1,000–₹5,000, recurring mandate signings
+for small savings, etc. The cost has followed a classic technology
+adoption curve (high → volume-driven drop → mass adoption).</p>
+<p><strong>[-] The Negative — What’s Wrong or Missing</strong></p>
+<p><strong>The absence of eSign-specific published data is a
+transparency failure:</strong> Neither CCA nor UIDAI publishes eSign
+transaction volumes as a standalone metric. Industry analysts must
+estimate from e-KYC proxies and ESP disclosures. This data opacity
+prevents independent assessment of market health, growth rate, and
+competitive dynamics. For a service designated as digital public
+infrastructure, this is unacceptable.</p>
+<p><strong>Total addressable market saturation estimates are
+absent:</strong> There is no published estimate of what percentage of
+legally signable documents in India are currently being eSigned. Without
+this, we cannot distinguish between “growing because the market is
+expanding” and “growing because we’re still early in adoption.” The
+growth rates (24% e-KYC YoY) are impressive but may reflect low baseline
+penetration rather than sustained high growth.</p>
+<p><strong>The pricing data is not systematically collected:</strong>
+The cited per-signature prices (₹3–₹25) are illustrative — there is no
+standardised published price list. Enterprise deals are privately
+negotiated. This opacity disadvantages small businesses trying to budget
+for eSign and prevents the kind of price discovery that would accelerate
+adoption.</p>
+<p><strong>Face auth’s growth is concentrated in urban, smartphone-using
+populations:</strong> Face authentication requires a smartphone with a
+front-facing camera and internet connectivity. The 135% growth is
+impressive but may primarily reflect adoption among users who already
+had access — not new users entering the ecosystem. The claim that face
+auth “drives inclusion for elderly and manual workers” needs to be
+tested against actual demographic data, which UIDAI does not
+publish.</p>
+<hr />
+<h2 id="chapter-9-use-cases-across-sectors">Chapter 9: Use Cases Across
+Sectors</h2>
+<h3 id="banking-and-financial-services">9.1 Banking and Financial
+Services</h3>
+<p>eSign’s largest sectoral adopter is banking — specifically, the
+<strong>digital lending workflow</strong>. A full digital loan lifecycle
+looks like:</p>
+<ol type="1">
+<li><strong>e-KYC</strong>: Aadhaar OTP/biometric for identity
+verification</li>
+<li><strong>eAgreement</strong>: Loan terms displayed on-screen</li>
+<li><strong>eSign</strong>: Borrower signs the loan agreement using
+Aadhaar eSign</li>
+<li><strong>eDisbursement</strong>: Loan credited to account (often via
+UPI/IMPS)</li>
+<li><strong>eMandate</strong>: NACH auto-debit mandate signed via
+eSign</li>
+</ol>
+<p>The <strong>RBI’s Digital Lending Guidelines</strong> (effective
+2022, fully implemented by 2024) explicitly require that digital loan
+agreements be executed with “a valid electronic signature under the IT
+Act.” This regulatory mandate drove widespread eSign adoption across
+banks (HDFC, ICICI, SBI, Axis), NBFCs (Bajaj Finserv, Tata Capital), and
+fintech lenders (Cred, KreditBee, Slice).</p>
+<p>Industry estimates in 2025 indicate that <strong>over 60% of all new
+retail loans in India</strong> — personal loans, credit cards, consumer
+durables — are executed through some form of eSign, with Aadhaar eSign
+accounting for the majority.<a href="#fn41" class="footnote-ref"
+id="fnref41" role="doc-noteref"><sup>41</sup></a></p>
+<h3 id="insurance">9.2 Insurance</h3>
+<p>The <strong>Insurance Regulatory and Development Authority of India
+(IRDAI)</strong> mandated that all general and life insurance policies
+be issued in electronic form (e-policies) from April 2024. This
+directive created a massive eSign demand channel:</p>
+<ul>
+<li>Policy proposals signed via eSign</li>
+<li>Policy bonds issued with eSign signatures</li>
+<li>Claim forms increasingly eSigned</li>
+<li>Policy surrender and modification documents</li>
+</ul>
+<p>For life insurers (LIC, HDFC Life, ICICI Prudential, SBI Life), eSign
+eliminated the logistics of couriering physical policy documents to
+millions of policyholders annually.<a href="#fn42" class="footnote-ref"
+id="fnref42" role="doc-noteref"><sup>42</sup></a></p>
+<h3 id="mutual-funds-and-capital-markets">9.3 Mutual Funds and Capital
+Markets</h3>
+<p>The <strong>Association of Mutual Funds in India (AMFI)</strong> and
+<strong>Securities and Exchange Board of India (SEBI)</strong> have
+progressively digitised the mutual fund investment process. Aadhaar
+eSign is used for:</p>
+<ul>
+<li><strong>Know Your Customer (KYC)</strong> registration — combined
+with eSign for the KYC form</li>
+<li><strong>Transaction confirmations</strong> — digitally signed
+statements</li>
+<li><strong>Switch, redemption, and SIP registration</strong>
+documents</li>
+<li><strong>SEBI-required attestations</strong> for non-individual
+investors</li>
+</ul>
+<p>The shift to electronic signatures in capital markets has been
+accelerated by SEBI’s circular mandating paperless investor servicing
+(effective 2025).</p>
+<h3 id="government-e-services">9.4 Government e-Services</h3>
+<p>Government services were eSign’s earliest and most enduring use
+case:<a href="#fn43" class="footnote-ref" id="fnref43"
+role="doc-noteref"><sup>43</sup></a></p>
+<table>
+<thead>
+<tr class="header">
+<th>Service</th>
+<th>Volume (Monthly, est.)</th>
+<th>Agency</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td>Income Tax Return filing</td>
+<td>~5 crore (peak season)</td>
+<td>CBDT</td>
+</tr>
+<tr class="even">
+<td>MCA corporate filings</td>
+<td>~15 lakh</td>
+<td>MCA-21</td>
+</tr>
+<tr class="odd">
+<td>GST return e-invoicing</td>
+<td>~25 crore invoices</td>
+<td>GSTN</td>
+</tr>
+<tr class="even">
+<td>EPFO claims</td>
+<td>~1 crore</td>
+<td>EPFO</td>
+</tr>
+<tr class="odd">
+<td>DigiLocker document signing</td>
+<td>~5 crore</td>
+<td>DigiLocker</td>
+</tr>
+<tr class="even">
+<td>e-Procurement tenders</td>
+<td>~50 lakh</td>
+<td>GeM, state portals</td>
+</tr>
+</tbody>
+</table>
+<p>The <strong>DigiLocker</strong> integration is particularly notable —
+any document uploaded to DigiLocker can be signed with eSign, creating a
+digital notary equivalent for citizens. Over 26 crore registered
+DigiLocker users as of 2026 can sign documents directly through the
+platform.</p>
+<h3 id="legal-filings-and-e-courts">9.5 Legal Filings and e-Courts</h3>
+<p>The <strong>e-Courts Project</strong> (Phase III, 2023–2027) aims to
+digitise all Indian court filings. Aadhaar eSign is the default
+signature mechanism for:</p>
+<ul>
+<li>Filing plaints, petitions, and written statements</li>
+<li>Signing affidavits and vakalaths (post-Kerala HC judgment)</li>
+<li>E-filing of commercial documents in High Courts</li>
+<li>NCLT filings under IBC</li>
+</ul>
+<p>Progress has been uneven — some High Courts are fully eSign-enabled
+(Delhi, Kerala, Karnataka, Madras) while others retain hybrid
+paper-digital workflows.</p>
+<h3 id="rural-lending-and-financial-inclusion">9.6 Rural Lending and
+Financial Inclusion</h3>
+<p>eSign’s most socially consequential use case may be <strong>rural
+lending</strong>. The <strong>Reserve Bank Innovation Hub’s Unified
+Lending Interface (ULI)</strong> framework — launched in prototype in
+2023, being scaled in 2025–2026 — integrates eSign as the default
+signing mechanism for agricultural and MSME loans.</p>
+<p>Key challenges in the rural context:</p>
+<ul>
+<li><strong>Low digital literacy</strong>: Many rural borrowers transact
+through assisted channels (CSC centres, banking correspondents)</li>
+<li><strong>Connectivity</strong>: eSign flows designed for 4G/5G fail
+in 2G or offline environments</li>
+<li><strong>OTP dependency</strong>: ~15% of adult rural population
+lacks Aadhaar-linked mobile number</li>
+<li><strong>Biometric failure</strong>: Higher failure rates among
+agricultural workers (worn fingerprints)</li>
+</ul>
+<p>Research in 2024–2025 documented seven key failure modes for eSign in
+rural NBFC lending, including: expired OTP windows, biometric scanner
+incompatibility, and agent-assisted eSign without proper consent
+recording.<a href="#fn44" class="footnote-ref" id="fnref44"
+role="doc-noteref"><sup>44</sup></a></p>
+<p>The <strong>Common Service Centres (CSC)</strong> network — 500,000+
+centres across India’s villages — acts as an eSign intermediary. CSC
+operators (Village Level Entrepreneurs) assist users with the eSign flow
+using registered biometric devices. This assisted eSign model has been
+critical for adoption in states like Uttar Pradesh, Bihar, and
+Assam.</p>
+<h3 id="eli6-explain-like-im-6-plus-positivenegative-analysis-8">* ELI6
+— Explain Like I’m 6 (Plus Positive/Negative Analysis)</h3>
+<p><strong>What this chapter means in simple words:</strong> eSign is
+used everywhere: banks use it for loan agreements, insurance companies
+use it for policy documents, mutual fund companies use it for investment
+forms, the government uses it for income tax returns and company
+filings, and courts use it for legal papers. The biggest use is digital
+lending — over 60% of new personal loans in India are now signed with
+eSign. But eSign struggles in rural areas where people may not have
+smartphones or reliable internet, so village centres (CSCs) help people
+sign documents with assisted digital services.</p>
+<p><strong>[+] The Positive — What Works Well</strong></p>
+<p><strong>The digital lending use case is mission-critical
+infrastructure:</strong> Over 60% of new retail loans executed through
+eSign means the signature layer has become an operational necessity for
+Indian banking. This is not a “nice to have” technology — it is the
+backbone of India’s credit expansion. If eSign went down for a week, the
+Indian lending industry would effectively stop.</p>
+<p><strong>IRDAI’s e-policy mandate (April 2024) was brilliantly
+timed:</strong> By mandating electronic insurance policies at a point
+when eSign infrastructure was mature and proven, IRDAI created a
+step-change in adoption without the chaos of premature mandates.
+Insurance adds a high-volume, recurring signing need (every policy
+renewal = new signature) that will sustain long-term eSign growth.</p>
+<p><strong>The DigiLocker integration created a citizen-facing notary
+equivalent:</strong> Any of India’s 26+ crore DigiLocker users can sign
+documents directly through the platform. This removes the intermediary
+(bank, insurer, government portal) from the signing experience and puts
+the capability directly in citizens’ hands. It is the closest India has
+to a consumer-facing eSign product.</p>
+<p><strong>Government adoption created the credibility
+flywheel:</strong> Income Tax → MCA → GST → EPFO → DigiLocker — each
+government adoption built trust and familiarity that made it easier for
+the next entity to adopt. By anchoring eSign in government services
+first (even at the cost of slow early growth), the ecosystem built the
+institutional trust that enabled later private-sector explosion.</p>
+<p><strong>[-] The Negative — What’s Wrong or Missing</strong></p>
+<p><strong>Rural lending failures are structural, not
+incidental:</strong> The seven documented failure modes for eSign in
+rural lending (OTP timeout, biometric failure, connectivity drops, agent
+coercion, consent bypass, device incompatibility, language barriers) are
+not fixable with software updates. They reflect a fundamental design
+assumption — smartphone, internet-connected, English-literate user —
+that does not hold for India’s rural majority. The CSC workaround
+(assisted eSign) creates its own problems: reduced privacy, agent
+intermediation, consent dilution.</p>
+<p><strong>The sectoral regulator approach creates fragmented
+rules:</strong> RBI’s Digital Lending Guidelines treat eSign differently
+than IRDAI’s e-policy mandate. SEBI’s mutual fund eSign rules differ
+from both. An ASP integrating eSign for a financial services company
+offering loans + insurance + investments must navigate three different
+regulatory interpretations of the same signing technology. This
+increases compliance costs without improving outcomes.</p>
+<p><strong>eCourts adoption is far behind targets:</strong> Despite the
+Delhi and Kerala High Court rulings, most district courts and
+subordinate tribunals do not accept eSign filings. The eCourts Phase III
+(2023–2027) target of universal digital filing is behind schedule by
+most estimates. Court adoption is concentrated in High Courts and select
+NCLT benches — not the 25,000+ judicial forums where most Indians
+experience the legal system.</p>
+<p><strong>No consumer-facing eSign market exists:</strong> Almost all
+eSign usage today is B2B or B2G — businesses offering signing to their
+end users. There is no consumer equivalent of DocuSign HelloSign where
+an individual can upload a document, get it signed, and pay per
+signature. The eSign ecosystem has not produced a single notable
+consumer product in 11 years. This is an indictment of the ecosystem’s
+B2B-only orientation.</p>
+<hr />
+<h2 id="part-iv-risks-regulation-the-world">PART IV — RISKS, REGULATION
+&amp; THE WORLD</h2>
+<hr />
+<h2 id="chapter-10-security-privacy-and-data-protection">Chapter 10:
+Security, Privacy, and Data Protection</h2>
+<h3 id="cryptographic-security-assessment">10.1 Cryptographic Security
+Assessment</h3>
+<p>The cryptographic core of eSign is robust:</p>
+<ul>
+<li><strong>RSA-2048</strong> with SHA-256 — currently considered
+computationally secure against all known attack vectors (estimated
+128-bit security level)</li>
+<li><strong>HSM-based key generation and storage</strong> — private keys
+never exist outside FIPS 140-2 Level 3 hardware</li>
+<li><strong>Short-lived session certificates (30 min)</strong> — limits
+exposure window</li>
+<li><strong>Trusted timestamping</strong> — enables verification even
+after certificate expiry</li>
+</ul>
+<p>However, the surrounding infrastructure has known
+vulnerabilities:</p>
+<h3 id="breach-history">10.2 Breach History</h3>
+<p><strong>2018 Aadhaar Breach (The Tribune):</strong> In January 2018,
+journalists from <em>The Tribune</em> purchased access to Aadhaar data —
+including names, addresses, photographs, and Aadhaar numbers — for ₹500
+through a WhatsApp group. The breach exposed that unauthorised agents
+had obtained login credentials for the UIDAI’s API. UIDAI maintained
+that the CIDR (biometric database) was not compromised and that the
+breach was an access control failure, not a hack.<a href="#fn45"
+class="footnote-ref" id="fnref45"
+role="doc-noteref"><sup>45</sup></a></p>
+<p><strong>Impact on eSign:</strong> While eSign’s cryptographic layer
+was not compromised, the breach undermined public trust in any system
+relying on Aadhaar authentication. It demonstrated that security
+failures could occur at the human-API interface rather than at the
+cryptographic level.</p>
+<p><strong>2023 ICMR Breach:</strong> An Indian Council of Medical
+Research (ICMR) database — containing Aadhaar-based personal information
+of 815 million people — was breached through a vulnerable API endpoint.
+The breach exposed the risk of Aadhaar data being aggregated across
+services without adequate security controls. Not eSign-specific, but the
+same authentication infrastructure that eSign relies on was
+compromised.<a href="#fn46" class="footnote-ref" id="fnref46"
+role="doc-noteref"><sup>46</sup></a></p>
+<p><strong>CERT-In Incident Data:</strong></p>
+<table>
+<thead>
+<tr class="header">
+<th>Year</th>
+<th>Incidents Reported</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td>2017</td>
+<td>53,117</td>
+</tr>
+<tr class="even">
+<td>2020</td>
+<td>2,08,456</td>
+</tr>
+<tr class="odd">
+<td>2023 (Jan-Oct)</td>
+<td>13,20,000+</td>
+</tr>
+</tbody>
+</table>
+<p>The exponential increase reflects both India’s growing digital
+footprint and the expanding attack surface — of which the Aadhaar
+authentication ecosystem is a part.</p>
+<h3 id="the-dpdp-act-2023-compliance-requirements">10.3 The DPDP Act,
+2023 Compliance Requirements</h3>
+<p>The <strong>Digital Personal Data Protection Act, 2023 (DPDP
+Act)</strong> — India’s first comprehensive data protection law — has
+direct implications for eSign:</p>
+<p><strong>Consent (Section 6):</strong> Data fiduciaries (ASPs/ESPs
+collecting Aadhaar data through eSign) must provide: - Clear, specific
+notice about what data is being collected - Purpose for collection (the
+signing event) - Option to withdraw consent</p>
+<p><strong>Purpose Limitation (Section 7):</strong> Data obtained
+through eSign authentication — name, address, photo — cannot be
+repurposed for marketing, profiling, or any use beyond the specific
+signing event. This codifies the <em>Puttaswamy II</em> principle.</p>
+<p><strong>Data Principal Rights (Sections 11–14):</strong> Aadhaar
+holders (data principals) have the right to: - Know what personal data
+has been collected through eSign - Request correction or erasure -
+Nominate a representative to exercise these rights after their death</p>
+<p><strong>Data Protection Impact Assessment (Section 10):</strong>
+High-volume ASPs and ESPs handling Aadhaar data must conduct annual
+DPIAs. The DPDP Board (still being established as of 2026) can require
+additional assessments.</p>
+<p><strong>Penalties (Section 33):</strong> Non-compliance can attract
+penalties of up to ₹250 crore per breach — significant deterrence for
+ESPs/ASPs handling Aadhaar data without adequate safeguards.</p>
+<h3 id="surveillance-risks">10.4 Surveillance Risks</h3>
+<p>eSign creates a metadata trail that raises surveillance concerns:</p>
+<ul>
+<li><strong>Transaction logs</strong>: Every eSign event records who
+signed what, when, and from which IP address</li>
+<li><strong>e-KYC data</strong>: ESPs collect the signer’s name,
+photograph, and Aadhaar token</li>
+<li><strong>Aggregation risk</strong>: Data from multiple signing events
+can be correlated to build a profile of the signer’s activities</li>
+</ul>
+<p>Pre-Puttaswamy (2017–2018), the legal framework for accessing these
+logs was thin — Section 33 of the Aadhaar Act allowed disclosure in
+“national interest” without a court order. The <em>Puttaswamy II</em>
+judgment narrowed this, but the practical oversight mechanism remains
+weak. The DPDP Board (once fully operational) is expected to provide
+stronger enforcement, but as of 2026, regulatory supervision of
+authentication metadata is a known gap.</p>
+<h3 id="biometric-failure-and-inclusion">10.5 Biometric Failure and
+Inclusion</h3>
+<p>Fingerprint-based authentication — historically the most common
+Aadhaar mode — has a <strong>documented failure rate of 5–12%</strong>
+for certain demographics:<a href="#fn47" class="footnote-ref"
+id="fnref47" role="doc-noteref"><sup>47</sup></a></p>
+<ul>
+<li>Manual labourers: Worn fingerprints</li>
+<li>Elderly (&gt;60): Thinner, less distinct ridges</li>
+<li>Children (&lt;12): Incomplete ridge development</li>
+<li>Medical conditions: Eczema, diabetes-related skin changes,
+amputations</li>
+</ul>
+<p>The introduction of <strong>Face Authentication (AI/ML)</strong> in
+2022 dramatically reduced exclusion. By November 2025, face
+authentication constituted 28.29 crore transactions per month — growing
+at 135% YoY. For eSign, face auth enables signing by users who
+previously could not complete OTP or fingerprint authentication.</p>
+<p>Nevertheless, the <strong>OTP-only dependency</strong> remains a
+barrier. As of UIDAI’s 2025 data, approximately 90% of Aadhaar holders
+have a registered mobile number — leaving roughly 14 crore adults
+without Aadhaar-linked OTP capability, concentrated among the elderly,
+rural poor, and migrant workers.</p>
+<h3 id="deepfakes-and-ai-threats">10.6 Deepfakes and AI Threats</h3>
+<p>The emergence of generative AI — particularly <strong>deepfake
+video</strong> and <strong>voice synthesis</strong> — poses a nascent
+threat to biometric authentication:</p>
+<ul>
+<li><p><strong>Face auth spoofing</strong>: High-quality deepfakes could
+theoretically bypass UIDAI’s liveness detection. UIDAI has not publicly
+disclosed its anti-spoofing measures, creating an information asymmetry
+that makes independent security assessment difficult.</p></li>
+<li><p><strong>Voice synthesis for OTP calls</strong>: Social
+engineering attacks using AI-generated voices to extract OTPs have been
+documented globally. UIDAI’s authentication does not use voice
+biometrics, but the broader social engineering threat applies to the OTP
+channel.</p></li>
+<li><p><strong>AI-generated documents</strong>: Fraudulent documents
+created with generative AI and signed via eSign could be used for
+identity theft, loan fraud, or contract forgery.</p></li>
+</ul>
+<p>The eSign ecosystem’s defence against these threats relies on: 1.
+UIDAI’s liveness detection (unverified by independent research) 2. The
+30-minute session certificate window (limits replay attacks) 3.
+Cryptographic signature verification (detects document tampering) 4.
+DPDP Act consent and audit requirements</p>
+<p>As of 2026, no large-scale deepfake attack against Aadhaar eSign has
+been publicly documented, but the threat is widely acknowledged as a
+medium-term risk (2–5 year horizon).<a href="#fn48" class="footnote-ref"
+id="fnref48" role="doc-noteref"><sup>48</sup></a></p>
+<h3 id="eli6-explain-like-im-6-plus-positivenegative-analysis-9">* ELI6
+— Explain Like I’m 6 (Plus Positive/Negative Analysis)</h3>
+<p><strong>What this chapter means in simple words:</strong> Imagine you
+have a super-strong lockbox that uses a secret code (RSA-2048
+encryption) to lock your signature. The code is so strong that no
+computer today can crack it. But there have been some break-ins where
+bad people got access because someone gave them the password to the room
+where the lockbox was kept — the lockbox itself wasn’t broken. Also, the
+government just passed a new rule (DPDP Act) saying companies have to
+ask you nicely before using your Aadhaar info and can get fined up to
+₹250 crore if they mess up. But there are still worries: your
+fingerprint might not work if you’re elderly or a manual labourer, and
+scammers are getting better at faking faces using AI to trick
+face-recognition systems.</p>
+<p><strong>[+] The Positive — What Works Well</strong></p>
+<ul>
+<li><strong>Cryptographic core is genuinely world-class</strong>:
+RSA-2048 with SHA-256, FIPS 140-2 Level 3 HSMs, 30-minute session certs,
+and a full X.509 chain to the CCA India Root. The cryptographic design
+compares favourably with international standards (eIDAS QES, US federal
+PKI). A document signed today can be cryptographically verified decades
+from now.</li>
+<li><strong>DPDP Act creates a meaningful accountability
+framework</strong>: The ₹250 crore penalty cap changed behaviour almost
+overnight — ESPs and ASPs began investing in consent receipts, audit
+trails, and data minimisation before the Board was even fully
+established. The law’s existence, even without full enforcement
+machinery, had a deterrent effect.</li>
+<li><strong>Face authentication solved the biometric failure
+crisis</strong>: The 5–12% rejection rate for fingerprints among manual
+labourers, elderly, and people with medical conditions was a genuine
+inclusion crisis. Face auth (135% YoY growth, 28.29 Cr
+transactions/month by Nov 2025) brought millions of previously excluded
+users into the eSign ecosystem.</li>
+<li><strong>CERT-In incident reporting creates visibility</strong>:
+Mandatory reporting since 2022 has forced the ecosystem to acknowledge
+and document security incidents rather than sweep them under the rug.
+The 1.32 million incidents in Jan-Oct 2023 sounds alarming but reflects
+better detection and reporting, not necessarily a worse threat
+environment.</li>
+</ul>
+<p><strong>[-] The Negative — What’s Wrong or Missing</strong></p>
+<ul>
+<li><strong>No independent cryptographic audit of UIDAI’s
+systems</strong>: The security of the entire eSign ecosystem depends on
+UIDAI’s authentication API, Aadhaar CIDR, and face authentication
+liveness detection — none of which has been subjected to a published,
+independent, full-scope security audit. The ecosystem operates on
+trust-in-UIDAI rather than verify-UIDAI.</li>
+<li><strong>Data aggregation and surveillance risk remains
+unaddressed</strong>: While the DPDP Act provides a framework, there is
+no operational regulator actively monitoring how e-KYC data from eSign
+transactions is used, stored, or shared. A malicious or compromised ASP
+could aggregate signing metadata across millions of users without
+detection.</li>
+<li><strong>Biometric failure rates persist despite
+improvements</strong>: The 5–12% fingerprint failure rate has been
+mitigated by face auth but not eliminated. Face auth introduces its own
+failure modes (lighting conditions, ageing, medical changes). There is
+no truly universal authentication mode available.</li>
+<li><strong>OTP dependency still excludes ~14 crore adults</strong>:
+About 10% of Aadhaar holders don’t have a registered mobile number.
+These are disproportionately the poor, the elderly, and rural
+populations — exactly the people who would benefit most from digital
+inclusion.</li>
+<li><strong>Deepfake threat is acknowledged but not quantified</strong>:
+UIDAI has not published its anti-spoofing benchmark results, liveness
+detection accuracy, or false-acceptance rates for face authentication.
+The ecosystem is effectively managing an unquantified risk.</li>
+<li><strong>The “secure electronic signature” label is being
+challenged</strong>: As deepfakes improve, the evidentiary presumption
+under Section 15 IT Act (that the signature was under the signer’s sole
+control) may face more aggressive challenges in court — potentially
+undermining the burden-shifting framework that makes eSign
+attractive.</li>
+</ul>
+<hr />
+<h2
+id="chapter-11-international-comparisons-and-cross-border-recognition">Chapter
+11: International Comparisons and Cross-Border Recognition</h2>
+<h3 id="the-global-landscape">11.1 The Global Landscape</h3>
+<p>Electronic signature frameworks vary widely across jurisdictions. The
+three dominant models are:</p>
+<table>
+<colgroup>
+<col style="width: 26%" />
+<col style="width: 34%" />
+<col style="width: 38%" />
+</colgroup>
+<thead>
+<tr class="header">
+<th>Model</th>
+<th>Example</th>
+<th>Approach</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td><strong>Tiered (eIDAS)</strong></td>
+<td>EU</td>
+<td>Three tiers (Simple, Advanced, Qualified) with graduated legal
+effect</td>
+</tr>
+<tr class="even">
+<td><strong>Functional equivalence (ESIGN/UETA)</strong></td>
+<td>USA</td>
+<td>Electronic signatures generally = wet signatures; exclusions for
+specific documents</td>
+</tr>
+<tr class="odd">
+<td><strong>Technology-prescribed (IT Act)</strong></td>
+<td>India</td>
+<td>Schedule II lists approved techniques; Aadhaar eSign is a Schedule
+II technique</td>
+</tr>
+</tbody>
+</table>
+<h3 id="eidas-eu-the-gold-standard">11.2 eIDAS (EU) — The Gold
+Standard</h3>
+<p>The EU’s <strong>eIDAS Regulation</strong> (No 910/2014, effective
+2016) establishes three tiers of electronic signature:<a href="#fn49"
+class="footnote-ref" id="fnref49"
+role="doc-noteref"><sup>49</sup></a></p>
+<table>
+<colgroup>
+<col style="width: 14%" />
+<col style="width: 53%" />
+<col style="width: 31%" />
+</colgroup>
+<thead>
+<tr class="header">
+<th>Tier</th>
+<th>Technical Requirement</th>
+<th>Legal Effect</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td><strong>Simple (SES)</strong></td>
+<td>Any data in electronic form</td>
+<td>Admissible but weight determined by court</td>
+</tr>
+<tr class="even">
+<td><strong>Advanced (AdES)</strong></td>
+<td>Uniquely linked to signer; capable of identifying signer; created
+using data under sole control</td>
+<td>Higher evidentiary value</td>
+</tr>
+<tr class="odd">
+<td><strong>Qualified (QES)</strong></td>
+<td>AdES + Qualified Certificate (from QTSP) + Secure Signature Creation
+Device</td>
+<td><strong>Equivalent to handwritten signature</strong> EU-wide</td>
+</tr>
+</tbody>
+</table>
+<p><strong>Key features:</strong> - <strong>Mutual recognition</strong>:
+QES from any EU/EEA state is automatically valid in all others -
+<strong>Trusted List</strong>: Each member state maintains a list of
+Qualified Trust Service Providers (QTSPs) -
+<strong>Cross-border</strong>: Article 25(2) prohibits denial of legal
+effect solely because the signature is from another member state -
+<strong>AdES standardized</strong>: CAdES, XAdES, PAdES — standardised
+formats for electronic signatures</p>
+<p><strong>eIDAS 2.0</strong> (proposed 2021, adopted 2024) expands the
+framework to include: - <strong>European Digital Identity
+Wallets</strong> (EUDI Wallets) - Electronic attestation of attributes -
+Qualified electronic archiving services</p>
+<h3 id="united-states-esign-act-and-ueta">11.3 United States — ESIGN Act
+and UETA</h3>
+<p>The <strong>Electronic Signatures in Global and National Commerce
+Act</strong> (ESIGN, 2000) and the <strong>Uniform Electronic
+Transactions Act</strong> (UETA, 1999) establish a simpler
+framework:</p>
+<ul>
+<li><strong>Technology-neutral</strong>: No prescribed technology — any
+electronic sound, symbol, or process that indicates acceptance</li>
+<li><strong>Functional equivalence</strong>: E-signatures have the same
+legal effect as wet signatures, subject to consumer consent
+requirements</li>
+<li><strong>No tiered system</strong>: Unlike eIDAS, there is no
+graduated legal framework — the evidentiary weight of a signature
+depends on the specific facts (e.g., whether the signature’s
+authenticity can be proved in court)</li>
+</ul>
+<p><strong>Key differences from eIDAS:</strong> - No Qualified signature
+equivalent - No centralised trusted list - Greater reliance on
+contractual agreements between parties - State-level adoption of UETA
+(49 states) complements ESIGN</p>
+<h3 id="india-comparison">11.4 India — Comparison</h3>
+<table>
+<colgroup>
+<col style="width: 14%" />
+<col style="width: 36%" />
+<col style="width: 21%" />
+<col style="width: 27%" />
+</colgroup>
+<thead>
+<tr class="header">
+<th>Feature</th>
+<th>India (IT Act + eSign)</th>
+<th>EU (eIDAS)</th>
+<th>US (ESIGN/UETA)</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td><strong>Tiered framework</strong></td>
+<td>Yes (digital vs electronic)</td>
+<td>Yes (3 tiers)</td>
+<td>No</td>
+</tr>
+<tr class="even">
+<td><strong>Prescribed tech</strong></td>
+<td>Schedule II listing</td>
+<td>Open; QES has standards</td>
+<td>Technology-neutral</td>
+</tr>
+<tr class="odd">
+<td><strong>Approved CAs</strong></td>
+<td>CCA-licensed CAs</td>
+<td>QTSPs on national trusted lists</td>
+<td>Not CA-specific</td>
+</tr>
+<tr class="even">
+<td><strong>Equivalent to wet signature</strong></td>
+<td>Yes (under Section 5 IT Act)</td>
+<td>Yes (QES only)</td>
+<td>Yes (all e-signatures)</td>
+</tr>
+<tr class="odd">
+<td><strong>Cross-border recognition</strong></td>
+<td>Limited — bilateral agreements</td>
+<td>Automatic (within EU/EEA)</td>
+<td>Contract-based</td>
+</tr>
+<tr class="even">
+<td><strong>Biometric signature</strong></td>
+<td>Via Aadhaar e-KYC</td>
+<td>Not directly supported</td>
+<td>Varies by state law</td>
+</tr>
+</tbody>
+</table>
+<h3 id="the-india-eu-administrative-arrangement-january-2026">11.5 The
+India-EU Administrative Arrangement (January 2026)</h3>
+<p>The most significant cross-border development for eSign was the
+<strong>India-EU Administrative Arrangement on Advanced Electronic
+Signatures and Seals</strong>, signed on <strong>27 January
+2026</strong> during the 16th India-EU Summit.<a href="#fn50"
+class="footnote-ref" id="fnref50"
+role="doc-noteref"><sup>50</sup></a></p>
+<p><strong>Key commitments:</strong> 1.
+<strong>Interoperability</strong>: Alignment of technical standards for
+electronic signatures and seals between India’s PKI ecosystem and the
+EU’s eIDAS framework 2. <strong>Trusted list linkage</strong>:
+Connecting India’s CCA-recognised CAs with EU member states’ QTSP
+trusted lists 3. <strong>Cross-border validation</strong>: Mutual
+recognition of trusted electronic signatures for commercial and legal
+purposes</p>
+<p><strong>Practical impact:</strong> - Indian companies can sign
+contracts with EU counterparties using Aadhaar eSign, with the signature
+recognised under EU law - EU companies can use eIDAS-qualified
+signatures for Indian transactions - Reduced friction for MSMEs in
+cross-border e-commerce, contracts, and compliance documentation</p>
+<p>The arrangement does not amend either jurisdiction’s existing law —
+India’s IT Act and the EU’s eIDAS remain in force — but it creates a
+<strong>cooperation framework</strong> for technical alignment. Full
+technical recognition is expected to be operational by 2027–2028,
+pending the development of bridge PKI infrastructure.</p>
+<h3 id="other-cross-border-developments">11.6 Other Cross-Border
+Developments</h3>
+<p><strong>Singapore:</strong> Singapore’s <strong>Electronic
+Transactions Act</strong> (ETA, amended 2021) is based on UNCITRAL Model
+Law principles. Singapore has mutual recognition agreements with the EU
+and is in discussions with India for a similar arrangement.</p>
+<p><strong>UAE:</strong> The <strong>UAE Federal Law on Electronic
+Transactions</strong> recognises Aadhaar-style biometric authentication
+for electronic signatures. India and the UAE have a bilateral PKI
+recognition understanding (2023).</p>
+<p><strong>UNCITRAL Model Law on Electronic Signatures (2001):</strong>
+India’s IT Act was framed with reference to the UNCITRAL Model Law,
+giving it a degree of structural compatibility with other Model Law
+jurisdictions (Singapore, China, Australia, Mexico). However, full
+cross-border recognition remains a bilateral negotiation matter.</p>
+<h3 id="eli6-explain-like-im-6-plus-positivenegative-analysis-10">* ELI6
+— Explain Like I’m 6 (Plus Positive/Negative Analysis)</h3>
+<p><strong>What this chapter means in simple words:</strong> Different
+countries have different rules for digital signatures. The EU has three
+levels (simple, advanced, qualified). The US says any electronic
+signature works, but the court decides. India says only signatures on a
+government-approved list (Schedule II) count. In January 2026, India and
+the EU signed an agreement to recognise each other’s digital signatures
+— so an Indian company can sign a contract with a European company using
+eSign, and it will be valid in both places.</p>
+<p><strong>[+] The Positive — What Works Well</strong></p>
+<p><strong>The January 2026 India-EU Arrangement is a genuine
+breakthrough:</strong> For the first time, an Indian electronic
+signature technique (Aadhaar eSign) has been formally linked to the
+eIDAS framework. This means Indian businesses can sign contracts with EU
+counterparties without requiring an EU-issued qualified certificate. The
+arrangement is the result of years of technical alignment work and
+positions India as the first non-EU country with a structured eSign
+recognition pathway to Europe.</p>
+<p><strong>India’s PKI infrastructure is structurally aligned with
+global standards:</strong> The CCA India Root (RCAI), X.509 v3
+certificate profiles, CAdES/PAdES signature formats, OCSP responders —
+these are not India-specific inventions. They are international PKI
+standards that India adopted, making cross-border technical alignment
+much easier than if India had built a proprietary signature format.</p>
+<p><strong>The eIDAS comparison highlights India’s regulatory
+agility:</strong> While the EU took nearly a decade (2006–2014) to
+negotiate and implement eIDAS, India created a functional eSign
+framework in under six months (January–June 2015) using executive
+notification under an existing statute. India’s approach trades some
+sophistication for speed — but for a developing country with 1.4 billion
+people, speed matters.</p>
+<p><strong>[-] The Negative — What’s Wrong or Missing</strong></p>
+<p><strong>The India-EU Arrangement is an administrative agreement, not
+a mutual recognition treaty:</strong> It commits the parties to
+technical alignment and trusted list linkage — not automatic legal
+recognition. An Indian eSign signature is not automatically a Qualified
+Electronic Signature under EU law. The arrangement creates a pathway to
+recognition, not recognition itself. Full operational equivalence is
+expected by 2027–2028 at the earliest.</p>
+<p><strong>India has no eIDAS-equivalent tiered framework:</strong> The
+eIDAS three-tier system (SES, AdES, QES) provides graduated legal
+certainty — a QES is guaranteed to have the equivalent effect of a
+handwritten signature EU-wide. India has two tiers (digital and
+electronic) with no meaningful distinction in legal effect. Indian
+courts cannot distinguish between a ₹10 contract signed with a simple
+clickwrap and a ₹10 crore contract signed with eSign — they are both
+“secure electronic signatures” with the same evidentiary
+presumptions.</p>
+<p><strong>No successful commercial cross-border eSign transaction has
+been publicly documented:</strong> Despite the January 2026 Arrangement,
+there is no known case of an Indian company using Aadhaar eSign to
+execute a contract with an EU counterparty that was then accepted by an
+EU court or regulator. The arrangement is technically in place but
+operationally untested. The legal certainty remains theoretical.</p>
+<p><strong>The US comparison reveals India’s rigidity:</strong> The US
+ESIGN Act is technology-neutral — any method of electronic signature is
+valid if it demonstrates intention to sign. India’s Schedule II system
+requires specific government approval for each technique. In practice,
+this has meant only one technique (Aadhaar eSign) is approved. India’s
+framework, while more legally certain than the US’s, is also more
+restrictive and less innovation-friendly.</p>
+<hr />
+<h2 id="chapter-12-regulatory-landscape-and-governance">Chapter 12:
+Regulatory Landscape and Governance</h2>
+<h3 id="the-controller-of-certifying-authorities-cca">12.1 The
+Controller of Certifying Authorities (CCA)</h3>
+<p>The CCA is the apex regulator of India’s PKI and eSign ecosystem.
+Established under Section 17 of the IT Act, 2000, the CCA’s functions
+include:<a href="#fn51" class="footnote-ref" id="fnref51"
+role="doc-noteref"><sup>51</sup></a></p>
+<ul>
+<li><strong>Licensing</strong>: Issuing licenses to Certifying
+Authorities (CAs) and eSign Service Providers (ESPs)</li>
+<li><strong>Guidelines</strong>: Publishing e-authentication guidelines,
+API specifications, and security standards</li>
+<li><strong>Root CA</strong>: Operating the <strong>CCA India Root
+(RCAI)</strong> — the anchor of trust for all PKI certificates in
+India</li>
+<li><strong>Audit</strong>: Conducting or overseeing audits of CAs and
+ESPs</li>
+<li><strong>Cross-certification</strong>: Recognising foreign CAs for
+cross-border digital signatures</li>
+</ul>
+<p>As of 2026, CCA has licensed 8 CAs, of which 7 are empanelled as
+eSign Service Providers.</p>
+<p><strong>Governance gap:</strong> The CCA’s mandate is primarily
+<strong>technical supervision</strong> — certificate profiles, HSM
+standards, API compliance. It does not regulate data protection (now the
+DPDP Board’s domain), surveillance oversight (courts + DPDP Board), or
+consumer protection (sectoral regulators). This fragmented governance
+creates gaps in accountability, particularly for authentication
+metadata.</p>
+<h3 id="meity-ministry-of-electronics-and-information-technology">12.2
+MeitY (Ministry of Electronics and Information Technology)</h3>
+<p>MeitY has policy oversight for all of India’s digital public
+infrastructure, including eSign. Its roles include:</p>
+<ul>
+<li><strong>Legislation</strong>: Drafting the IT Act, its amendments,
+and the proposed Digital India Act</li>
+<li><strong>Rules</strong>: Notifying rules under the IT Act (e.g.,
+eSign Rules 2015, GSR 304(E))</li>
+<li><strong>Schedule II</strong>: Adding new signature techniques to the
+Second Schedule</li>
+<li><strong>Coordination</strong>: Between CCA, UIDAI, CERT-In, and
+sectoral regulators (RBI, IRDAI, SEBI)</li>
+</ul>
+<p>MeitY’s <strong>Digital India programme</strong> (launched 2015) is
+the umbrella policy initiative that eSign was designed to serve. The
+programme’s vision of <em>“Faceless, Paperless, Cashless”</em>
+government set the demand-side context for eSign’s creation.</p>
+<h3 id="uidai-unique-identification-authority-of-india">12.3 UIDAI
+(Unique Identification Authority of India)</h3>
+<p>UIDAI operates the Aadhaar infrastructure — the CIDR, authentication
+APIs, e-KYC services, and face authentication system. Its role in eSign
+is <strong>identity verification</strong>, not signing. Every eSign
+transaction passes through UIDAI’s authentication API.</p>
+<p>UIDAI’s regulatory framework includes: - <strong>Aadhaar Act,
+2016</strong> — statutory mandate - <strong>Aadhaar (Authentication)
+Regulations, 2015</strong> — authentication procedure rules -
+<strong>Aadhaar (Data Security) Regulations, 2016</strong> — data
+protection standards - <strong>UIDAI (Authentication Services)
+Directions</strong> — operational guidelines for AUAs/ASPs</p>
+<h3 id="cert-in-indian-computer-emergency-response-team">12.4 CERT-In
+(Indian Computer Emergency Response Team)</h3>
+<p>CERT-In plays a critical role in eSign’s security audit and incident
+response ecosystem:</p>
+<ul>
+<li><strong>ASP security audit</strong>: Every ASP must undergo a
+security audit by an <strong>empanelled CERT-In auditor</strong> before
+being granted production access</li>
+<li><strong>Incident reporting</strong>: Cybersecurity incidents
+affecting eSign infrastructure must be reported to CERT-In (mandatory
+since 2022)</li>
+<li><strong>Vulnerability assessment</strong>: CERT-In coordinates
+vulnerability discovery and remediation for the Aadhaar authentication
+ecosystem</li>
+</ul>
+<h3 id="the-dpdp-board-still-emerging">12.5 The DPDP Board (Still
+Emerging)</h3>
+<p>The <strong>Data Protection Board of India</strong> — the enforcement
+authority under the DPDP Act, 2023 — is in the process of being
+established. As of mid-2026, the Board has a chairperson and basic
+framework but is not yet fully operational with its contemplated powers
+(inquiry, adjudication, penalty imposition).</p>
+<p>Its eventual role in the eSign ecosystem will include: - Adjudicating
+data protection violations by ESPs/ASPs handling Aadhaar data -
+Approving binding corporate rules for cross-border data transfers (if
+eSign data flows cross borders) - Requiring impact assessments for
+high-volume eSign operations</p>
+<h3 id="sectoral-regulators">12.6 Sectoral Regulators</h3>
+<table>
+<colgroup>
+<col style="width: 31%" />
+<col style="width: 22%" />
+<col style="width: 45%" />
+</colgroup>
+<thead>
+<tr class="header">
+<th>Regulator</th>
+<th>Domain</th>
+<th>eSign Relevance</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td><strong>RBI</strong></td>
+<td>Banking, payments, lending</td>
+<td>Digital Lending Guidelines; NBFC eSign adoption</td>
+</tr>
+<tr class="even">
+<td><strong>IRDAI</strong></td>
+<td>Insurance</td>
+<td>Mandatory e-policies (April 2024); eSign for claims</td>
+</tr>
+<tr class="odd">
+<td><strong>SEBI</strong></td>
+<td>Capital markets</td>
+<td>Digital KYC; eSign for mutual fund documents</td>
+</tr>
+<tr class="even">
+<td><strong>IBBI</strong></td>
+<td>Insolvency</td>
+<td>NCLT e-filing; IBC document signing</td>
+</tr>
+</tbody>
+</table>
+<p>Each regulator has its own interpretation of eSign’s validity within
+its domain. The RBI was initially the most conservative (waiting until
+2022 for explicit Digital Lending Guidelines). IRDAI has been the most
+aggressive (mandating electronic issuance).</p>
+<h3 id="coordination-challenges">12.7 Coordination Challenges</h3>
+<p>The multi-regulator structure creates known friction points:</p>
+<ul>
+<li><strong>Inconsistent guidance</strong>: What constitutes a valid
+eSign for the RBI (contract) may differ from the IRDAI (policy
+bond)</li>
+<li><strong>Audit multiplication</strong>: New ESP must undergo separate
+audits for CCA licensing, CERT-In empanelment, and RBI/IRDAI sectoral
+compliance</li>
+<li><strong>Data protection gap</strong>: Before the DPDP Act (2023),
+there was no unified data protection authority — the CCA’s remit was
+technical, not privacy-focused. The DPDP Board, once fully operational,
+should fill this gap, but the transition period (2024–2026) has been
+characterised by regulatory fragmentation.</li>
+</ul>
+<h3 id="eli6-explain-like-im-6-plus-positivenegative-analysis-11">* ELI6
+— Explain Like I’m 6 (Plus Positive/Negative Analysis)</h3>
+<p><strong>What this chapter means in simple words:</strong> eSign is
+regulated by multiple government bodies: CCA (licenses the digital stamp
+companies), MeitY (makes the overall rules), UIDAI (runs the Aadhaar
+system that verifies your identity), CERT-In (handles cybersecurity),
+and the new DPDP Board (protects your personal data). And then banks
+have their own regulator (RBI), insurance has IRDAI, stock markets have
+SEBI — each with its own rules about eSign. This creates a complicated
+web where one service might need to follow 4-5 different sets of
+rules.</p>
+<p><strong>[+] The Positive — What Works Well</strong></p>
+<p><strong>The CCA’s technical regulation is rigorous and
+effective:</strong> CCA licensing ensures that every eSign certificate
+chains to a trusted root, every HSM is FIPS-compliant, every ESP
+maintains 7-year audit trails, and every signature embeds a trusted
+timestamp. The technical regulation of the PKI layer is the reason eSign
+signatures are cryptographically trustworthy.</p>
+<p><strong>CERT-In’s mandated audit requirement adds a third-party
+check:</strong> ASPs cannot go live without a CERT-In empanelled
+auditor’s sign-off. This provides an independent security validation
+layer that would not exist if CCA self-certification were sufficient.
+For aspiring ASPs, the audit is a hurdle — but it is also a quality gate
+that prevents insecure implementations.</p>
+<p><strong>The multi-regulator model has produced workable outcomes
+despite its complexity:</strong> The fact that India has functional
+eSign across banking, insurance, capital markets, government, and courts
+— all regulated by different bodies — is itself an achievement. The
+system has not collapsed under regulatory fragmentation. Coordination
+has been informal but effective.</p>
+<p><strong>[-] The Negative — What’s Wrong or Missing</strong></p>
+<p><strong>The CCA’s mandate is too narrow:</strong> The CCA was created
+to license Certifying Authorities and manage PKI. It was not designed to
+regulate data protection, oversee surveillance concerns, monitor consent
+compliance, or adjudicate disputes. These gaps were filled — belatedly
+and partially — by the DPDP Act. The CCA remains a technical regulator
+in an ecosystem where the most significant risks are not technical but
+legal, operational, and privacy-related.</p>
+<p><strong>The DPDP Board’s non-operational status is the single biggest
+regulatory gap:</strong> Nearly three years after the DPDP Act’s passage
+(August 2023), its enforcement body is still not fully functional. This
+means eSign ASPs and ESPs handling crores of Aadhaar KYC records operate
+with no active data protection oversight. The threat of ₹250 crore
+penalties exists on paper but has no real-world deterrent effect.</p>
+<p><strong>Sectoral regulators have contradictory requirements:</strong>
+An ASP offering eSign to a bank (RBI-regulated) and an insurer
+(IRDAI-regulated) must comply with two different sets of digital
+lending/issuance guidelines that treat consent, document retention, and
+authentication differently. No forum exists to harmonise these
+requirements. The regulator the ASP fears most (RBI, for potential
+licence revocation) gets de facto priority over others.</p>
+<p><strong>No single point of accountability for the whole eSign
+ecosystem:</strong> If an eSign transaction fails — who does the user
+complain to? The ASP? The ESP? The CA? UIDAI? CCA? The banking
+ombudsman? The DPDP Board? There is no single eSign grievance mechanism.
+A user whose eSign transaction fails (OTP not delivered, signature not
+applied, wrong document signed) has no clear escalation path. For a
+service handling legally binding documents, this is unacceptable.</p>
+<hr />
+<h2 id="part-v-ahead">PART V — AHEAD</h2>
+<hr />
+<h2 id="chapter-13-the-future-trends-and-trajectory-2026">Chapter 13:
+The Future — Trends and Trajectory (2026+)</h2>
+<h3 id="the-digital-india-act-dia">13.1 The Digital India Act (DIA)</h3>
+<p>The proposed <strong>Digital India Act</strong> — MeitY’s planned
+replacement for the IT Act, 2000 — is the most significant legislative
+development on the horizon.<a href="#fn52" class="footnote-ref"
+id="fnref52" role="doc-noteref"><sup>52</sup></a></p>
+<p>The DIA is expected to:</p>
+<ul>
+<li><strong>Modernise the electronic signature framework</strong>: A
+technology-neutral, principles-based approach replacing Schedule II
+notification with broader admissibility criteria</li>
+<li><strong>Align with international standards</strong>: Explicit
+compatibility with eIDAS, UNCITRAL Model Law, and the UN’s proposed
+international framework for e-signatures</li>
+<li><strong>Simplify exclusions</strong>: Narrowing the First Schedule
+by accepting eSign for additional instruments (e.g., certain real estate
+documents, trusts)</li>
+<li><strong>Strengthen consumer protections</strong>: Prohibiting unfair
+terms in eSign-enabled contracts</li>
+<li><strong>Provide for regulatory sandboxes</strong>: Enabling
+innovation in signature technology while maintaining legal
+certainty</li>
+</ul>
+<p>Industry groups and MeitY consultation papers (2023–2025) indicate
+broad support for retaining Aadhaar eSign’s legal validity while
+expanding the framework to accommodate non-Aadhaar electronic signature
+methods.</p>
+<p>The DIA was introduced in draft form in 2023 but has not yet been
+introduced in Parliament. Current expectations place its passage in
+2027–2028.</p>
+<h3 id="uli-and-account-aggregator-synergy">13.2 ULI and Account
+Aggregator Synergy</h3>
+<p>The <strong>Unified Lending Interface (ULI)</strong> — developed by
+the Reserve Bank Innovation Hub (RBIH) — is India’s next DPI layer.
+eSign is the designated signing mechanism within ULI.</p>
+<p>The complete ULI flow illustrates eSign’s evolving role:</p>
+<ol type="1">
+<li>User consents to data access via <strong>Account Aggregator
+(AA)</strong> framework</li>
+<li>Lenders access <strong>financial data</strong> (bank statements, GST
+filings, income tax returns) through AA</li>
+<li>AI/ML models assess <strong>creditworthiness</strong></li>
+<li>Loan offer is generated and displayed to user</li>
+<li><strong>eSign</strong> the loan agreement</li>
+<li>Funds disbursed via <strong>UPI/IMPS</strong></li>
+</ol>
+<p>This stack — <strong>AA → Credit Assessment → eSign →
+Disbursement</strong> — is the operational backbone of the government’s
+ambition to extend formal credit to 450 million new borrowers who
+currently lack access.<a href="#fn53" class="footnote-ref" id="fnref53"
+role="doc-noteref"><sup>53</sup></a></p>
+<h3 id="quantum-ready-pki">13.3 Quantum-Ready PKI</h3>
+<p>Post-quantum cryptography is the most significant medium-term
+technical challenge for eSign. RSA-2048 — the cryptographic foundation
+of eSign’s PKI — is expected to be broken by a sufficiently powerful
+quantum computer within 10–15 years.</p>
+<p>The transition is already beginning:</p>
+<ul>
+<li><strong>NIST standards</strong>: NIST finalised three post-quantum
+cryptographic (PQC) standards in 2024 (including CRYSTALS-Kyber for key
+establishment and CRYSTALS-Dilithium for digital signatures)</li>
+<li><strong>eMudhra acquisition of Crypta Labs</strong>: A UK-based
+post-quantum security startup — explicitly positioning for PQ
+transition</li>
+<li><strong>CCA awareness</strong>: The CCA has acknowledged the need
+for PQ migration in its 2025–2026 strategic plan</li>
+</ul>
+<p>The transition timeline is measured in years, not months: -
+2026–2028: Hybrid certificates (RSA + PQ) for high-value transactions -
+2028–2030: Full PQ certificate profiles mandated by CCA - 2030–2032:
+Complete PKI infrastructure migration</p>
+<p>The complexity of this transition — updating every CA’s HSM, every
+ESP’s signing service, every ASP’s verification library — rivals or
+exceeds the 2015 eSign launch itself.</p>
+<h3 id="passkeys-and-passwordless-shift">13.4 Passkeys and Passwordless
+Shift</h3>
+<p>The DPDP Act’s consent architecture, combined with global trends
+toward passwordless authentication (FIDO2, WebAuthn), is driving
+interest in <strong>passkey-based authentication</strong> for eSign.</p>
+<p>Instead of SMS OTP (which requires an Aadhaar-linked mobile number),
+passkey-based eSign would use:</p>
+<ul>
+<li><strong>On-device biometrics</strong> (Touch ID, Face ID,
+fingerprint on mobile)</li>
+<li><strong>Platform authenticators</strong> (Windows Hello, Android
+Trusted Execution Environment)</li>
+<li><strong>Hardware security keys</strong> (FIDO2 devices) — but this
+reintroduces the hardware barrier eSign was designed to eliminate</li>
+</ul>
+<p>For the eSign ecosystem, the question is whether passkeys can be
+integrated as an Aadhaar authentication mode — i.e., UIDAI accepting
+platform biometric verification as equivalent to OTP. As of 2026,
+UIDAI’s authentication framework does not support third-party platform
+biometrics directly, but the technology trajectory points in this
+direction.</p>
+<h3 id="ai-enabled-fraud-detection">13.5 AI-Enabled Fraud Detection</h3>
+<p>As AI-generated deepfakes and synthetic identities become more
+sophisticated, the eSign ecosystem’s defence mechanisms will need to
+evolve:</p>
+<ul>
+<li><strong>Behavioural biometrics</strong>: Analysing how a user types,
+moves their mouse, or holds their phone during the signing flow —
+detecting anomalies that suggest automated or spoofed activity</li>
+<li><strong>Document forensics</strong>: AI-powered detection of forged
+or manipulated documents before eSign is applied</li>
+<li><strong>Continuous authentication</strong>: Monitoring session
+behaviour beyond the initial OTP/biometric check</li>
+<li><strong>Network analysis</strong>: Identifying coordinated fraud
+rings through transaction graph analysis</li>
+</ul>
+<p>Multiple ESPs (eMudhra, VSign) have announced AI-based fraud
+detection modules for their eSign platforms. CCA is expected to
+incorporate AI-security requirements in its next e-authentication
+guidelines revision.</p>
+<h3 id="cross-border-expansion">13.6 Cross-Border Expansion</h3>
+<p>The India-EU Administrative Arrangement (January 2026) is likely the
+first of several international agreements:</p>
+<ul>
+<li><strong>India-UAE PKI mutual recognition</strong>: Expected to be
+formalised by late 2026 or early 2027</li>
+<li><strong>India-Singapore</strong>: Discussions ongoing under the
+bilateral digital cooperation framework</li>
+<li><strong>India-AustralIA</strong>: Initial consultations through the
+India-Australia Economic Cooperation and Trade Agreement (ECTA) digital
+trade chapter</li>
+<li><strong>India-Japan</strong>: Mutual recognition under the
+India-Japan Digital Partnership</li>
+</ul>
+<p>The UK, post-Brexit, has its own PKI framework (UK eIDAS) that is
+closely aligned with EU standards — an India-UK arrangement is plausible
+within the 2027–2029 timeframe.</p>
+<h3 id="long-range-projections">13.7 Long-Range Projections</h3>
+<table>
+<colgroup>
+<col style="width: 13%" />
+<col style="width: 29%" />
+<col style="width: 27%" />
+<col style="width: 29%" />
+</colgroup>
+<thead>
+<tr class="header">
+<th>Driver</th>
+<th>Near (2026–2027)</th>
+<th>Mid (2028–2030)</th>
+<th>Long (2031–2035)</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td><strong>Market size (India)</strong></td>
+<td>$280–$350M</td>
+<td>$600–$800M</td>
+<td>$1.3–$1.5B</td>
+</tr>
+<tr class="even">
+<td><strong>eSign transactions/month</strong></td>
+<td>40–50 million</td>
+<td>80–120 million</td>
+<td>200+ million</td>
+</tr>
+<tr class="odd">
+<td><strong>Price floor</strong></td>
+<td>₹3–₹5</td>
+<td>₹1–₹3</td>
+<td>₹0.5–₹1</td>
+</tr>
+<tr class="even">
+<td><strong>Cross-border recognition</strong></td>
+<td>EU (+UAE)</td>
+<td>EU + UAE + SE Asia</td>
+<td>Major trading partners</td>
+</tr>
+<tr class="odd">
+<td><strong>Cryptography</strong></td>
+<td>RSA-2048</td>
+<td>Hybrid (RSA + PQ)</td>
+<td>Full PQ</td>
+</tr>
+<tr class="even">
+<td><strong>Authentication modes</strong></td>
+<td>OTP + Face + Fingerprint</td>
+<td>+ Passkeys + Behavioural</td>
+<td>Multi-modal continuous</td>
+</tr>
+<tr class="odd">
+<td><strong>Regulation</strong></td>
+<td>IT Act + DPDP Act</td>
+<td>Digital India Act</td>
+<td>DIA 2.0 (evolved)</td>
+</tr>
+</tbody>
+</table>
+<h3 id="eli6-explain-like-im-6-plus-positivenegative-analysis-12">* ELI6
+— Explain Like I’m 6 (Plus Positive/Negative Analysis)</h3>
+<p><strong>What this chapter means in simple words:</strong> The future
+of eSign is about to get much bigger. A new law called the Digital India
+Act will replace the old IT Act and might let eSign be used for things
+like property sales and trusts (which it can’t do today). eSign is being
+built into a new lending system called ULI (Unified Lending Interface)
+that could give 450 million new borrowers access to formal credit — just
+by signing with their Aadhaar OTP. In 10-15 years, today’s encryption
+might be broken by quantum computers, so companies are already preparing
+post-quantum signatures. India is also signing agreements with other
+countries so your eSign can be used for international contracts. Think
+of it like this: eSign started as a tool for filing your taxes, and in
+the future it could be how you buy a house, get a loan in Dubai, or sign
+a contract with a company in London.</p>
+<p><strong>[+] The Positive — What Works Well</strong></p>
+<p><strong>The DIA has the potential to fix the First Schedule
+problem:</strong> The most significant limitation on eSign’s market —
+the exclusion of wills, trusts, powers of attorney, and property sales —
+could be addressed by the Digital India Act. If even some of these
+exclusions are removed, eSign’s addressable market would expand by an
+estimated 30-40%. The real estate sector alone (₹8-10 lakh crore annual
+transaction value) would become accessible.</p>
+<p><strong>The ULI + AA + eSign stack is India’s next DPI
+export:</strong> The combination of Account Aggregator (data sharing),
+Unified Lending Interface (credit assessment), and eSign (agreement
+execution) creates a complete digital lending stack that no other
+country has. India’s DPI playbook (UPI, Aadhaar) has a strong track
+record of domestic success → international adoption. eSign as a
+component of this stack benefits from the network effects of the broader
+ecosystem.</p>
+<p><strong>The India-EU arrangement (Jan 2026) is strategically
+significant:</strong> This is the first time India’s PKI ecosystem has
+been formally linked to the EU’s eIDAS framework. If operationalised, it
+means an Indian business can sign a contract with an EU counterparty
+using Aadhaar eSign and the contract is legally valid under EU law. The
+economic value of reducing friction in India-EU cross-border commerce
+(estimated at €100 billion+ annually) is substantial.</p>
+<p><strong>Post-quantum preparation is happening early:</strong>
+eMudhra’s Crypta Labs acquisition and CCA’s PQ awareness suggest India’s
+PKI ecosystem will not be caught unprepared by the quantum threat. The
+hybrid certificate approach (RSA + PQ in parallel) is a prudent
+transition strategy that maintains backward compatibility while
+future-proofing.</p>
+<p><strong>[-] The Negative — What’s Wrong or Missing</strong></p>
+<p><strong>The DIA has been in consultation since 2023 with no passage
+in sight:</strong> The Digital India Act was first introduced in draft
+form in 2023. As of mid-2026, it has not been tabled in Parliament. The
+timeline for its passage (2027–2028 at best) is slow — the IT Act’s
+inadequacies have been known for years. Every year of delay means
+another year where eSign’s scope is artificially constrained by the
+First Schedule exclusions.</p>
+<p><strong>The ULI vision paper promises 450M new borrowers but dodges
+hard questions:</strong> The scale is impressive, but the 450 million
+figure assumes that technology (AA + eSign) can overcome structural
+barriers — land titling gaps, informal income documentation, fragmented
+credit bureau coverage. eSign solves the signing bottleneck, not the
+credit assessment bottleneck. Over-promising on ULI’s scope risks a
+credibility gap when the numbers don’t materialise.</p>
+<p><strong>Post-quantum migration will be expensive and
+disruptive:</strong> Every CA must upgrade or replace its HSM
+infrastructure. Every ESP must update its signing services. Every ASP
+must update its verification libraries. The cost (estimated at
+₹500–₹1,000 crore across the ecosystem) will be passed to end users. The
+transition will create a multi-year period of PKI fragmentation
+(RSA-only vs. hybrid vs. PQ-only certificates) that will cause
+verification failures for users with outdated libraries.</p>
+<p><strong>Cross-border recognition remains aspirational:</strong> The
+India-EU Administrative Arrangement (Jan 2026) is a cooperation
+framework, not a mutual recognition treaty. Full technical
+interoperability — PKI bridge, trusted list linkage, OCSP cross-querying
+— is at least 2-3 years away. For India-UAE, India-Singapore, and
+India-Japan, discussions are even earlier-stage. Wait for execution, not
+announcements.</p>
+<p><strong>No regulatory framework for AI-enabled fraud detection exists
+yet:</strong> As deepfakes and synthetic identity fraud become more
+sophisticated, the absence of regulatory standards for AI-based
+anti-spoofing in eSign is a growing vulnerability. UIDAI has not
+disclosed its liveness detection methodology, and CCA’s e-authentication
+guidelines do not address AI threats. The regulatory framework is
+playing catch-up.</p>
+<h2 id="appendices">Appendices</h2>
+<h3 id="appendix-a-complete-timeline">Appendix A: Complete Timeline</h3>
+<table>
+<colgroup>
+<col style="width: 46%" />
+<col style="width: 53%" />
+</colgroup>
+<thead>
+<tr class="header">
+<th>Date</th>
+<th>Event</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td>17 Oct 2000</td>
+<td>IT Act, 2000 enacted; CCA established</td>
+</tr>
+<tr class="even">
+<td>27 Oct 2009</td>
+<td>IT Amendment Act, 2008 effective — Section 3A introduced</td>
+</tr>
+<tr class="odd">
+<td>Jan 2009</td>
+<td>UIDAI established</td>
+</tr>
+<tr class="even">
+<td>Sep 2010</td>
+<td>First Aadhaar number issued (Maharashtra)</td>
+</tr>
+<tr class="odd">
+<td>28 Jan 2015</td>
+<td>GSR 61(E) — Aadhaar eSign added to Schedule II</td>
+</tr>
+<tr class="even">
+<td>8 Apr 2015</td>
+<td>GSR 304(E) — eSign Rules, 2015 notified</td>
+</tr>
+<tr class="odd">
+<td>24 Jun 2015</td>
+<td>CCA E-authentication Guidelines v1.0</td>
+</tr>
+<tr class="even">
+<td>~2015 H2</td>
+<td>First eSign transactions (Income Tax, MCA-21)</td>
+</tr>
+<tr class="odd">
+<td>2016</td>
+<td>Aadhaar Act passed; UIDAI becomes statutory</td>
+</tr>
+<tr class="even">
+<td>Aug 2017</td>
+<td><em>Puttaswamy I</em> — Right to Privacy fundamental right</td>
+</tr>
+<tr class="odd">
+<td>2018</td>
+<td><em>The Tribune</em> Aadhaar breach expose</td>
+</tr>
+<tr class="even">
+<td>Sep 2018</td>
+<td><em>Puttaswamy II</em> — Aadhaar upheld; Section 57 struck down</td>
+</tr>
+<tr class="odd">
+<td>May 2019</td>
+<td>CCA updated e-Authentication Guidelines; API v3.x published</td>
+</tr>
+<tr class="even">
+<td>Sep 2019</td>
+<td>eSign API v3.2 — current standard</td>
+</tr>
+<tr class="odd">
+<td>Oct 2022</td>
+<td>UIDAI launches AI/ML Face Authentication</td>
+</tr>
+<tr class="even">
+<td>2023</td>
+<td>Digital Personal Data Protection Act passed</td>
+</tr>
+<tr class="odd">
+<td>2023</td>
+<td>ULI prototype launched by RBIH</td>
+</tr>
+<tr class="even">
+<td>Apr 2024</td>
+<td>IRDAI mandates e-policies; eSign volumes surge</td>
+</tr>
+<tr class="odd">
+<td>1 Jul 2024</td>
+<td>Bharatiya Sakshya Adhiniyam, 2023 effective</td>
+</tr>
+<tr class="even">
+<td>Nov 2025</td>
+<td>Aadhaar auth peaks at 231 Cr/month</td>
+</tr>
+<tr class="odd">
+<td>27 Jan 2026</td>
+<td>India-EU Administrative Arrangement on E-signatures signed</td>
+</tr>
+<tr class="even">
+<td>2026</td>
+<td>Digital India Act under consultation</td>
+</tr>
+<tr class="odd">
+<td>2026–2027</td>
+<td>Puttaswamy Money Bill challenge expected to be heard</td>
+</tr>
+</tbody>
+</table>
+<h3 id="appendix-b-licensed-certifying-authorities-directory">Appendix
+B: Licensed Certifying Authorities Directory</h3>
+<table>
+<colgroup>
+<col style="width: 8%" />
+<col style="width: 12%" />
+<col style="width: 31%" />
+<col style="width: 29%" />
+<col style="width: 18%" />
+</colgroup>
+<thead>
+<tr class="header">
+<th>CA</th>
+<th>Type</th>
+<th>Licensed Since</th>
+<th>eSign Service</th>
+<th>Website</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td>eMudhra Limited</td>
+<td>CA + ESP</td>
+<td>2005</td>
+<td>emSigner</td>
+<td>emudhra.com</td>
+</tr>
+<tr class="even">
+<td>C-DAC</td>
+<td>CA + ESP</td>
+<td>2001</td>
+<td>e-Hastakshar</td>
+<td>cdac.in</td>
+</tr>
+<tr class="odd">
+<td>Protean eGov (NSDL)</td>
+<td>CA + ESP</td>
+<td>2004</td>
+<td>Protean eSign</td>
+<td>proteantech.com</td>
+</tr>
+<tr class="even">
+<td>Capricorn Identity</td>
+<td>CA + ESP</td>
+<td>2009</td>
+<td>CapriSign</td>
+<td>capricorn.co.in</td>
+</tr>
+<tr class="odd">
+<td>VSign Technologies</td>
+<td>CA + ESP</td>
+<td>2017</td>
+<td>VSign</td>
+<td>vsign.in</td>
+</tr>
+<tr class="even">
+<td>Sify Technologies</td>
+<td>CA</td>
+<td>2001</td>
+<td>(via partners)</td>
+<td>sify.com</td>
+</tr>
+<tr class="odd">
+<td>CDSL Ventures</td>
+<td>CA + ESP</td>
+<td>2021</td>
+<td>CDSL eSign</td>
+<td>cdslventures.com</td>
+</tr>
+<tr class="even">
+<td>CSC e-Gov</td>
+<td>ESP</td>
+<td>2018</td>
+<td>CSC eSign</td>
+<td>csc.gov.in</td>
+</tr>
+</tbody>
+</table>
+<h3 id="appendix-c-key-statistics-summary">Appendix C: Key Statistics
+Summary</h3>
+<table>
+<thead>
+<tr class="header">
+<th>Statistic</th>
+<th>Value</th>
+<th>Source Date</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td>Aadhaar holders</td>
+<td>142+ crore</td>
+<td>July 2026</td>
+</tr>
+<tr class="even">
+<td>Cumulative Aadhaar auth</td>
+<td>1,545+ crore</td>
+<td>Mid-2025</td>
+</tr>
+<tr class="odd">
+<td>Cumulative e-KYC</td>
+<td>2,393+ crore</td>
+<td>Apr 2025</td>
+</tr>
+<tr class="even">
+<td>Monthly auth (peak)</td>
+<td>231 crore</td>
+<td>Nov 2025</td>
+</tr>
+<tr class="odd">
+<td>Monthly e-KYC</td>
+<td>47.19 crore</td>
+<td>Nov 2025</td>
+</tr>
+<tr class="even">
+<td>eSign daily (eMudhra)</td>
+<td>350,000+</td>
+<td>FY2026</td>
+</tr>
+<tr class="odd">
+<td>Digital sig market size</td>
+<td>USD 190M</td>
+<td>2024</td>
+</tr>
+<tr class="even">
+<td>Projected market (2032)</td>
+<td>USD 1.35B</td>
+<td>CAGR ~27.5%</td>
+</tr>
+<tr class="odd">
+<td>eSign cost floor</td>
+<td>₹3/signature</td>
+<td>2026</td>
+</tr>
+<tr class="even">
+<td>Licensed CAs</td>
+<td>8</td>
+<td>July 2026</td>
+</tr>
+<tr class="odd">
+<td>DPDP Act penalty cap</td>
+<td>₹250 crore</td>
+<td>2023</td>
+</tr>
+</tbody>
+</table>
+<h3 id="appendix-d-glossary">Appendix D: Glossary</h3>
+<table>
+<colgroup>
+<col style="width: 33%" />
+<col style="width: 66%" />
+</colgroup>
+<thead>
+<tr class="header">
+<th>Term</th>
+<th>Definition</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td><strong>AA</strong></td>
+<td>Account Aggregator — consent-based financial data sharing
+framework</td>
+</tr>
+<tr class="even">
+<td><strong>Aadhaar</strong></td>
+<td>12-digit unique identity number issued by UIDAI</td>
+</tr>
+<tr class="odd">
+<td><strong>ASP</strong></td>
+<td>Application Service Provider — entity integrating eSign into its
+application</td>
+</tr>
+<tr class="even">
+<td><strong>AUA</strong></td>
+<td>Authentication User Agency — entity using Aadhaar
+authentication</td>
+</tr>
+<tr class="odd">
+<td><strong>BSA</strong></td>
+<td>Bharatiya Sakshya Adhiniyam, 2023 — replaces Indian Evidence
+Act</td>
+</tr>
+<tr class="even">
+<td><strong>CA</strong></td>
+<td>Certifying Authority — licensed entity issuing digital
+certificates</td>
+</tr>
+<tr class="odd">
+<td><strong>CCA</strong></td>
+<td>Controller of Certifying Authorities — apex PKI regulator</td>
+</tr>
+<tr class="even">
+<td><strong>CIDR</strong></td>
+<td>Central Identities Data Repository — UIDAI’s biometric database</td>
+</tr>
+<tr class="odd">
+<td><strong>CSR</strong></td>
+<td>Certificate Signing Request — PKCS#10 format</td>
+</tr>
+<tr class="even">
+<td><strong>DIA</strong></td>
+<td>Digital India Act — proposed replacement for IT Act 2000</td>
+</tr>
+<tr class="odd">
+<td><strong>DPDP</strong></td>
+<td>Digital Personal Data Protection Act, 2023</td>
+</tr>
+<tr class="even">
+<td><strong>DSC</strong></td>
+<td>Digital Signature Certificate — under Section 3 IT Act</td>
+</tr>
+<tr class="odd">
+<td><strong>ESP</strong></td>
+<td>eSign Service Provider — CA subsidiary offering eSign APIs</td>
+</tr>
+<tr class="even">
+<td><strong>HSM</strong></td>
+<td>Hardware Security Module — FIPS 140-2 certified key storage</td>
+</tr>
+<tr class="odd">
+<td><strong>KYC</strong></td>
+<td>Know Your Customer — identity verification process</td>
+</tr>
+<tr class="even">
+<td><strong>OCSP</strong></td>
+<td>Online Certificate Status Protocol — real-time cert revocation
+check</td>
+</tr>
+<tr class="odd">
+<td><strong>PAdES</strong></td>
+<td>PDF Advanced Electronic Signature — CMS-based signature in PDF</td>
+</tr>
+<tr class="even">
+<td><strong>PID</strong></td>
+<td>Personal Identity Data — biometric or OTP authentication block</td>
+</tr>
+<tr class="odd">
+<td><strong>PKI</strong></td>
+<td>Public Key Infrastructure</td>
+</tr>
+<tr class="even">
+<td><strong>QES</strong></td>
+<td>Qualified Electronic Signature — highest tier under eIDAS</td>
+</tr>
+<tr class="odd">
+<td><strong>RCAI</strong></td>
+<td>Root Certifying Authority of India — CCA’s root</td>
+</tr>
+<tr class="even">
+<td><strong>TSA</strong></td>
+<td>Time Stamping Authority — trusted timestamp provider</td>
+</tr>
+<tr class="odd">
+<td><strong>UIDAI</strong></td>
+<td>Unique Identification Authority of India</td>
+</tr>
+<tr class="even">
+<td><strong>ULI</strong></td>
+<td>Unified Lending Interface — RBIH’s lending DPI</td>
+</tr>
+<tr class="odd">
+<td><strong>VID</strong></td>
+<td>Virtual ID — temporary, revocable Aadhaar substitute</td>
+</tr>
+</tbody>
+</table>
+<hr />
+<h2 id="references">References</h2>
+<hr />
+<p><em>This document was compiled as primary research material and does
+not constitute legal advice. Statutory provisions are cited as of July
+2026. Court rulings cited are as reported in official law reports.
+Market data sourced from publicly available disclosures, industry
+reports, and government dashboards.</em></p>
+<section class="footnotes footnotes-end-of-document"
+role="doc-endnotes">
+<hr />
+<ol>
+<li id="fn1" role="doc-endnote"><p>Information Technology Act, 2000
+(No. 21 of 2000), effective 17 October 2000.<a href="#fnref1"
+class="footnote-back" role="doc-backlink">↩︎</a></p></li>
+<li id="fn2" role="doc-endnote"><p>Pre-2015 DSC cost structure and
+adoption barriers documented in CCA presentations: <em>Public Key
+Infrastructure &amp; eSign in India</em> (2015).
+https://pkiindia.in/presentation/PKI_Event_12/04_Cdac_Publi_%20Key_Infrastructure_and_eSign_in_India.pdf<a
+href="#fnref2" class="footnote-back" role="doc-backlink">↩︎</a></p></li>
+<li id="fn3" role="doc-endnote"><p>The Information Technology
+(Amendment) Act, 2008 (No. 10 of 2009), Section 3A.
+https://www.cca.gov.in/cca/sites/default/files/files/IT%20Amendment%20Act%202008.pdf<a
+href="#fnref3" class="footnote-back" role="doc-backlink">↩︎</a></p></li>
+<li id="fn4" role="doc-endnote"><p>Legislative intent of Section 3A
+discussed in: Leegality, <em>Electronic Signatures under the Indian IT
+Act</em>. https://www.leegality.com/blog/section3a<a href="#fnref4"
+class="footnote-back" role="doc-backlink">↩︎</a></p></li>
+<li id="fn5" role="doc-endnote"><p>First Schedule, IT Act 2000 —
+instruments excluded from electronic signature validity.<a
+href="#fnref5" class="footnote-back" role="doc-backlink">↩︎</a></p></li>
+<li id="fn6" role="doc-endnote"><p>UIDAI Annual Report, 2014–15.
+https://uidai.gov.in/images/Annual%20Report%202014-15_English.pdf<a
+href="#fnref6" class="footnote-back" role="doc-backlink">↩︎</a></p></li>
+<li id="fn7" role="doc-endnote"><p>C-DAC. <em>eSign Brochure 1.5</em> —
+Pre-2015 DSC limitations documented by CCA.
+https://cca.gov.in/sites/files/pdf/esign/esignbrochure1.5.pdf<a
+href="#fnref7" class="footnote-back" role="doc-backlink">↩︎</a></p></li>
+<li id="fn8" role="doc-endnote"><p>CCA Committee Report on New PKI-based
+Schemes (April 2017).
+https://www.naavi.org/importantlaws/itrules/cca_eauth_april2017.pdf<a
+href="#fnref8" class="footnote-back" role="doc-backlink">↩︎</a></p></li>
+<li id="fn9" role="doc-endnote"><p>GSR 61(E) — Gazette notification
+adding Aadhaar eSign to Schedule II, 28 January 2015.
+https://web.archive.org/web/20150706150203/http://www.cca.gov.in/cca/sites/default/files/files/eSign_gazette_notification.pdf<a
+href="#fnref9" class="footnote-back" role="doc-backlink">↩︎</a></p></li>
+<li id="fn10" role="doc-endnote"><p>GSR 304(E) — Electronic Signature or
+Electronic Authentication Technique and Procedure Rules, 2015, 8 April
+2015.<a href="#fnref10" class="footnote-back"
+role="doc-backlink">↩︎</a></p></li>
+<li id="fn11" role="doc-endnote"><p>CCA E-authentication Guidelines for
+eSign v1.0, 24 June 2015.
+https://www.readkong.com/page/e-authentication-guidelines-for-esign-online-electronic-6736357<a
+href="#fnref11" class="footnote-back"
+role="doc-backlink">↩︎</a></p></li>
+<li id="fn12" role="doc-endnote"><p><em>The Economic Times</em>,
+“Aadhaar’s e-sign awaits RBI nod,” September 2016.
+https://economictimes.indiatimes.com/news/economy/policy/aadhaars-e-sign-awaits-rbi-nod/articleshow/54302560.cms<a
+href="#fnref12" class="footnote-back"
+role="doc-backlink">↩︎</a></p></li>
+<li id="fn13" role="doc-endnote"><p>MyGov India, <em>eSign
+Services</em>. Multiple references to early government adoption.
+https://blog.mygov.in/e-sign-services/<a href="#fnref13"
+class="footnote-back" role="doc-backlink">↩︎</a></p></li>
+<li id="fn14" role="doc-endnote"><p>CCA eSign API Specifications v3.2,
+September 2019.
+https://www.readkong.com/page/esign-api-specifications-version-3-2-05-sep-2019-2011751<a
+href="#fnref14" class="footnote-back"
+role="doc-backlink">↩︎</a></p></li>
+<li id="fn15" role="doc-endnote"><p>Gorupa (2024). <em>I Built a Free
+Tool to Verify Aadhaar eSign PDFs</em>.
+https://dev.to/gorupa/i-built-a-free-tool-to-verify-aadhaar-esign-pdfs-heres-why-it-matters-2950<a
+href="#fnref15" class="footnote-back"
+role="doc-backlink">↩︎</a></p></li>
+<li id="fn16" role="doc-endnote"><p>CCA eSign API Specifications v3.2,
+September 2019.
+https://www.readkong.com/page/esign-api-specifications-version-3-2-05-sep-2019-2011751<a
+href="#fnref16" class="footnote-back"
+role="doc-backlink">↩︎</a></p></li>
+<li id="fn17" role="doc-endnote"><p>List of Licensed Certifying
+Authorities.
+https://www.digitalsignaturemart.com/list-of-licensed-ca.php<a
+href="#fnref17" class="footnote-back"
+role="doc-backlink">↩︎</a></p></li>
+<li id="fn18" role="doc-endnote"><p>Credence Research, <em>India Digital
+Signature Market Size, Growth and Forecast 2032</em>.
+https://www.credenceresearch.com/report/india-digital-signature-market<a
+href="#fnref18" class="footnote-back"
+role="doc-backlink">↩︎</a></p></li>
+<li id="fn19" role="doc-endnote"><p>eMudhra Ltd, Q4 FY26 Results (May
+2026). PAT ₹29.57 Cr (+21.5% YoY); revenue ₹193.40 Cr (+31.7% YoY).
+https://www.business-standard.com/markets/capital-market-news/emudhra-q4-pat-jumps-21-yoy-to-rs-29-cr-126050700486_1.html<a
+href="#fnref19" class="footnote-back"
+role="doc-backlink">↩︎</a></p></li>
+<li id="fn20" role="doc-endnote"><p>eMudhra, <em>emSigner:
+India-Optimised eSign</em>.
+https://emudhra.com/en-in/emsigner/feature-india-esign<a href="#fnref20"
+class="footnote-back" role="doc-backlink">↩︎</a></p></li>
+<li id="fn21" role="doc-endnote"><p>C-DAC eSign / e-Hastakshar product
+information. https://esign.cdac.in/<a href="#fnref21"
+class="footnote-back" role="doc-backlink">↩︎</a></p></li>
+<li id="fn22" role="doc-endnote"><p>UIDAI Aadhaar Dashboard.
+https://www.uidai.gov.in/aadhaar_dashboard/auth_trend.php<a
+href="#fnref22" class="footnote-back"
+role="doc-backlink">↩︎</a></p></li>
+<li id="fn23" role="doc-endnote"><p>Peko (2026). <em>eSign in India
+2026: Aadhaar Digital Signature Guide</em>.
+https://peko.one/in/blogs/company-formation/esign-in-india<a
+href="#fnref23" class="footnote-back"
+role="doc-backlink">↩︎</a></p></li>
+<li id="fn24" role="doc-endnote"><p>Seth, S. <em>Is Aadhaar eSign Legal
+and Valid in India?</em> Leegality.
+https://www.leegality.com/blog/law-around-aadhaar-esign<a
+href="#fnref24" class="footnote-back"
+role="doc-backlink">↩︎</a></p></li>
+<li id="fn25" role="doc-endnote"><p>Shardul Amarchand Mangaldas &amp;
+Co. <em>Modernizing e-signature laws in India</em>.
+https://www.amsshardul.com/insight/modernizing-e-signature-laws-in-india<a
+href="#fnref25" class="footnote-back"
+role="doc-backlink">↩︎</a></p></li>
+<li id="fn26" role="doc-endnote"><p><em>Anvar P.V. v. P.K. Basheer &amp;
+Ors.</em> (2014) 10 SCC 473. Supreme Court of India.<a href="#fnref26"
+class="footnote-back" role="doc-backlink">↩︎</a></p></li>
+<li id="fn27" role="doc-endnote"><p>BSA 2023, Sections 63, 74, 78;
+Evidence Act, Sections 65B, 85B, 67A.<a href="#fnref27"
+class="footnote-back" role="doc-backlink">↩︎</a></p></li>
+<li id="fn28" role="doc-endnote"><p><em>Justice K.S. Puttaswamy (Retd.)
+v. Union of India</em>, (2017) 10 SCC 1 (Privacy judgment).<a
+href="#fnref28" class="footnote-back"
+role="doc-backlink">↩︎</a></p></li>
+<li id="fn29" role="doc-endnote"><p><em>Puttaswamy I</em>, Justice D.Y.
+Chandrachud’s concurring opinion, para 116.<a href="#fnref29"
+class="footnote-back" role="doc-backlink">↩︎</a></p></li>
+<li id="fn30" role="doc-endnote"><p><em>Justice K.S. Puttaswamy (Retd.)
+v. Union of India</em>, (2019) 1 SCC 1 (Aadhaar judgment).<a
+href="#fnref30" class="footnote-back"
+role="doc-backlink">↩︎</a></p></li>
+<li id="fn31" role="doc-endnote"><p>The Legal Quorum, <em>Case Summary:
+Puttaswamy v. Union of India (Aadhaar)</em>.
+https://thelegalquorum.com/case-summary-justice-k-s-puttaswamy-retd-v-union-of-india-2018/<a
+href="#fnref31" class="footnote-back"
+role="doc-backlink">↩︎</a></p></li>
+<li id="fn32" role="doc-endnote"><p><em>Rojer Mathew v. South Indian
+Bank Ltd.</em> — Money Bill challenge (referred to larger bench,
+pending).
+https://www.scobserver.in/cases/rojer-mathew-south-indian-bank-case/<a
+href="#fnref32" class="footnote-back"
+role="doc-backlink">↩︎</a></p></li>
+<li id="fn33" role="doc-endnote"><p><em>Anvar P.V. v. P.K. Basheer &amp;
+Ors.</em> (2014) 10 SCC 473. Supreme Court of India.<a href="#fnref33"
+class="footnote-back" role="doc-backlink">↩︎</a></p></li>
+<li id="fn34" role="doc-endnote"><p>Delhi High Court Original Side
+Rules, 2018 (Rule 24). See also: Anhad Law.
+https://www.anhadlaw.com/post/digital-leap-delhi-high-court-allows-filing-of-electronically-signed-legal-documents<a
+href="#fnref34" class="footnote-back"
+role="doc-backlink">↩︎</a></p></li>
+<li id="fn35" role="doc-endnote"><p>Kerala High Court, decision on
+eSigning affidavits (~2024). Leegality analysis.
+https://www.leegality.com/blog/kerala-hc-digital-thrust<a
+href="#fnref35" class="footnote-back"
+role="doc-backlink">↩︎</a></p></li>
+<li id="fn36" role="doc-endnote"><p><em>M/s South Eastern Coalfields v.
+State Trading Corporation</em>, Delhi High Court.<a href="#fnref36"
+class="footnote-back" role="doc-backlink">↩︎</a></p></li>
+<li id="fn37" role="doc-endnote"><p><em>Archana Kandarp Amin v. Deepak
+M. Shah &amp; Ors.</em>, NCLT Ahmedabad Bench.
+https://ibclaw.in/archana-kandarp-amin-vs-deepak-madhusudanbhai-shah-and-ors-nclt-ahmedabad-bench/<a
+href="#fnref37" class="footnote-back"
+role="doc-backlink">↩︎</a></p></li>
+<li id="fn38" role="doc-endnote"><p>Based on cross-referencing of
+eMudhra quarterly disclosures and UIDAI dashboard data.<a
+href="#fnref38" class="footnote-back"
+role="doc-backlink">↩︎</a></p></li>
+<li id="fn39" role="doc-endnote"><p>Peko (2026). <em>eSign in India
+2026: Aadhaar Digital Signature Guide</em>.
+https://peko.one/in/blogs/company-formation/esign-in-india<a
+href="#fnref39" class="footnote-back"
+role="doc-backlink">↩︎</a></p></li>
+<li id="fn40" role="doc-endnote"><p>Future Market Insights, <em>Digital
+Signature Market Analysis Report 2035</em>.
+https://www.futuremarketinsights.com/reports/digital-signature-market<a
+href="#fnref40" class="footnote-back"
+role="doc-backlink">↩︎</a></p></li>
+<li id="fn41" role="doc-endnote"><p>RBI Digital Lending Guidelines
+(2022). https://www.rbi.org.in/Scripts/NotificationUser.aspx?Id=12433<a
+href="#fnref41" class="footnote-back"
+role="doc-backlink">↩︎</a></p></li>
+<li id="fn42" role="doc-endnote"><p>IRDAI circular on mandatory
+e-policies (April 2024).<a href="#fnref42" class="footnote-back"
+role="doc-backlink">↩︎</a></p></li>
+<li id="fn43" role="doc-endnote"><p>UIDAI Aadhaar Dashboard.
+https://www.uidai.gov.in/aadhaar_dashboard/auth_trend.php<a
+href="#fnref43" class="footnote-back"
+role="doc-backlink">↩︎</a></p></li>
+<li id="fn44" role="doc-endnote"><p>Leegality Webinar (2025). <em>eSign
+for Rural Lending</em>.
+https://www.leegality.com/webinar/esign-for-rural-lending<a
+href="#fnref44" class="footnote-back"
+role="doc-backlink">↩︎</a></p></li>
+<li id="fn45" role="doc-endnote"><p>Huntress. <em>Aadhaar Data
+Breach</em>.
+https://www.huntress.com/threat-library/data-breach/aadhaar-data-breach<a
+href="#fnref45" class="footnote-back"
+role="doc-backlink">↩︎</a></p></li>
+<li id="fn46" role="doc-endnote"><p>Corbado (2026). <em>10 Biggest Data
+Breaches in India</em>.
+https://www.corbado.com/blog/data-breaches-India<a href="#fnref46"
+class="footnote-back" role="doc-backlink">↩︎</a></p></li>
+<li id="fn47" role="doc-endnote"><p>UIDAI Face Authentication launch
+announcement (October 2022) — references biometric failure
+demographics.<a href="#fnref47" class="footnote-back"
+role="doc-backlink">↩︎</a></p></li>
+<li id="fn48" role="doc-endnote"><p>Multiple industry reports on
+AI/deepfake threats to biometric authentication (2024–2026).<a
+href="#fnref48" class="footnote-back"
+role="doc-backlink">↩︎</a></p></li>
+<li id="fn49" role="doc-endnote"><p>EU eIDAS Regulation (No 910/2014).
+https://digital-strategy.ec.europa.eu/en/policies/eidas-regulation<a
+href="#fnref49" class="footnote-back"
+role="doc-backlink">↩︎</a></p></li>
+<li id="fn50" role="doc-endnote"><p>India-EU Administrative Arrangement
+on Advanced Electronic Signatures and Seals (27 January 2026).
+https://www.teamleaseregtech.com/updates/article/52328/indiaeu-sign-administrative-arrangement-on-advanced-electronic-signatu/<a
+href="#fnref50" class="footnote-back"
+role="doc-backlink">↩︎</a></p></li>
+<li id="fn51" role="doc-endnote"><p>CCA — Functions and Powers under IT
+Act, 2000, Chapter III. https://cca.gov.in<a href="#fnref51"
+class="footnote-back" role="doc-backlink">↩︎</a></p></li>
+<li id="fn52" role="doc-endnote"><p>MeitY, <em>Report of the Committee
+on Digital India Act</em> (May 2023). Shardul Amarchand Mangaldas
+analysis cited herein.<a href="#fnref52" class="footnote-back"
+role="doc-backlink">↩︎</a></p></li>
+<li id="fn53" role="doc-endnote"><p>RBIH, Unified Lending Interface —
+concept note and pilot updates (2023–2026).<a href="#fnref53"
+class="footnote-back" role="doc-backlink">↩︎</a></p></li>
+</ol>
+</section>
+</body>
+</html>

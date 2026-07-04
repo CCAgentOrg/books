@@ -1,9 +1,9 @@
-name: Build PDFs
+name: Build Books
 
 on:
   push:
     branches: [main]
-    paths: ['books/**', 'scripts/**', '.github/workflows/**']
+    paths: ['books/**', 'scripts/**', 'assets/**', '.github/workflows/**']
   workflow_dispatch:
 
 permissions:
@@ -17,10 +17,10 @@ jobs:
     steps:
       - uses: actions/checkout@v4
 
-      - name: Install pandoc + texlive
+      - name: Install pandoc + texlive + calibre
         run: |
           sudo apt-get update -qq
-          sudo apt-get install -y -qq pandoc texlive-xetex texlive-fonts-extra texlive-latex-extra
+          sudo apt-get install -y -qq pandoc texlive-xetex texlive-fonts-extra texlive-latex-extra calibre
 
       - name: Install Eisvogel template
         run: |
@@ -35,7 +35,7 @@ jobs:
           ln -sf /usr/share/texlive/texmf-dist/tex/latex/sourceserifpro/sourceserifpro.sty /usr/share/texlive/texmf-dist/tex/latex/sourceserifpro/sourceserif.sty 2>/dev/null || true
           texhash 2>/dev/null || true
 
-      - name: Build all books
+      - name: Build all books + library
         run: |
           bash scripts/build-all.sh
 
