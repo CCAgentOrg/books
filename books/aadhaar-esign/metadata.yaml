@@ -1,5 +1,22 @@
-title: "Aadhaar eSign: The Definitive Reference"
-subtitle: "From Inception to 2026 — Law, Technology, Markets, and Policy"
+about: This book is written for practitioners, policy analysts, legal professionals,
+  and anyone who wants to understand how India's Aadhaar eSign system actually works
+  - its architecture, legal framework, market dynamics, and the real risks that matter.
+  Each chapter includes an ELI5 (Explain Like I'm 5) summary in plain language, plus
+  an unflinching ✓ / ✗ analysis of what works and what does not.
+audience:
+- Policy professionals
+- Fintech practitioners
+- Legal researchers
+- DPI watchers
+- Students of digital governance
 author: CashlessConsumer
-date: July 2026
-status: "First Draft"
+compiled: July 2026
+description: A comprehensive reference work covering India's Aadhaar eSign ecosystem
+  - law, technology, markets, and policy from inception through 2026.
+lang: en
+publisher: CashlessConsumer Research
+rights: CC BY-NC-SA 4.0
+subject: Digital signatures, Aadhaar, eSign, PKI, Indian law, fintech, digital public
+  infrastructure
+subtitle: From Inception to 2026 - Law, Technology, Markets, and Policy
+title: 'Aadhaar eSign: The Definitive Reference'
