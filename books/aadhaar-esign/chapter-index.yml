@@ -4,62 +4,61 @@ compiled: July 2026
 parts:
 - title: Frontmatter
   files:
-  - 00-frontmatter.md
-  - chapter-index.yml
+  - manuscript/00-frontmatter.md
 - title: Part I — Foundations
   chapters:
   - num: 1
     title: 'Genesis: The Legal and Policy Foundation (2000–2014)'
-    file: ch01.md
+    file: manuscript/ch01.md
   - num: 2
     title: 'The 2015 Moment: Gazette Notification and Operational Launch'
-    file: ch02.md
+    file: manuscript/ch02.md
   - num: 3
     title: 'Technical Architecture: How eSign Actually Works'
-    file: ch03.md
+    file: manuscript/ch03.md
   - num: 4
     title: 'The Ecosystem: Certifying Authorities and Service Providers'
-    file: ch04.md
+    file: manuscript/ch04.md
 - title: Part II — Law & The Courts
   chapters:
   - num: 5
     title: Legal Framework and Evidentiary Status
-    file: ch05.md
+    file: manuscript/ch05.md
   - num: 6
     title: The Supreme Court and Aadhaar
-    file: ch06.md
+    file: manuscript/ch06.md
   - num: 7
     title: Other Key Court Cases
-    file: ch07.md
+    file: manuscript/ch07.md
 - title: Part III — Adoption, Data & Use Cases
   chapters:
   - num: 8
     title: Transaction Data and Growth Trajectory
-    file: ch08.md
+    file: manuscript/ch08.md
   - num: 9
     title: Use Cases Across Sectors
-    file: ch09.md
+    file: manuscript/ch09.md
 - title: Part IV — Risks, Regulation & The World
   chapters:
   - num: 10
     title: Security, Privacy, and Data Protection
-    file: ch10.md
+    file: manuscript/ch10.md
   - num: 11
     title: International Comparisons and Cross-Border Recognition
-    file: ch11.md
+    file: manuscript/ch11.md
   - num: 12
     title: Regulatory Landscape and Governance
-    file: ch12.md
+    file: manuscript/ch12.md
 - title: Part V — Ahead
   chapters:
   - num: 13
     title: 'The Future: Trends and Trajectory (2026+)'
-    file: ch13.md
+    file: manuscript/ch13.md
 - title: Appendices
   files:
-  - app-appendices.md
-  - back-references.md
+  - manuscript/app-appendices.md
+  - manuscript/back-references.md
 - title: Backmatter
   files:
-  - 90-about-this-book.md
-  - 91-about-the-author.md
+  - manuscript/90-about-this-book.md
+  - manuscript/91-about-the-author.md
