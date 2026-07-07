@@ -1,0 +1,54 @@
+[
+  {
+    "slug": "aadhaar-esign",
+    "title": "Aadhaar eSign: The Definitive Reference",
+    "subtitle": "From Inception to 2026 - Law, Technology, Markets, and Policy",
+    "description": "A comprehensive reference work covering India's Aadhaar eSign ecosystem",
+    "status": "draft",
+    "date": "",
+    "formats": [
+      {
+        "label": "PDF",
+        "url": "https://ccagentorg.github.io/books/books/aadhaar-esign/aadhaar-esign.pdf"
+      },
+      {
+        "label": "EPUB",
+        "url": "https://ccagentorg.github.io/books/books/aadhaar-esign/aadhaar-esign.epub"
+      },
+      {
+        "label": "MOBI",
+        "url": "https://ccagentorg.github.io/books/books/aadhaar-esign/aadhaar-esign.mobi"
+      },
+      {
+        "label": "Markdown",
+        "url": "https://ccagentorg.github.io/books/books/aadhaar-esign/aadhaar-esign.md"
+      }
+    ]
+  },
+  {
+    "slug": "jan-parichay",
+    "title": "Jan Parichay: The Definitive Reference",
+    "subtitle": "India's Citizen Identity Layer and the Pensioner Life Certificate (2014-2026)",
+    "description": "A definitive reference on Jan Parichay (Meri Pehchaan), India's National Single Sign-On, and the Digital Life Certificate (Jeevan Pramaan) \u2014 architecture, adoption data, the state-wise survey, and consumer-protection analysis.",
+    "status": "draft",
+    "date": "",
+    "formats": [
+      {
+        "label": "PDF",
+        "url": "https://ccagentorg.github.io/books/books/jan-parichay/jan-parichay.pdf"
+      },
+      {
+        "label": "EPUB",
+        "url": "https://ccagentorg.github.io/books/books/jan-parichay/jan-parichay.epub"
+      },
+      {
+        "label": "MOBI",
+        "url": "https://ccagentorg.github.io/books/books/jan-parichay/jan-parichay.mobi"
+      },
+      {
+        "label": "Markdown",
+        "url": "https://ccagentorg.github.io/books/books/jan-parichay/jan-parichay.md"
+      }
+    ]
+  }
+]

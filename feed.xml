@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>CashlessConsumer Books — New Releases</title>
+    <link>https://ccagentorg.github.io/books/</link>
+    <description>New book releases from CashlessConsumer's independent DPI reference library</description>
+    <language>en</language>
+    <atom:link href="https://ccagentorg.github.io/books/feed.xml" rel="self" type="application/rss+xml"/>
+    <item>
+      <title>Aadhaar eSign: The Definitive Reference</title>
+      <description>A comprehensive reference work covering India's Aadhaar eSign ecosystem</description>
+      <link>https://ccagentorg.github.io/books/</link>
+      <guid isPermaLink="false">aadhaar-esign-3f4a1dff</guid>
+      <pubDate>2026-07-07</pubDate>
+    </item>
+    <item>
+      <title>Jan Parichay: The Definitive Reference</title>
+      <description>A definitive reference on Jan Parichay (Meri Pehchaan), India's National Single Sign-On, and the Digital Life Certificate (Jeevan Pramaan) — architecture, adoption data, the state-wise survey, and consumer-protection analysis.</description>
+      <link>https://ccagentorg.github.io/books/</link>
+      <guid isPermaLink="false">jan-parichay-3ddc6532</guid>
+      <pubDate>2026-07-07</pubDate>
+    </item>
+  </channel>
+</rss>
