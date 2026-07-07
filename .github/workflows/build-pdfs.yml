@@ -4,15 +4,84 @@ on:
   push:
     branches: [main]
     paths: ['books/**', 'scripts/**', 'assets/**', '.github/workflows/**']
+  pull_request:
+    branches: [main]
+    paths: ['books/**', 'scripts/**', 'assets/**', '.github/workflows/**']
   workflow_dispatch:
 
 permissions:
   contents: write
   pages: write
   id-token: write
+  pull-requests: write
 
 jobs:
-  build:
+  # ── PR preview: build books and attach PDFs to the PR ──
+  preview:
+    if: github.event_name == 'pull_request'
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          ref: ${{ github.event.pull_request.head.sha }}
+
+      - name: Install pandoc + texlive + calibre
+        run: |
+          sudo apt-get update -qq
+          sudo apt-get install -y -qq pandoc texlive-xetex texlive-fonts-extra texlive-latex-extra calibre
+
+      - name: Install Eisvogel template
+        run: |
+          mkdir -p ~/.local/share/pandoc/templates
+          curl -fsSL "https://github.com/Wandmalfarbe/pandoc-latex-template/releases/download/v3.5.0/Eisvogel-3.5.0.zip" -o /tmp/eisvogel.zip
+          unzip -o /tmp/eisvogel.zip -d /tmp/eisvogel
+          cp /tmp/eisvogel/Eisvogel-3.5.0/eisvogel.latex ~/.local/share/pandoc/templates/
+
+      - name: Fix LaTeX font packages
+        run: |
+          ln -sf /usr/share/texlive/texmf-dist/tex/latex/sourcesanspro/sourcesanspro.sty /usr/share/texlive/texmf-dist/tex/latex/sourcesanspro/sourcesans.sty 2>/dev/null || true
+          ln -sf /usr/share/texlive/texmf-dist/tex/latex/sourceserifpro/sourceserifpro.sty /usr/share/texlive/texmf-dist/tex/latex/sourceserifpro/sourceserif.sty 2>/dev/null || true
+          texhash 2>/dev/null || true
+
+      - name: Build all books
+        run: bash scripts/build-all.sh output
+
+      - name: Upload PDF previews
+        id: upload
+        uses: actions/upload-artifact@v4
+        with:
+          name: book-pdf-previews
+          path: output/**/*.pdf
+          if-no-files-found: error
+          retention-days: 30
+
+      - name: Comment PR with PDF preview links
+        uses: actions/github-script@v7
+        with:
+          script: |
+            const { owner, repo } = context.repo;
+            const runId = context.runId;
+            const { data: artifacts } = await github.rest.actions.listWorkflowRunArtifacts({ owner, repo, run_id: runId });
+            const pdfArtifacts = artifacts.artifacts.filter(a => a.name.toLowerCase().endsWith('.pdf') || a.name === 'book-pdf-previews');
+            let body = '## 📕 Book PDF Preview\n\n';
+            body += 'Built from this PR. Download the preview PDFs below (requires repo read access):\n\n';
+            for (const a of pdfArtifacts) {
+              const url = `https://github.com/${owner}/${repo}/actions/runs/${runId}/artifacts/${a.id}`;
+              body += `- [${a.name}.zip](${url})\n`;
+            }
+            body += `\n_Run: [#${runId}](https://github.com/${owner}/${repo}/actions/runs/${runId})_`;
+            const marker = '<!-- book-preview -->';
+            const { data: comments } = await github.rest.issues.listComments({ owner, repo, issue_number: context.issue.number });
+            const existing = comments.find(c => c.body && c.body.includes(marker));
+            if (existing) {
+              await github.rest.issues.updateComment({ owner, repo, comment_id: existing.id, body: marker + '\n' + body });
+            } else {
+              await github.rest.issues.createComment({ owner, repo, issue_number: context.issue.number, body: marker + '\n' + body });
+            }
+
+  # ── Deploy to GitHub Pages on merge to main ──
+  deploy:
+    if: github.event_name == 'push' && github.ref == 'refs/heads/main'
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v4
