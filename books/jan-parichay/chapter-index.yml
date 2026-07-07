@@ -1,0 +1,64 @@
+book: 'Jan Parichay: The Definitive Reference'
+subtitle: India's Citizen Identity Layer and the Pensioner Life Certificate (2014-2026)
+compiled: July 2026
+parts:
+- title: Frontmatter
+  files:
+  - manuscript/00-frontmatter.md
+- title: Part I — Foundations
+  chapters:
+  - num: 1
+    title: 'What Is Jan Parichay? The National Single Sign-On'
+    file: manuscript/ch01.md
+  - num: 2
+    title: 'The Identity Layer Beneath It — Aadhaar, PAN, Mobile, Email'
+    file: manuscript/ch02.md
+  - num: 3
+    title: 'How Jan Parichay Works — Architecture and Integration'
+    file: manuscript/ch03.md
+- title: Part II — The Life Certificate
+  chapters:
+  - num: 4
+    title: 'The Life Certificate Problem — Why Pensioners Must Prove They Are Alive'
+    file: manuscript/ch04.md
+  - num: 5
+    title: 'Jeevan Pramaan — The Aadhaar-Based Digital Life Certificate'
+    file: manuscript/ch05.md
+  - num: 6
+    title: 'The Technology of a Digital Life Certificate'
+    file: manuscript/ch06.md
+  - num: 7
+    title: 'The Annual DLC Campaigns — From 1.0 to 4.0'
+    file: manuscript/ch07.md
+- title: Part III — Data and the State Survey
+  chapters:
+  - num: 8
+    title: 'National Adoption Data'
+    file: manuscript/ch08.md
+  - num: 9
+    title: 'Survey of Jeevan Pramaan Across States'
+    file: manuscript/ch09.md
+- title: Part IV — Risk, Exclusion and Governance
+  chapters:
+  - num: 10
+    title: 'Exclusion and Failure Modes'
+    file: manuscript/ch10.md
+  - num: 11
+    title: 'Privacy, Consent, and Concentration Risk'
+    file: manuscript/ch11.md
+  - num: 12
+    title: 'Governance, Audits, and Accountability'
+    file: manuscript/ch12.md
+- title: Part V — Ahead
+  chapters:
+  - num: 13
+    title: 'The Future — Identity Layer as Backbone, and What Must Change'
+    file: manuscript/ch13.md
+- title: Appendices
+  files:
+  - manuscript/app-appendices.md
+  - manuscript/back-references.md
+- title: Backmatter
+  files:
+  - manuscript/90-about-this-book.md
+  - manuscript/91-about-the-author.md
